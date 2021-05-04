@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */; };
+		12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */; };
 		12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A44E2631848A0007EEA5 /* AppDelegate.swift */; };
 		12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A4502631848A0007EEA5 /* SceneDelegate.swift */; };
-		12B8A4532631848A0007EEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A4522631848A0007EEA5 /* ViewController.swift */; };
 		12B8A4562631848A0007EEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B8A4542631848A0007EEA5 /* Main.storyboard */; };
 		12B8A4582631848C0007EEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B8A4572631848C0007EEA5 /* Assets.xcassets */; };
 		12B8A45B2631848C0007EEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B8A4592631848C0007EEA5 /* LaunchScreen.storyboard */; };
+		12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */; };
+		12B8A467263268B50007EEA5 /* AffirmationsPLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */; };
+		12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */; };
+		12B8A47126342A020007EEA5 /* AffirmCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */; };
+		12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */; };
+		12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */; };
+		12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A48126342FA20007EEA5 /* Affirmation.swift */; };
+		12B8A48726358BB00007EEA5 /* ListAffirmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */; };
+		C8B46A68C996F5CED4D00597 /* Pods_Affirmatio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCategories.swift; sourceTree = "<group>"; };
+		12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
 		12B8A44B2631848A0007EEA5 /* Affirmatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirmatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8A44E2631848A0007EEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12B8A4502631848A0007EEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12B8A4522631848A0007EEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12B8A4552631848A0007EEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12B8A4572631848C0007EEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B8A45A2631848C0007EEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B8A45C2631848C0007EEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsPLCollectionVC.swift; sourceTree = "<group>"; };
+		12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsPLCell.swift; sourceTree = "<group>"; };
+		12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaylistViewController.swift; sourceTree = "<group>"; };
+		12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmCategoriesViewController.swift; sourceTree = "<group>"; };
+		12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsList.swift; sourceTree = "<group>"; };
+		12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategory.swift; sourceTree = "<group>"; };
+		12B8A48126342FA20007EEA5 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
+		12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAffirmsViewController.swift; sourceTree = "<group>"; };
+		14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.release.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.release.xcconfig"; sourceTree = "<group>"; };
+		DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.debug.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.debug.xcconfig"; sourceTree = "<group>"; };
+		F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B46A68C996F5CED4D00597 /* Pods_Affirmatio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				12B8A44D2631848A0007EEA5 /* Affirmatio */,
 				12B8A44C2631848A0007EEA5 /* Products */,
+				4AA9AA2DEBADE0B9F59403E8 /* Pods */,
+				256E966E558AAD2C9C328916 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,63 @@
 			children = (
 				12B8A44E2631848A0007EEA5 /* AppDelegate.swift */,
 				12B8A4502631848A0007EEA5 /* SceneDelegate.swift */,
-				12B8A4522631848A0007EEA5 /* ViewController.swift */,
-				12B8A4542631848A0007EEA5 /* Main.storyboard */,
+				12B8A47726342F040007EEA5 /* View */,
+				12B8A47926342F2D0007EEA5 /* Controller */,
+				12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */,
 				12B8A4572631848C0007EEA5 /* Assets.xcassets */,
 				12B8A4592631848C0007EEA5 /* LaunchScreen.storyboard */,
 				12B8A45C2631848C0007EEA5 /* Info.plist */,
+				12B8A484263551C80007EEA5 /* Model */,
+				12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */,
 			);
 			path = Affirmatio;
+			sourceTree = "<group>";
+		};
+		12B8A47726342F040007EEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A4542631848A0007EEA5 /* Main.storyboard */,
+				12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12B8A47926342F2D0007EEA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */,
+				12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */,
+				12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */,
+				12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12B8A484263551C80007EEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */,
+				12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */,
+				12B8A48126342FA20007EEA5 /* Affirmation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		256E966E558AAD2C9C328916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA9AA2DEBADE0B9F59403E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */,
+				14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12B8A45F2631848C0007EEA5 /* Build configuration list for PBXNativeTarget "Affirmatio" */;
 			buildPhases = (
+				BAED28BCC3F9313C5724F53C /* [CP] Check Pods Manifest.lock */,
 				12B8A4472631848A0007EEA5 /* Sources */,
 				12B8A4482631848A0007EEA5 /* Frameworks */,
 				12B8A4492631848A0007EEA5 /* Resources */,
+				4A6DC54A532E497A5199D415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +209,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A6DC54A532E497A5199D415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirmatio/Pods-Affirmatio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirmatio/Pods-Affirmatio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Affirmatio/Pods-Affirmatio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAED28BCC3F9313C5724F53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Affirmatio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12B8A4472631848A0007EEA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B8A4532631848A0007EEA5 /* ViewController.swift in Sources */,
+				12B8A467263268B50007EEA5 /* AffirmationsPLCell.swift in Sources */,
+				12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */,
+				12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */,
+				12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */,
 				12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */,
+				12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */,
 				12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */,
+				12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */,
+				12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */,
+				12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */,
+				12B8A47126342A020007EEA5 /* AffirmCategoriesViewController.swift in Sources */,
+				12B8A48726358BB00007EEA5 /* ListAffirmsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +411,7 @@
 		};
 		12B8A4602631848C0007EEA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +431,7 @@
 		};
 		12B8A4612631848C0007EEA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
