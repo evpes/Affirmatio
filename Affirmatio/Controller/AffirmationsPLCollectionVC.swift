@@ -21,6 +21,8 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
     
     var playlists: [String] = ["Family", "Money"]
     var affirmLists: Results<AffirmationsList>?
+    var editList: Bool?
+    var editIndexPath: IndexPath?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +70,7 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print(sender)
         if segue.identifier == "showDetailList" {
             let vc = segue.destination as! ListAffirmsViewController
             if let indexPath = collectionView.indexPathsForSelectedItems {
@@ -75,8 +78,18 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
             }
         }
         if segue.identifier == "createPlaylist" {
-            let vc = segue.destination as! CreatePlaylistViewController
-            //vc.lastVC = self
+            if let edit = editList {
+                if edit {
+                    let vc = segue.destination as! CreatePlaylistViewController
+                    vc.lastVC = self
+                    vc.isEdit = true
+                    if let indexPath = editIndexPath {
+                        vc.curList = affirmLists?[indexPath.row]
+                    }
+                }
+            }
+            
+            //
         }
             
             }
@@ -176,14 +189,20 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
 
                 // Create an action for sharing
                 let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash")) { action in
-                    print("deleteng")
+                    print("deleting")
                     self.deleteList(list: list[indexPath.row])
                     self.collectionView.reloadData()
                 }
 
+                let edit = UIAction(title: "Edit", image: UIImage(systemName: "pencil")) { (action) in
+                    print("edit")
+                    self.editList = true
+                    self.editIndexPath = indexPath
+                    self.performSegue(withIdentifier: "createPlaylist", sender: self)
+                }
                 // Create other actions...
 
-                return UIMenu(title: "", children: [delete])
+                return UIMenu(title: "", children: [delete,edit])
             }
             }
         }
@@ -197,34 +216,7 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
         print(affirmLists)
     }
     
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
 
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
-    
-    }
-    */
     //MARK:- Data manipulation methods
     
     func saveCategories(category: AffirmationsCategory) {

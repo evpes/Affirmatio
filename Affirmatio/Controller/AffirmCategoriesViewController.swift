@@ -27,13 +27,9 @@ class AffirmCategoriesViewController: UITableViewController {
             }
         }
         tableView.register(CategoryHeaderView.self,
-               forHeaderFooterViewReuseIdentifier: "sectionHeader")
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+                           forHeaderFooterViewReuseIdentifier: "sectionHeader")
         
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+
     }
     
     // MARK: - Table view data source
@@ -50,7 +46,7 @@ class AffirmCategoriesViewController: UITableViewController {
             print("innser res: \(res) for sec: \(section)")
             return res
         } else {
-        let res = categories?[section].affirmations.count ?? 0
+            let res = (categories?[section].affirmations.count ?? 0) + 1
             print("outer res: \(res) for sec: \(section)")
             return res
         }
@@ -65,17 +61,21 @@ class AffirmCategoriesViewController: UITableViewController {
         if let cat = categories {
             if let cell = tableView.cellForRow(at: indexPath) {
                 
-                if cell.accessoryType == .none {
-                    print("none")
-                    let affirmation = cat[indexPath.section].affirmations[indexPath.row]
-                    appendAffirm(affirm: affirmation)
-                    tableView.reloadData()
+                if indexPath.row == cat[indexPath.section].affirmations.count {
+                    performSegue(withIdentifier: "goToNewAffirm", sender: self)
                 } else {
-                    let affirmation = cat[indexPath.section].affirmations[indexPath.row]
-                    deleteAffirm(affirm: affirmation)
-                    tableView.reloadData()
+                    if cell.accessoryType == .none {
+                        print("none")
+                        let affirmation = cat[indexPath.section].affirmations[indexPath.row]
+                        appendAffirm(affirm: affirmation)
+                        tableView.reloadData()
+                    } else {
+                        let affirmation = cat[indexPath.section].affirmations[indexPath.row]
+                        deleteAffirm(affirm: affirmation)
+                        tableView.reloadData()
+                    }
                 }
-
+                
             }
         }
     }
@@ -84,48 +84,40 @@ class AffirmCategoriesViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "categoryCell", for: indexPath)
         
         if let cat = categories {
-            print("sec \(indexPath.section) row \(indexPath.row)")
-            let text = cat[indexPath.section].affirmations[indexPath.row].affitmText
-            cell.textLabel?.text = text
-            //.filter("check == %@", false)
-            print(currentList)
-            let array = Array(currentList!.affirmations)
-            print(array)
-            if  currentList!.affirmations.filter("affitmText = %@", text).count > 0 {
-                cell.accessoryType = .checkmark
+            cell.textLabel?.numberOfLines = 0
+            cell.textLabel?.lineBreakMode = .byWordWrapping
+            if indexPath.row == cat[indexPath.section].affirmations.count
+            {
+                cell.textLabel?.text = " + add new affirmation"
+                cell.textLabel?.textColor = .gray
+                cell.textLabel?.alpha = 0.6
             } else {
-                cell.accessoryType = .none
+                cell.textLabel?.textColor = .black
+                cell.textLabel?.alpha = 1
+                print("sec \(indexPath.section) row \(indexPath.row)")
+                let text = cat[indexPath.section].affirmations[indexPath.row].affitmText
+                cell.textLabel?.text = text
+                //.filter("check == %@", false)
+                print(currentList)
+                let array = Array(currentList!.affirmations)
+                print(array)
+                if  currentList!.affirmations.filter("affitmText = %@", text).count > 0 {
+                    cell.accessoryType = .checkmark
+                } else {
+                    cell.accessoryType = .none
+                }
             }
         }
+        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: "sectionHeader") as! CategoryHeaderView
-        //view.title.text = categories?[section].name
         view.button.tag = section
-        view.button.setImage(UIImage(systemName: "arrow.down.circle.fill"), for: .normal)
-        //        let button = UIButton(type: .system)
-//        button.setTitle("Close", for: .normal)
-//        button.backgroundColor = .yellow
-//        button.setTitleColor(.black, for: .normal)
         view.button.addTarget(self, action: #selector(handleExpandClose), for: .touchUpInside)
-//        button.tag = section
-        view.layer.cornerRadius = 15
-        view.layer.borderWidth = 2
-        view.layer.borderColor = UIColor.clear.cgColor
-        view.layer.masksToBounds = true
-        //let margins = UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 0)
         view.image.image = UIImage(named: "work\(section).jpg")
-        view.image.contentMode = .scaleAspectFill
-        view.image.layer.cornerRadius = 15
-        view.image.layer.cornerRadius = 15
-        view.image.layer.borderWidth = 2
-        view.image.layer.borderColor = UIColor.clear.cgColor
-        view.image.layer.masksToBounds = true
-        view.backgroundColor = .clear
         view.tintColor = .clear
-        //contentView.frame = UIEdgeInsetsInsetRect(contentView.frame, margins)
         
         return view
     }
@@ -139,9 +131,7 @@ class AffirmCategoriesViewController: UITableViewController {
         footer.backgroundColor = .clear
         return footer
     }
-//    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-//        return .leastNormalMagnitude
-//    }
+
     
     @objc func handleExpandClose(button: UIButton) {
         print("Try close section")
@@ -150,9 +140,12 @@ class AffirmCategoriesViewController: UITableViewController {
         var indexPaths : [IndexPath] = []
         
         
-        
         if let cat = categories {
-            for row in cat[section].affirmations.indices {
+            let range = cat[section].affirmations.indices
+            let newRange = range.startIndex..<(range.endIndex + 1)
+            print(newRange)
+            for row in newRange{
+                
                 let indexPath = IndexPath(row: row, section: section)
                 indexPaths.append(indexPath)
             }
@@ -161,7 +154,6 @@ class AffirmCategoriesViewController: UITableViewController {
         let isExpanded = expandArray[section]
         expandArray[section] = !isExpanded
         print("categories: \(categories)")
-        //tableView.reloadData()
         
         if isExpanded {
             print("isExp")
@@ -174,7 +166,6 @@ class AffirmCategoriesViewController: UITableViewController {
             tableView.insertRows(at: indexPaths, with: .fade)
             headerView.button.setImage(UIImage(systemName: "arrow.up.circle.fill"), for: .normal)
             
-            //tableView.reloadData()
         }
         
     }
@@ -217,32 +208,6 @@ class AffirmCategoriesViewController: UITableViewController {
         }
     }
     
-//    func saveList(list : AffirmationsList) {
-//        if let _ = currentList {
-//            do {
-//                try realm.write {
-//                    print("write")
-//                    print(currentList)
-//                    print(list)
-//                    currentList!.affirmations.removeAll()
-//                    currentList!.affirmations.insert(contentsOf: list, at: 0)
-//                    print(currentList)
-//
-//                }
-//            } catch {
-//                print(error)
-//            }
-//        } else {
-//            do {
-//                try realm.write {
-//                    realm.add(list)
-//                }
-//            } catch {
-//                print()
-//            }
-//        }
-//        print("save")
-//    }
     
     //MARK: - Buttons
     
@@ -252,74 +217,33 @@ class AffirmCategoriesViewController: UITableViewController {
             vc.tableView.reloadData()
             self.dismiss(animated: true, completion: nil)
         } else {
-//            let viewController = UIApplication.shared.windows.first!.rootViewController as! AffirmationsPLCollectionVC
+            //            let viewController = UIApplication.shared.windows.first!.rootViewController as! AffirmationsPLCollectionVC
             //let viewController = self.navigationController?.viewControllers[0] as! AffirmationsPLCollectionVC
             let navigationController = UIApplication.shared.windows.first!.rootViewController as! UINavigationController
             let firstVC = navigationController.viewControllers[0] as! AffirmationsPLCollectionVC
             firstVC.collectionView.reloadData()
             self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)
         }
-//        if let list = currentList {
-//            let listAf = List<Affirmation>()
-//            listAf.insert(contentsOf: affirmations.values, at: 0)
-//            list.affirmations = listAf
-//            saveList(list: list)
-//            print(listAf)
-//        } else {
-//            print("tap")
-//            let newList = AffirmationsList()
-//            newList.name = listName!
-//            newList.affirmations.insert(contentsOf: affirmations.values, at: 0)
-//            saveList(list: newList)
-//            self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)
-//        }
-        //self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)
+
     }
     
     
-    /*
-     // Override to support conditional editing of the table view.
-     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
-     return true
-     }
-     */
     
-    /*
-     // Override to support editing the table view.
-     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-     if editingStyle == .delete {
-     // Delete the row from the data source
-     tableView.deleteRows(at: [indexPath], with: .fade)
-     } else if editingStyle == .insert {
-     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-     }
-     }
-     */
+    // MARK: - Navigation
     
-    /*
-     // Override to support rearranging the table view.
-     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-     
-     }
-     */
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //      Get the new view controller using segue.destination.
+        //      Pass the selected object to the new view controller.
+        if let indexPath = tableView.indexPathsForSelectedRows {
+            if segue.identifier == "goToNewAffirm" {
+                let vc = segue.destination as! NewAffirmationViewController
+                vc.category = categories?[indexPath[0].section]
+                vc.categoriesVC = self
+            }
+            
+        }
+    }
     
-    /*
-     // Override to support conditional rearranging of the table view.
-     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the item to be re-orderable.
-     return true
-     }
-     */
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }

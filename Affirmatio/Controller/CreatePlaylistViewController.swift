@@ -13,12 +13,17 @@ class CreatePlaylistViewController: UIViewController {
     let realm = try! Realm()
     @IBOutlet weak var textField: UITextField!
     var newList: AffirmationsList?
-    var lastVC: UITableViewController?
+    var curList: AffirmationsList?
+    var lastVC: AffirmationsPLCollectionVC?
+    var isEdit: Bool?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.delegate = self
         textField.becomeFirstResponder()
+        if let list = curList {
+            textField.text = list.name
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -44,6 +49,21 @@ class CreatePlaylistViewController: UIViewController {
         newList = list
     }
     
+    func updateList() {
+        print(curList)
+        do {
+            try realm.write {
+                if let list = curList {
+                    list.name = textField.text!
+                    print("curList inside:\(curList)")
+                    print("list inside:\(list)")
+                }
+            }
+        } catch {
+            print("Error while updating list:\(error)")
+        }
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -61,9 +81,21 @@ extension CreatePlaylistViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         //text field when click done
+ 
         if textField.text!.count > 0 {
+            if let _ = isEdit {
+                updateList()
+                self.dismiss(animated: true) {
+                    if let vc = self.lastVC {
+                        vc.editIndexPath = nil
+                        vc.editList = nil
+                        vc.collectionView.reloadData()
+                    }
+                }
+            } else {
             createList(name: textField.text!)
             performSegue(withIdentifier: "goToAffirmCategories", sender: self)
+            }
         }
         return true
     }

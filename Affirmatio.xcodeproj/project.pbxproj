@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */; };
 		12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */; };
+		12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */; };
 		12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A44E2631848A0007EEA5 /* AppDelegate.swift */; };
 		12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A4502631848A0007EEA5 /* SceneDelegate.swift */; };
 		12B8A4562631848A0007EEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B8A4542631848A0007EEA5 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCategories.swift; sourceTree = "<group>"; };
 		12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAffirmationViewController.swift; sourceTree = "<group>"; };
 		12B8A44B2631848A0007EEA5 /* Affirmatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirmatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8A44E2631848A0007EEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12B8A4502631848A0007EEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */,
 				12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */,
 				12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */,
+				12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */,
 				12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */,
 				12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */,
+				12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */,
 				12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */,
 				12B8A47126342A020007EEA5 /* AffirmCategoriesViewController.swift in Sources */,
 				12B8A48726358BB00007EEA5 /* ListAffirmsViewController.swift in Sources */,
