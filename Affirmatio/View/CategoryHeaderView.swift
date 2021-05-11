@@ -55,7 +55,7 @@ class CategoryHeaderView: UITableViewHeaderFooterView {
         NSLayoutConstraint.activate([
             container.leadingAnchor.constraint(equalTo: contentView.layoutMarginsGuide.leadingAnchor),
             container.widthAnchor.constraint(equalTo: contentView.layoutMarginsGuide.widthAnchor),
-            container.heightAnchor.constraint(equalTo: contentView.layoutMarginsGuide.heightAnchor),
+            container.heightAnchor.constraint(equalTo: contentView.heightAnchor),
             container.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             container.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
             
@@ -68,8 +68,8 @@ class CategoryHeaderView: UITableViewHeaderFooterView {
             title.centerXAnchor.constraint(equalTo: container.centerXAnchor),
             title.centerYAnchor.constraint(equalTo: container.centerYAnchor),
             button.centerYAnchor.constraint(equalTo: container.centerYAnchor),
-            button.heightAnchor.constraint(equalToConstant: 40),
-            button.widthAnchor.constraint(equalToConstant: 40),
+            button.heightAnchor.constraint(equalToConstant: 30),
+            button.widthAnchor.constraint(equalToConstant: 30),
             button.trailingAnchor.constraint(equalTo: container.layoutMarginsGuide.trailingAnchor, constant: -5)
         ])
     }

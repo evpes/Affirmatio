@@ -12,6 +12,7 @@ class AffirmationsPLCell: UICollectionViewCell {
     @IBOutlet weak var affirmPLImageView: UIImageView!
     @IBOutlet weak var affirmPLLabel: UILabel!
     
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         animate(isHighlighted: true)

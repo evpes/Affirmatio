@@ -11,5 +11,6 @@ import RealmSwift
 class AffirmationsList: Object {
     @objc dynamic var name: String = ""
     @objc dynamic var createdDate: Date = Date()
+    @objc dynamic var picture: String = ""
     var affirmations = List<Affirmation>()
 }

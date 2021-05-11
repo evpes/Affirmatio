@@ -18,11 +18,19 @@
 		12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */; };
 		12B8A467263268B50007EEA5 /* AffirmationsPLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */; };
 		12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */; };
-		12B8A47126342A020007EEA5 /* AffirmCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */; };
 		12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */; };
 		12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */; };
 		12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A48126342FA20007EEA5 /* Affirmation.swift */; };
-		12B8A48726358BB00007EEA5 /* ListAffirmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */; };
+		12E44523264A3DB900850A70 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44522264A3DB900850A70 /* PlayListViewController.swift */; };
+		12E44526264A3F3E00850A70 /* PlayListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44525264A3F3E00850A70 /* PlayListViewCell.swift */; };
+		12E4452D264A625300850A70 /* I am worthy of making more money..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E44529264A625300850A70 /* I am worthy of making more money..m4a */; };
+		12E4452E264A625400850A70 /* Money comes to me easily and effortlessly.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */; };
+		12E4452F264A625400850A70 /* I am open and receptive to all the wealth life offers me..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */; };
+		12E44530264A625400850A70 /* I constantly attract opportunities that create more money..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */; };
+		12E44533264A68DE00850A70 /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12E44532264A68DE00850A70 /* meditation.mp3 */; };
+		12FCB37126463C87005D49F6 /* AffirmViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37026463C87005D49F6 /* AffirmViewCell.swift */; };
+		12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */; };
+		12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */; };
 		C8B46A68C996F5CED4D00597 /* Pods_Affirmatio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +48,19 @@
 		12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsPLCollectionVC.swift; sourceTree = "<group>"; };
 		12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsPLCell.swift; sourceTree = "<group>"; };
 		12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaylistViewController.swift; sourceTree = "<group>"; };
-		12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmCategoriesViewController.swift; sourceTree = "<group>"; };
 		12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsList.swift; sourceTree = "<group>"; };
 		12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategory.swift; sourceTree = "<group>"; };
 		12B8A48126342FA20007EEA5 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
-		12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAffirmsViewController.swift; sourceTree = "<group>"; };
+		12E44522264A3DB900850A70 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		12E44525264A3F3E00850A70 /* PlayListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewCell.swift; sourceTree = "<group>"; };
+		12E44529264A625300850A70 /* I am worthy of making more money..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am worthy of making more money..m4a"; sourceTree = "<group>"; };
+		12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Money comes to me easily and effortlessly.m4a"; sourceTree = "<group>"; };
+		12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am open and receptive to all the wealth life offers me..m4a"; sourceTree = "<group>"; };
+		12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I constantly attract opportunities that create more money..m4a"; sourceTree = "<group>"; };
+		12E44532264A68DE00850A70 /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		12FCB37026463C87005D49F6 /* AffirmViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmViewCell.swift; sourceTree = "<group>"; };
+		12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsListViewController.swift; sourceTree = "<group>"; };
+		12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategoriesViewController.swift; sourceTree = "<group>"; };
 		14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.release.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.release.xcconfig"; sourceTree = "<group>"; };
 		DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.debug.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.debug.xcconfig"; sourceTree = "<group>"; };
 		F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +99,7 @@
 		12B8A44D2631848A0007EEA5 /* Affirmatio */ = {
 			isa = PBXGroup;
 			children = (
+				12E44528264A623F00850A70 /* Sounds */,
 				12B8A44E2631848A0007EEA5 /* AppDelegate.swift */,
 				12B8A4502631848A0007EEA5 /* SceneDelegate.swift */,
 				12B8A47726342F040007EEA5 /* View */,
@@ -102,6 +119,8 @@
 			children = (
 				12B8A4542631848A0007EEA5 /* Main.storyboard */,
 				12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */,
+				12FCB37026463C87005D49F6 /* AffirmViewCell.swift */,
+				12E44525264A3F3E00850A70 /* PlayListViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,11 +128,12 @@
 		12B8A47926342F2D0007EEA5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				12B8A47026342A020007EEA5 /* AffirmCategoriesViewController.swift */,
 				12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */,
 				12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */,
-				12B8A48626358BB00007EEA5 /* ListAffirmsViewController.swift */,
 				12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */,
+				12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */,
+				12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */,
+				12E44522264A3DB900850A70 /* PlayListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +146,18 @@
 				12B8A48126342FA20007EEA5 /* Affirmation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		12E44528264A623F00850A70 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */,
+				12E44529264A625300850A70 /* I am worthy of making more money..m4a */,
+				12E44532264A68DE00850A70 /* meditation.mp3 */,
+				12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */,
+				12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		256E966E558AAD2C9C328916 /* Frameworks */ = {
@@ -206,7 +238,12 @@
 			files = (
 				12B8A45B2631848C0007EEA5 /* LaunchScreen.storyboard in Resources */,
 				12B8A4582631848C0007EEA5 /* Assets.xcassets in Resources */,
+				12E44533264A68DE00850A70 /* meditation.mp3 in Resources */,
+				12E4452D264A625300850A70 /* I am worthy of making more money..m4a in Resources */,
+				12E44530264A625400850A70 /* I constantly attract opportunities that create more money..m4a in Resources */,
+				12E4452E264A625400850A70 /* Money comes to me easily and effortlessly.m4a in Resources */,
 				12B8A4562631848A0007EEA5 /* Main.storyboard in Resources */,
+				12E4452F264A625400850A70 /* I am open and receptive to all the wealth life offers me..m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +301,17 @@
 				12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */,
 				12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */,
 				12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */,
+				12E44523264A3DB900850A70 /* PlayListViewController.swift in Sources */,
+				12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */,
 				12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */,
 				12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */,
 				12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */,
 				12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */,
 				12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */,
 				12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */,
-				12B8A47126342A020007EEA5 /* AffirmCategoriesViewController.swift in Sources */,
-				12B8A48726358BB00007EEA5 /* ListAffirmsViewController.swift in Sources */,
+				12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */,
+				12E44526264A3F3E00850A70 /* PlayListViewCell.swift in Sources */,
+				12FCB37126463C87005D49F6 /* AffirmViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

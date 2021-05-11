@@ -10,6 +10,14 @@ import RealmSwift
 
 class CreatePlaylistViewController: UIViewController {
 
+    let gradient = CAGradientLayer()
+    var gradientSet = [[CGColor]]()
+    var currentGradient: Int = 0
+        
+    let gradientOne = UIColor(red: 48/255, green: 62/255, blue: 103/255, alpha: 1).cgColor
+    let gradientTwo = UIColor(red: 244/255, green: 88/255, blue: 53/255, alpha: 1).cgColor
+    let gradientThree = UIColor(red: 196/255, green: 70/255, blue: 107/255, alpha: 1).cgColor
+    
     let realm = try! Realm()
     @IBOutlet weak var textField: UITextField!
     var newList: AffirmationsList?
@@ -24,12 +32,43 @@ class CreatePlaylistViewController: UIViewController {
         if let list = curList {
             textField.text = list.name
         }
+        
+        gradientSet.append([gradientOne, gradientTwo])
+        gradientSet.append([gradientTwo, gradientThree])
+        gradientSet.append([gradientThree, gradientOne])
+        
+        
+        gradient.frame = self.view.bounds
+        gradient.colors = gradientSet[currentGradient]
+        gradient.startPoint = CGPoint(x:0, y:0)
+        gradient.endPoint = CGPoint(x:1, y:1)
+        gradient.drawsAsynchronously = true
+    
+        //self.view.backgroundView = bgView
+        self.view.layer.insertSublayer(gradient, at: 0)
+        //bgView.layer.addSublayer(gradient)
+        animateGradient()
         // Do any additional setup after loading the view.
     }
     
+    func animateGradient() {
+            if currentGradient < gradientSet.count - 1 {
+                currentGradient += 1
+            } else {
+                currentGradient = 0
+            }
+            
+            let gradientChangeAnimation = CABasicAnimation(keyPath: "colors")
+            gradientChangeAnimation.duration = 5.0
+            gradientChangeAnimation.toValue = gradientSet[currentGradient]
+        gradientChangeAnimation.fillMode = CAMediaTimingFillMode.forwards
+            gradientChangeAnimation.isRemovedOnCompletion = false
+            gradient.add(gradientChangeAnimation, forKey: "colorChange")
+        }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToAffirmCategories" {
-            let vc = segue.destination as! AffirmCategoriesViewController
+        if segue.identifier == "goToAffirmCategories2" {
+            let vc = segue.destination as! AffirmationsCategoriesViewController
             vc.listName = textField.text
             vc.currentList = newList
             
@@ -39,6 +78,8 @@ class CreatePlaylistViewController: UIViewController {
     func createList(name: String) {
         let list = AffirmationsList()
         list.name = name
+        let pictureIndex = Int.random(in: 1...13)
+        list.picture = "nature\(pictureIndex)"
         do {
             try realm.write {
                 realm.add(list)
@@ -94,10 +135,19 @@ extension CreatePlaylistViewController: UITextFieldDelegate {
                 }
             } else {
             createList(name: textField.text!)
-            performSegue(withIdentifier: "goToAffirmCategories", sender: self)
+            performSegue(withIdentifier: "goToAffirmCategories2", sender: self)
             }
         }
         return true
     }
     
+}
+
+extension CreatePlaylistViewController: CAAnimationDelegate {
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        if flag {
+            gradient.colors = gradientSet[currentGradient]
+            animateGradient()
+        }
+    }
 }
