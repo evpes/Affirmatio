@@ -312,7 +312,7 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
         } else {
             //            let viewController = UIApplication.shared.windows.first!.rootViewController as! AffirmationsPLCollectionVC
             //let viewController = self.navigationController?.viewControllers[0] as! AffirmationsPLCollectionVC
-            let navigationController = UIApplication.shared.windows.first!.rootViewController as! UINavigationController
+            let navigationController = UIApplication.shared.windows[0].rootViewController as! UINavigationController
             let firstVC = navigationController.viewControllers[0] as! AffirmationsPLCollectionVC
             firstVC.collectionView.reloadData()
             self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)

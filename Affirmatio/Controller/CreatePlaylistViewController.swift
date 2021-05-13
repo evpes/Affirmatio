@@ -13,6 +13,7 @@ class CreatePlaylistViewController: UIViewController {
     let gradient = CAGradientLayer()
     var gradientSet = [[CGColor]]()
     var currentGradient: Int = 0
+    var pictureName = "nature\(Int.random(in: 1...13))"
         
     let gradientOne = UIColor(red: 48/255, green: 62/255, blue: 103/255, alpha: 1).cgColor
     let gradientTwo = UIColor(red: 244/255, green: 88/255, blue: 53/255, alpha: 1).cgColor
@@ -24,6 +25,9 @@ class CreatePlaylistViewController: UIViewController {
     var curList: AffirmationsList?
     var lastVC: AffirmationsPLCollectionVC?
     var isEdit: Bool?
+    @IBOutlet weak var listImage: UIImageView!
+    @IBOutlet weak var imageContainerView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +36,26 @@ class CreatePlaylistViewController: UIViewController {
         if let list = curList {
             textField.text = list.name
         }
+        if let _ = isEdit {
+            listImage.image = UIImage(named: curList!.picture)
+        } else {
+            listImage.image = UIImage(named: pictureName)
+        }
+        
+        listImage.clipsToBounds = true
+        listImage.layer.cornerRadius = 15
+        imageContainerView.layer.cornerRadius = 15
+        imageContainerView.layer.shadowColor = UIColor.black.cgColor
+        imageContainerView.layer.shadowOffset = CGSize(width: 3, height: 3)
+        imageContainerView.layer.shadowOpacity = 0.7
+        
+//        cell.affirmImageView.image = UIImage(named: "nature\(indexPath.row + 1)")
+//        cell.affirmView.layer.cornerRadius = cornerRadius
+//        cell.affirmView.layer.shadowOffset = CGSize(width: 3, height: 3)
+//        cell.affirmView.layer.shadowColor = UIColor.darkGray.cgColor
+//        cell.affirmView.layer.shadowOpacity = 0.7
+//        cell.affirmImageView.layer.cornerRadius = cornerRadius
+//        cell.affirmImageView.clipsToBounds = true
         
         gradientSet.append([gradientOne, gradientTwo])
         gradientSet.append([gradientTwo, gradientThree])
@@ -71,15 +95,17 @@ class CreatePlaylistViewController: UIViewController {
             let vc = segue.destination as! AffirmationsCategoriesViewController
             vc.listName = textField.text
             vc.currentList = newList
-            
+        }
+        if segue.identifier == "chooseListImage" {
+            let vc = segue.destination as! ListImageSelectionViewController
+            vc.prevVC = self
         }
     }
     
     func createList(name: String) {
         let list = AffirmationsList()
         list.name = name
-        let pictureIndex = Int.random(in: 1...13)
-        list.picture = "nature\(pictureIndex)"
+        list.picture = pictureName
         do {
             try realm.write {
                 realm.add(list)
@@ -95,6 +121,7 @@ class CreatePlaylistViewController: UIViewController {
         do {
             try realm.write {
                 if let list = curList {
+                    list.picture = pictureName
                     list.name = textField.text!
                     print("curList inside:\(curList)")
                     print("list inside:\(list)")
@@ -104,6 +131,12 @@ class CreatePlaylistViewController: UIViewController {
             print("Error while updating list:\(error)")
         }
     }
+    
+    @IBAction func editImageButtonPressed(_ sender: Any) {
+        print("edit")
+        performSegue(withIdentifier: "chooseListImage", sender: self)
+    }
+    
     
 
     /*

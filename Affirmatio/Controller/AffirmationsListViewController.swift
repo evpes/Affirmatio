@@ -23,6 +23,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
     let gradientThree = UIColor(red: 196/255, green: 70/255, blue: 107/255, alpha: 1).cgColor
     
 
+    @IBOutlet weak var playAffirmationsButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -50,6 +51,9 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
         animateGradient()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        playAffirmationsButton.layer.cornerRadius = 15
+        playAffirmationsButton.backgroundColor = UIColor.white.withAlphaComponent(0.5)
         // Do any additional setup after loading the view.
     }
     

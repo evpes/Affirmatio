@@ -34,6 +34,12 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if LandscapeManager.shared.isFirstLaunch {
+            performSegue(withIdentifier: "toOnboarding", sender: nil)
+            LandscapeManager.shared.isFirstLaunch = true
+        }
+        
         loadAffirmLists()
         print(Realm.Configuration.defaultConfiguration.fileURL)
         

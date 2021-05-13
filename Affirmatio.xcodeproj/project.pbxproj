@@ -28,6 +28,15 @@
 		12E4452F264A625400850A70 /* I am open and receptive to all the wealth life offers me..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */; };
 		12E44530264A625400850A70 /* I constantly attract opportunities that create more money..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */; };
 		12E44533264A68DE00850A70 /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12E44532264A68DE00850A70 /* meditation.mp3 */; };
+		12E44537264B96F600850A70 /* ListImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */; };
+		12E4453A264B98E600850A70 /* ListImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44539264B98E600850A70 /* ListImageViewCell.swift */; };
+		12E44542264C532900850A70 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44541264C532900850A70 /* MainPageViewController.swift */; };
+		12E44545264C534700850A70 /* FirstStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44544264C534700850A70 /* FirstStepViewController.swift */; };
+		12E44548264C535D00850A70 /* SecondStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44547264C535D00850A70 /* SecondStepViewController.swift */; };
+		12E4454B264C536A00850A70 /* ThirdStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4454A264C536A00850A70 /* ThirdStepViewController.swift */; };
+		12E4454F264C578C00850A70 /* LandscapeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4454E264C578B00850A70 /* LandscapeManager.swift */; };
+		12E44553264C582200850A70 /* ConciergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44552264C582200850A70 /* ConciergeViewController.swift */; };
+		12E44557264C586B00850A70 /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44556264C586B00850A70 /* Storyboard+Ext.swift */; };
 		12FCB37126463C87005D49F6 /* AffirmViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37026463C87005D49F6 /* AffirmViewCell.swift */; };
 		12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */; };
 		12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */; };
@@ -58,6 +67,15 @@
 		12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am open and receptive to all the wealth life offers me..m4a"; sourceTree = "<group>"; };
 		12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I constantly attract opportunities that create more money..m4a"; sourceTree = "<group>"; };
 		12E44532264A68DE00850A70 /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageSelectionViewController.swift; sourceTree = "<group>"; };
+		12E44539264B98E600850A70 /* ListImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageViewCell.swift; sourceTree = "<group>"; };
+		12E44541264C532900850A70 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		12E44544264C534700850A70 /* FirstStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepViewController.swift; sourceTree = "<group>"; };
+		12E44547264C535D00850A70 /* SecondStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepViewController.swift; sourceTree = "<group>"; };
+		12E4454A264C536A00850A70 /* ThirdStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStepViewController.swift; sourceTree = "<group>"; };
+		12E4454E264C578B00850A70 /* LandscapeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeManager.swift; sourceTree = "<group>"; };
+		12E44552264C582200850A70 /* ConciergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciergeViewController.swift; sourceTree = "<group>"; };
+		12E44556264C586B00850A70 /* Storyboard+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
 		12FCB37026463C87005D49F6 /* AffirmViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmViewCell.swift; sourceTree = "<group>"; };
 		12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsListViewController.swift; sourceTree = "<group>"; };
 		12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategoriesViewController.swift; sourceTree = "<group>"; };
@@ -99,12 +117,12 @@
 		12B8A44D2631848A0007EEA5 /* Affirmatio */ = {
 			isa = PBXGroup;
 			children = (
+				12E4454D264C577700850A70 /* Helpers */,
 				12E44528264A623F00850A70 /* Sounds */,
 				12B8A44E2631848A0007EEA5 /* AppDelegate.swift */,
 				12B8A4502631848A0007EEA5 /* SceneDelegate.swift */,
 				12B8A47726342F040007EEA5 /* View */,
 				12B8A47926342F2D0007EEA5 /* Controller */,
-				12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */,
 				12B8A4572631848C0007EEA5 /* Assets.xcassets */,
 				12B8A4592631848C0007EEA5 /* LaunchScreen.storyboard */,
 				12B8A45C2631848C0007EEA5 /* Info.plist */,
@@ -117,10 +135,14 @@
 		12B8A47726342F040007EEA5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				12E4453D264C518B00850A70 /* Onboarding */,
 				12B8A4542631848A0007EEA5 /* Main.storyboard */,
 				12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */,
 				12FCB37026463C87005D49F6 /* AffirmViewCell.swift */,
 				12E44525264A3F3E00850A70 /* PlayListViewCell.swift */,
+				12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */,
+				12E44539264B98E600850A70 /* ListImageViewCell.swift */,
+				12E44552264C582200850A70 /* ConciergeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +156,7 @@
 				12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */,
 				12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */,
 				12E44522264A3DB900850A70 /* PlayListViewController.swift */,
+				12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +181,34 @@
 				12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		12E4453D264C518B00850A70 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				12E44541264C532900850A70 /* MainPageViewController.swift */,
+				12E44544264C534700850A70 /* FirstStepViewController.swift */,
+				12E44547264C535D00850A70 /* SecondStepViewController.swift */,
+				12E4454A264C536A00850A70 /* ThirdStepViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		12E4454D264C577700850A70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				12E44555264C585200850A70 /* Extensions */,
+				12E4454E264C578B00850A70 /* LandscapeManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		12E44555264C585200850A70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12E44556264C586B00850A70 /* Storyboard+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		256E966E558AAD2C9C328916 /* Frameworks */ = {
@@ -296,18 +347,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E4453A264B98E600850A70 /* ListImageViewCell.swift in Sources */,
 				12B8A467263268B50007EEA5 /* AffirmationsPLCell.swift in Sources */,
 				12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */,
+				12E4454F264C578C00850A70 /* LandscapeManager.swift in Sources */,
 				12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */,
 				12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */,
 				12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */,
 				12E44523264A3DB900850A70 /* PlayListViewController.swift in Sources */,
+				12E44542264C532900850A70 /* MainPageViewController.swift in Sources */,
+				12E4454B264C536A00850A70 /* ThirdStepViewController.swift in Sources */,
+				12E44548264C535D00850A70 /* SecondStepViewController.swift in Sources */,
 				12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */,
 				12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */,
 				12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */,
+				12E44553264C582200850A70 /* ConciergeViewController.swift in Sources */,
+				12E44557264C586B00850A70 /* Storyboard+Ext.swift in Sources */,
 				12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */,
+				12E44537264B96F600850A70 /* ListImageSelectionViewController.swift in Sources */,
 				12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */,
 				12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */,
+				12E44545264C534700850A70 /* FirstStepViewController.swift in Sources */,
 				12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */,
 				12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */,
 				12E44526264A3F3E00850A70 /* PlayListViewCell.swift in Sources */,
