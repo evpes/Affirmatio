@@ -7,6 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12092D5726917BDF00EE5908 /* Я нахожу нужного мне человека. Между нами любовь и страсть..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1926917BDE00EE5908 /* Я нахожу нужного мне человека. Между нами любовь и страсть..mp3 */; };
+		12092D5826917BDF00EE5908 /* Я верю в себя. Моя вера с каждым днём укрепляется..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1A26917BDE00EE5908 /* Я верю в себя. Моя вера с каждым днём укрепляется..mp3 */; };
+		12092D5926917BDF00EE5908 /* Я открываю свое сердце для любви..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1B26917BDE00EE5908 /* Я открываю свое сердце для любви..mp3 */; };
+		12092D5A26917BDF00EE5908 /* У меня отличное здоровье..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1C26917BDE00EE5908 /* У меня отличное здоровье..mp3 */; };
+		12092D5B26917BDF00EE5908 /* Счастье - моя вторая натура..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1D26917BDE00EE5908 /* Счастье - моя вторая натура..mp3 */; };
+		12092D5C26917BDF00EE5908 /* Я ощущаю уверенность и безопасность, обладая деньгами..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1E26917BDE00EE5908 /* Я ощущаю уверенность и безопасность, обладая деньгами..mp3 */; };
+		12092D5D26917BDF00EE5908 /* Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D1F26917BDE00EE5908 /* Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3 */; };
+		12092D5E26917BDF00EE5908 /* Я излучаю любовь. И она возвращается ко мне..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2026917BDE00EE5908 /* Я излучаю любовь. И она возвращается ко мне..mp3 */; };
+		12092D5F26917BDF00EE5908 /* Я богатый человек..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2126917BDE00EE5908 /* Я богатый человек..mp3 */; };
+		12092D6026917BDF00EE5908 /* Я в гармонии с собой и со всеми окружающими меня людьми..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2226917BDE00EE5908 /* Я в гармонии с собой и со всеми окружающими меня людьми..mp3 */; };
+		12092D6126917BDF00EE5908 /* В моей жизни происходят хорошие вещи..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2326917BDE00EE5908 /* В моей жизни происходят хорошие вещи..mp3 */; };
+		12092D6226917BDF00EE5908 /* Я всегда получаю то, что хочу..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2426917BDE00EE5908 /* Я всегда получаю то, что хочу..mp3 */; };
+		12092D6326917BDF00EE5908 /* Сегодня лучший день в моей жизни..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2526917BDE00EE5908 /* Сегодня лучший день в моей жизни..mp3 */; };
+		12092D6426917BDF00EE5908 /* Я принимаю и отдаю любовь легко и без усилий..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2626917BDE00EE5908 /* Я принимаю и отдаю любовь легко и без усилий..mp3 */; };
+		12092D6526917BDF00EE5908 /* Я магнит, притягивающий любовь в свою жизнь..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2726917BDE00EE5908 /* Я магнит, притягивающий любовь в свою жизнь..mp3 */; };
+		12092D6626917BDF00EE5908 /* Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2826917BDE00EE5908 /* Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3 */; };
+		12092D6726917BDF00EE5908 /* Моя жизнь – это праздник..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2926917BDE00EE5908 /* Моя жизнь – это праздник..mp3 */; };
+		12092D6826917BDF00EE5908 /* С каждым днем я становлюсь сильнее и здоровее..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2A26917BDE00EE5908 /* С каждым днем я становлюсь сильнее и здоровее..mp3 */; };
+		12092D6926917BDF00EE5908 /* Деньги текут ко мне большим и стремительным потоком..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2B26917BDE00EE5908 /* Деньги текут ко мне большим и стремительным потоком..mp3 */; };
+		12092D6A26917BDF00EE5908 /* Все что я делаю приближает меня к моим целям.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2C26917BDE00EE5908 /* Все что я делаю приближает меня к моим целям.mp3 */; };
+		12092D6B26917BDF00EE5908 /* Я открываюсь потоку изобилия..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2D26917BDE00EE5908 /* Я открываюсь потоку изобилия..mp3 */; };
+		12092D6C26917BDF00EE5908 /* Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2E26917BDE00EE5908 /* Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3 */; };
+		12092D6D26917BDF00EE5908 /* Я позволяю себе любить. Это безопасно..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D2F26917BDE00EE5908 /* Я позволяю себе любить. Это безопасно..mp3 */; };
+		12092D6E26917BDF00EE5908 /* Мне всегда сопутствует удача..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3026917BDE00EE5908 /* Мне всегда сопутствует удача..mp3 */; };
+		12092D6F26917BDF00EE5908 /* Мои возможности бесконечны..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3126917BDE00EE5908 /* Мои возможности бесконечны..mp3 */; };
+		12092D7026917BDF00EE5908 /* Я впускаю в свою жизнь прекрасные отношения..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3226917BDE00EE5908 /* Я впускаю в свою жизнь прекрасные отношения..mp3 */; };
+		12092D7126917BDF00EE5908 /* Для меня радость и удовольствие прожить еще один прекрасный день..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3326917BDE00EE5908 /* Для меня радость и удовольствие прожить еще один прекрасный день..mp3 */; };
+		12092D7226917BDF00EE5908 /* Я добиваюсь успеха в каждом своём начинании..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3426917BDE00EE5908 /* Я добиваюсь успеха в каждом своём начинании..mp3 */; };
+		12092D7326917BDF00EE5908 /* частье - мое неотъемлемое право. Я заслуживаю счастья..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3526917BDE00EE5908 /* частье - мое неотъемлемое право. Я заслуживаю счастья..mp3 */; };
+		12092D7426917BDF00EE5908 /* Я люблю деньги и отношусь к ним, как к своим друзьям..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3626917BDE00EE5908 /* Я люблю деньги и отношусь к ним, как к своим друзьям..mp3 */; };
+		12092D7526917BDF00EE5908 /* I believe I can be all that I want to be..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3826917BDE00EE5908 /* I believe I can be all that I want to be..mp3 */; };
+		12092D7626917BDF00EE5908 /* My possibilities are endless..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3926917BDE00EE5908 /* My possibilities are endless..mp3 */; };
+		12092D7726917BDF00EE5908 /* I deserve to be healthy and feel good..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3A26917BDE00EE5908 /* I deserve to be healthy and feel good..mp3 */; };
+		12092D7826917BDF00EE5908 /* I am blessed with an incredible family and wonderful friends..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3B26917BDE00EE5908 /* I am blessed with an incredible family and wonderful friends..mp3 */; };
+		12092D7926917BDF00EE5908 /* I am full of positive loving energy..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3C26917BDE00EE5908 /* I am full of positive loving energy..mp3 */; };
+		12092D7A26917BDF00EE5908 /* I constantly attract opportunities that create more money..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3D26917BDE00EE5908 /* I constantly attract opportunities that create more money..mp3 */; };
+		12092D7B26917BDF00EE5908 /* I am worthy of my dreams..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3E26917BDE00EE5908 /* I am worthy of my dreams..mp3 */; };
+		12092D7C26917BDF00EE5908 /* I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D3F26917BDE00EE5908 /* I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3 */; };
+		12092D7D26917BDF00EE5908 /* Being happy comes easy to me. Happiness is my second nature..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4026917BDE00EE5908 /* Being happy comes easy to me. Happiness is my second nature..mp3 */; };
+		12092D7E26917BDF00EE5908 /* I choose to be kind to myself and love myself unconditionally..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4126917BDE00EE5908 /* I choose to be kind to myself and love myself unconditionally..mp3 */; };
+		12092D7F26917BDF00EE5908 /* Money and spirituality can co-exist in harmony..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4226917BDE00EE5908 /* Money and spirituality can co-exist in harmony..mp3 */; };
+		12092D8026917BDF00EE5908 /* I honor my body by trusting the signals that it sends me..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4326917BDE00EE5908 /* I honor my body by trusting the signals that it sends me..mp3 */; };
+		12092D8126917BDF00EE5908 /* My actions create constant prosperity..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4426917BDE00EE5908 /* My actions create constant prosperity..mp3 */; };
+		12092D8226917BDF00EE5908 /* I have the freedom & power to create the life I desire..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4526917BDE00EE5908 /* I have the freedom & power to create the life I desire..mp3 */; };
+		12092D8326917BDF00EE5908 /* I give out love and it is returned to me multiplied manyfold..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4626917BDE00EE5908 /* I give out love and it is returned to me multiplied manyfold..mp3 */; };
+		12092D8426917BDF00EE5908 /* I am enough..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4726917BDE00EE5908 /* I am enough..mp3 */; };
+		12092D8526917BDF00EE5908 /* I am in a loving and supportive relationship..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4826917BDE00EE5908 /* I am in a loving and supportive relationship..mp3 */; };
+		12092D8626917BDF00EE5908 /* I am open and receptive to all the wealth life offers me..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4926917BDE00EE5908 /* I am open and receptive to all the wealth life offers me..mp3 */; };
+		12092D8726917BDF00EE5908 /* I am worthy of making more money..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4A26917BDE00EE5908 /* I am worthy of making more money..mp3 */; };
+		12092D8826917BDF00EE5908 /* I am in the process of becoming the best version of myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4B26917BDE00EE5908 /* I am in the process of becoming the best version of myself.mp3 */; };
+		12092D8926917BDF00EE5908 /* I am deeply fulfilled by what I do..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4C26917BDE00EE5908 /* I am deeply fulfilled by what I do..mp3 */; };
+		12092D8A26917BDF00EE5908 /* I manifest perfect health by making smart choices..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4D26917BDE00EE5908 /* I manifest perfect health by making smart choices..mp3 */; };
+		12092D8B26917BDF00EE5908 /* I deserve love and I get it in abundance..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4E26917BDE00EE5908 /* I deserve love and I get it in abundance..mp3 */; };
+		12092D8C26917BDF00EE5908 /* Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D4F26917BDE00EE5908 /* Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3 */; };
+		12092D8D26917BDF00EE5908 /* Good things are happening..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5026917BDE00EE5908 /* Good things are happening..mp3 */; };
+		12092D8E26917BDF00EE5908 /* I am full of energy and vitality and my mind is calm and peaceful..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5126917BDE00EE5908 /* I am full of energy and vitality and my mind is calm and peaceful..mp3 */; };
+		12092D8F26917BDF00EE5908 /* I am loved, loving and lovable..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5226917BDE00EE5908 /* I am loved, loving and lovable..mp3 */; };
+		12092D9026917BDF00EE5908 /* Every day I am getting healthier and stronger..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5326917BDE00EE5908 /* Every day I am getting healthier and stronger..mp3 */; };
+		12092D9126917BDF00EE5908 /* I welcome love and romance into my life..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5426917BDE00EE5908 /* I welcome love and romance into my life..mp3 */; };
+		12092D9226917BDF00EE5908 /* I forgive myself and set myself free..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5526917BDE00EE5908 /* I forgive myself and set myself free..mp3 */; };
+		12092D9326917BDF00EE5908 /* Money comes to me easily and effortlessly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D5626917BDE00EE5908 /* Money comes to me easily and effortlessly.mp3 */; };
+		12092DC826917BF900EE5908 /* I am worthy of the career success I desire..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9626917BF900EE5908 /* I am worthy of the career success I desire..mp3 */; };
+		12092DC926917BF900EE5908 /* My dream job is on its way to me right now..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9726917BF900EE5908 /* My dream job is on its way to me right now..mp3 */; };
+		12092DCA26917BF900EE5908 /* I am confident and calm in interviews..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9826917BF900EE5908 /* I am confident and calm in interviews..mp3 */; };
+		12092DCB26917BF900EE5908 /* It’s my time and I’m ready for the next step in my career..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9926917BF900EE5908 /* It’s my time and I’m ready for the next step in my career..mp3 */; };
+		12092DCC26917BF900EE5908 /* I am creating my career success..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9A26917BF900EE5908 /* I am creating my career success..mp3 */; };
+		12092DCD26917BF900EE5908 /* I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9C26917BF900EE5908 /* I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3 */; };
+		12092DCE26917BF900EE5908 /* The resources I need are becoming available to help me achieve my goals..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9D26917BF900EE5908 /* The resources I need are becoming available to help me achieve my goals..mp3 */; };
+		12092DCF26917BF900EE5908 /* I am willing to devote time and energy toward my goals. They are a priority in my life..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9E26917BF900EE5908 /* I am willing to devote time and energy toward my goals. They are a priority in my life..mp3 */; };
+		12092DD026917BF900EE5908 /* The path toward my goal is clear..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092D9F26917BF900EE5908 /* The path toward my goal is clear..mp3 */; };
+		12092DD126917BF900EE5908 /* I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA026917BF900EE5908 /* I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3 */; };
+		12092DD226917BF900EE5908 /* I eat a variety of foods for my health, wellness and enjoyment..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA226917BF900EE5908 /* I eat a variety of foods for my health, wellness and enjoyment..mp3 */; };
+		12092DD326917BF900EE5908 /* My body deserves love and respect..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA326917BF900EE5908 /* My body deserves love and respect..mp3 */; };
+		12092DD426917BF900EE5908 /* I am perfect, whole, and complete just the way I am..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA426917BF900EE5908 /* I am perfect, whole, and complete just the way I am..mp3 */; };
+		12092DD526917BF900EE5908 /* I love my body and I love myself..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA526917BF900EE5908 /* I love my body and I love myself..mp3 */; };
+		12092DD626917BF900EE5908 /* I take care of my body and my body takes care of me..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA626917BF900EE5908 /* I take care of my body and my body takes care of me..mp3 */; };
+		12092DD726917BF900EE5908 /* I create wonderful business opportunities..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA826917BF900EE5908 /* I create wonderful business opportunities..mp3 */; };
+		12092DD826917BF900EE5908 /* My business allows me to have a life I love..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DA926917BF900EE5908 /* My business allows me to have a life I love..mp3 */; };
+		12092DD926917BF900EE5908 /* My business is a huge success..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DAA26917BF900EE5908 /* My business is a huge success..mp3 */; };
+		12092DDA26917BF900EE5908 /* I am passionate about my business and that shows in everything I do..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DAB26917BF900EE5908 /* I am passionate about my business and that shows in everything I do..mp3 */; };
+		12092DDB26917BF900EE5908 /* My business dreams are constantly manifesting..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DAC26917BF900EE5908 /* My business dreams are constantly manifesting..mp3 */; };
+		12092DDC26917BF900EE5908 /* I’m energized in my business..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DAD26917BF900EE5908 /* I’m energized in my business..mp3 */; };
+		12092DDD26917BF900EE5908 /* Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB026917BF900EE5908 /* Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3 */; };
+		12092DDE26917BF900EE5908 /* Я люблю каждую частичку своего тела..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB126917BF900EE5908 /* Я люблю каждую частичку своего тела..mp3 */; };
+		12092DDF26917BF900EE5908 /* Я люблю свое тело..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB226917BF900EE5908 /* Я люблю свое тело..mp3 */; };
+		12092DE026917BF900EE5908 /* Мое тело заслуживает любви и уважения..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB326917BF900EE5908 /* Мое тело заслуживает любви и уважения..mp3 */; };
+		12092DE126917BF900EE5908 /* У меня прекрасная фигура и здоровое тело.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB426917BF900EE5908 /* У меня прекрасная фигура и здоровое тело.mp3 */; };
+		12092DE226917BF900EE5908 /* Я могу добиться любой цели!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB626917BF900EE5908 /* Я могу добиться любой цели!.mp3 */; };
+		12092DE326917BF900EE5908 /* Я сразу приступаю к решению важнейших задач!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB726917BF900EE5908 /* Я сразу приступаю к решению важнейших задач!.mp3 */; };
+		12092DE426917BF900EE5908 /* Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB826917BF900EE5908 /* Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3 */; };
+		12092DE526917BF900EE5908 /* Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DB926917BF900EE5908 /* Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3 */; };
+		12092DE626917BF900EE5908 /* Я немедленно берусь за дело и довожу его до конца!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DBA26917BF900EE5908 /* Я немедленно берусь за дело и довожу его до конца!.mp3 */; };
+		12092DE726917BF900EE5908 /* Мой бизнес растет именно так, как я хочу..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DBC26917BF900EE5908 /* Мой бизнес растет именно так, как я хочу..mp3 */; };
+		12092DE826917BF900EE5908 /* Мой бизнес делает меня и других людей счастливыми..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DBD26917BF900EE5908 /* Мой бизнес делает меня и других людей счастливыми..mp3 */; };
+		12092DE926917BF900EE5908 /* У меня большой бизнес, который растет с каждым днем..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DBE26917BF900EE5908 /* У меня большой бизнес, который растет с каждым днем..mp3 */; };
+		12092DEA26917BF900EE5908 /* Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DBF26917BF900EE5908 /* Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3 */; };
+		12092DEB26917BF900EE5908 /* Я имею процветающий бизнес..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC026917BF900EE5908 /* Я имею процветающий бизнес..mp3 */; };
+		12092DEC26917BF900EE5908 /* Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC126917BF900EE5908 /* Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3 */; };
+		12092DED26917BF900EE5908 /* Я достигаю успеха в карьере..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC326917BF900EE5908 /* Я достигаю успеха в карьере..mp3 */; };
+		12092DEE26917BF900EE5908 /* Я чувствую себя комфортно и спокойно на собеседованиях..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC426917BF900EE5908 /* Я чувствую себя комфортно и спокойно на собеседованиях..mp3 */; };
+		12092DEF26917BF900EE5908 /* Я иду навстречу к работе моей мечты..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC526917BF900EE5908 /* Я иду навстречу к работе моей мечты..mp3 */; };
+		12092DF026917BF900EE5908 /* Моя работа приносит удовлетворение и радость самореализации..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC626917BF900EE5908 /* Моя работа приносит удовлетворение и радость самореализации..mp3 */; };
+		12092DF126917BF900EE5908 /* Я осознаю что пришло время для следующей ступени в моей карьере..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12092DC726917BF900EE5908 /* Я осознаю что пришло время для следующей ступени в моей карьере..mp3 */; };
+		123DEC2E265D5C5600B1B6CB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123DEC2D265D5C5600B1B6CB /* StoreKit.framework */; };
+		126F92DE264E207000183FE6 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92DD264E207000183FE6 /* GradientBackground.swift */; };
+		126F92E2264E3EB800183FE6 /* gong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 126F92E1264E3EB800183FE6 /* gong.wav */; };
+		126F9305265169E100183FE6 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92EB265169E100183FE6 /* ClassicSparkTrajectoryFactoryProtocol.swift */; };
+		126F9306265169E100183FE6 /* ClassicFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92EC265169E100183FE6 /* ClassicFireworkController.swift */; };
+		126F9307265169E100183FE6 /* ClassicSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92ED265169E100183FE6 /* ClassicSparkTrajectoryFactory.swift */; };
+		126F9308265169E100183FE6 /* ClassicFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92EE265169E100183FE6 /* ClassicFireworkAnimator.swift */; };
+		126F9309265169E100183FE6 /* ClassicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92EF265169E100183FE6 /* ClassicFirework.swift */; };
+		126F930A265169E100183FE6 /* FountainFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F1265169E100183FE6 /* FountainFirework.swift */; };
+		126F930B265169E100183FE6 /* FountainFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F2265169E100183FE6 /* FountainFireworkAnimator.swift */; };
+		126F930C265169E100183FE6 /* FountainFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F3265169E100183FE6 /* FountainFireworkController.swift */; };
+		126F930D265169E100183FE6 /* FountainSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F4265169E100183FE6 /* FountainSparkTrajectoryFactory.swift */; };
+		126F930E265169E100183FE6 /* ImageSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F6265169E100183FE6 /* ImageSparkViewFactory.swift */; };
+		126F930F265169E100183FE6 /* CircleColorSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F7265169E100183FE6 /* CircleColorSparkViewFactory.swift */; };
+		126F9310265169E100183FE6 /* CircleColorSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F8265169E100183FE6 /* CircleColorSparkView.swift */; };
+		126F9311265169E100183FE6 /* ImageSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92F9265169E100183FE6 /* ImageSparkView.swift */; };
+		126F9312265169E100183FE6 /* SparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92FB265169E100183FE6 /* SparkTrajectory.swift */; };
+		126F9313265169E100183FE6 /* SparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92FC265169E100183FE6 /* SparkTrajectoryFactory.swift */; };
+		126F9314265169E100183FE6 /* FireworkSparkScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92FD265169E100183FE6 /* FireworkSparkScheduler.swift */; };
+		126F9315265169E100183FE6 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92FE265169E100183FE6 /* Firework.swift */; };
+		126F9316265169E100183FE6 /* SparkViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F92FF265169E100183FE6 /* SparkViewAnimator.swift */; };
+		126F9317265169E100183FE6 /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F9300265169E100183FE6 /* SparkView.swift */; };
+		126F9318265169E100183FE6 /* SparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F9301265169E100183FE6 /* SparkViewFactory.swift */; };
+		126F9319265169E100183FE6 /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F9302265169E100183FE6 /* FireworkSpark.swift */; };
+		126F931A265169E100183FE6 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F9304265169E100183FE6 /* CGPoint+Extensions.swift */; };
+		126F931D2652238400183FE6 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F931C2652238400183FE6 /* Affirmations.swift */; };
+		126F9321265243B500183FE6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F9320265243B500183FE6 /* NotificationsViewController.swift */; };
+		126F93242652841600183FE6 /* NewNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F93232652841600183FE6 /* NewNotificationViewController.swift */; };
+		126F93272654319500183FE6 /* AffirmNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F93262654319500183FE6 /* AffirmNotification.swift */; };
+		126F932A26550ECB00183FE6 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F932926550ECB00183FE6 /* NotificationViewCell.swift */; };
 		12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */; };
 		12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */; };
 		12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */; };
@@ -21,12 +154,9 @@
 		12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */; };
 		12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */; };
 		12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8A48126342FA20007EEA5 /* Affirmation.swift */; };
+		12CF14D82662145E00E24E39 /* AffirmationCatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF14D72662145E00E24E39 /* AffirmationCatViewCell.swift */; };
 		12E44523264A3DB900850A70 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44522264A3DB900850A70 /* PlayListViewController.swift */; };
 		12E44526264A3F3E00850A70 /* PlayListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44525264A3F3E00850A70 /* PlayListViewCell.swift */; };
-		12E4452D264A625300850A70 /* I am worthy of making more money..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E44529264A625300850A70 /* I am worthy of making more money..m4a */; };
-		12E4452E264A625400850A70 /* Money comes to me easily and effortlessly.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */; };
-		12E4452F264A625400850A70 /* I am open and receptive to all the wealth life offers me..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */; };
-		12E44530264A625400850A70 /* I constantly attract opportunities that create more money..m4a in Resources */ = {isa = PBXBuildFile; fileRef = 12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */; };
 		12E44533264A68DE00850A70 /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12E44532264A68DE00850A70 /* meditation.mp3 */; };
 		12E44537264B96F600850A70 /* ListImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */; };
 		12E4453A264B98E600850A70 /* ListImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44539264B98E600850A70 /* ListImageViewCell.swift */; };
@@ -37,13 +167,198 @@
 		12E4454F264C578C00850A70 /* LandscapeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4454E264C578B00850A70 /* LandscapeManager.swift */; };
 		12E44553264C582200850A70 /* ConciergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44552264C582200850A70 /* ConciergeViewController.swift */; };
 		12E44557264C586B00850A70 /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E44556264C586B00850A70 /* Storyboard+Ext.swift */; };
+		12EF8F4C265A124C00FDC2E5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF8F4B265A124C00FDC2E5 /* WidgetKit.framework */; };
+		12EF8F4E265A124C00FDC2E5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF8F4D265A124C00FDC2E5 /* SwiftUI.framework */; };
+		12EF8F51265A124C00FDC2E5 /* AffirmWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F50265A124C00FDC2E5 /* AffirmWidget.swift */; };
+		12EF8F54265A124E00FDC2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EF8F53265A124E00FDC2E5 /* Assets.xcassets */; };
+		12EF8F56265A124E00FDC2E5 /* AffirmWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F52265A124C00FDC2E5 /* AffirmWidget.intentdefinition */; };
+		12EF8F57265A124E00FDC2E5 /* AffirmWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F52265A124C00FDC2E5 /* AffirmWidget.intentdefinition */; };
+		12EF8F5A265A124E00FDC2E5 /* AffirmWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12EF8F4A265A124C00FDC2E5 /* AffirmWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12EF8F62265A18B000FDC2E5 /* AffirmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F61265A18B000FDC2E5 /* AffirmProvider.swift */; };
+		12EF8F63265A18B000FDC2E5 /* AffirmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F61265A18B000FDC2E5 /* AffirmProvider.swift */; };
+		12EF8F67265A230200FDC2E5 /* WidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F66265A230200FDC2E5 /* WidgetContent.swift */; };
+		12EF8F68265A230200FDC2E5 /* WidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F66265A230200FDC2E5 /* WidgetContent.swift */; };
+		12EF8F6C265A238D00FDC2E5 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F6B265A238D00FDC2E5 /* EntryView.swift */; };
+		12EF8F6D265A238D00FDC2E5 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F6B265A238D00FDC2E5 /* EntryView.swift */; };
+		12EF8F7E265A2F2B00FDC2E5 /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F7D265A2F2B00FDC2E5 /* FileManager+Ext.swift */; };
+		12EF8F7F265A2F2B00FDC2E5 /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F7D265A2F2B00FDC2E5 /* FileManager+Ext.swift */; };
+		12EF8F89265BAA0600FDC2E5 /* DefaultWidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F88265BAA0600FDC2E5 /* DefaultWidgetContent.swift */; };
+		12EF8F8A265BAA0600FDC2E5 /* DefaultWidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F88265BAA0600FDC2E5 /* DefaultWidgetContent.swift */; };
+		12EF8F8E265BB13E00FDC2E5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F8D265BB13D00FDC2E5 /* DataManager.swift */; };
+		12EF8F96265C8D0400FDC2E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF8F95265C8D0400FDC2E5 /* SettingsViewController.swift */; };
+		12F6B4BA2666531000374F89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12F6B4BC2666531000374F89 /* Localizable.strings */; };
+		12F6B4FB2668A94600374F89 /* SubscriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F6B4FA2668A94500374F89 /* SubscriptionView.xib */; };
+		12F6B4FD2668AA9D00374F89 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6B4FC2668AA9D00374F89 /* SubscriptionView.swift */; };
+		12F6B4FF2672798800374F89 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6B4FE2672798700374F89 /* IAPManager.swift */; };
+		12F6B50126752D5700374F89 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6B50026752D5600374F89 /* IAPProduct.swift */; };
+		12F6B50426772C7400374F89 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 12F6B50326772C6400374F89 /* AppleIncRootCertificate.cer */; };
+		12F6B50B2677B9AB00374F89 /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 12F6B5092677B9AA00374F89 /* pkcs7_union_accessors.c */; };
+		12F6B50D2677B9C000374F89 /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6B50C2677B9C000374F89 /* ReceiptValidator.swift */; };
 		12FCB37126463C87005D49F6 /* AffirmViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37026463C87005D49F6 /* AffirmViewCell.swift */; };
 		12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */; };
 		12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */; };
-		C8B46A68C996F5CED4D00597 /* Pods_Affirmatio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */; };
+		AA2D94196E731AC43548FB4C /* Pods_Affirmatio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770CA68ADE2BE74B7922C060 /* Pods_Affirmatio.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		12EF8F58265A124E00FDC2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B8A4432631848A0007EEA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EF8F49265A124C00FDC2E5;
+			remoteInfo = AffirmWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12EF8F5B265A124E00FDC2E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12EF8F5A265A124E00FDC2E5 /* AffirmWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12092D1926917BDE00EE5908 /* Я нахожу нужного мне человека. Между нами любовь и страсть..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я нахожу нужного мне человека. Между нами любовь и страсть..mp3"; sourceTree = "<group>"; };
+		12092D1A26917BDE00EE5908 /* Я верю в себя. Моя вера с каждым днём укрепляется..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я верю в себя. Моя вера с каждым днём укрепляется..mp3"; sourceTree = "<group>"; };
+		12092D1B26917BDE00EE5908 /* Я открываю свое сердце для любви..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я открываю свое сердце для любви..mp3"; sourceTree = "<group>"; };
+		12092D1C26917BDE00EE5908 /* У меня отличное здоровье..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "У меня отличное здоровье..mp3"; sourceTree = "<group>"; };
+		12092D1D26917BDE00EE5908 /* Счастье - моя вторая натура..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Счастье - моя вторая натура..mp3"; sourceTree = "<group>"; };
+		12092D1E26917BDE00EE5908 /* Я ощущаю уверенность и безопасность, обладая деньгами..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я ощущаю уверенность и безопасность, обладая деньгами..mp3"; sourceTree = "<group>"; };
+		12092D1F26917BDE00EE5908 /* Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3"; sourceTree = "<group>"; };
+		12092D2026917BDE00EE5908 /* Я излучаю любовь. И она возвращается ко мне..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я излучаю любовь. И она возвращается ко мне..mp3"; sourceTree = "<group>"; };
+		12092D2126917BDE00EE5908 /* Я богатый человек..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я богатый человек..mp3"; sourceTree = "<group>"; };
+		12092D2226917BDE00EE5908 /* Я в гармонии с собой и со всеми окружающими меня людьми..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я в гармонии с собой и со всеми окружающими меня людьми..mp3"; sourceTree = "<group>"; };
+		12092D2326917BDE00EE5908 /* В моей жизни происходят хорошие вещи..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "В моей жизни происходят хорошие вещи..mp3"; sourceTree = "<group>"; };
+		12092D2426917BDE00EE5908 /* Я всегда получаю то, что хочу..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я всегда получаю то, что хочу..mp3"; sourceTree = "<group>"; };
+		12092D2526917BDE00EE5908 /* Сегодня лучший день в моей жизни..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Сегодня лучший день в моей жизни..mp3"; sourceTree = "<group>"; };
+		12092D2626917BDE00EE5908 /* Я принимаю и отдаю любовь легко и без усилий..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я принимаю и отдаю любовь легко и без усилий..mp3"; sourceTree = "<group>"; };
+		12092D2726917BDE00EE5908 /* Я магнит, притягивающий любовь в свою жизнь..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я магнит, притягивающий любовь в свою жизнь..mp3"; sourceTree = "<group>"; };
+		12092D2826917BDE00EE5908 /* Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3"; sourceTree = "<group>"; };
+		12092D2926917BDE00EE5908 /* Моя жизнь – это праздник..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Моя жизнь – это праздник..mp3"; sourceTree = "<group>"; };
+		12092D2A26917BDE00EE5908 /* С каждым днем я становлюсь сильнее и здоровее..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "С каждым днем я становлюсь сильнее и здоровее..mp3"; sourceTree = "<group>"; };
+		12092D2B26917BDE00EE5908 /* Деньги текут ко мне большим и стремительным потоком..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Деньги текут ко мне большим и стремительным потоком..mp3"; sourceTree = "<group>"; };
+		12092D2C26917BDE00EE5908 /* Все что я делаю приближает меня к моим целям.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Все что я делаю приближает меня к моим целям.mp3"; sourceTree = "<group>"; };
+		12092D2D26917BDE00EE5908 /* Я открываюсь потоку изобилия..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я открываюсь потоку изобилия..mp3"; sourceTree = "<group>"; };
+		12092D2E26917BDE00EE5908 /* Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3"; sourceTree = "<group>"; };
+		12092D2F26917BDE00EE5908 /* Я позволяю себе любить. Это безопасно..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я позволяю себе любить. Это безопасно..mp3"; sourceTree = "<group>"; };
+		12092D3026917BDE00EE5908 /* Мне всегда сопутствует удача..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мне всегда сопутствует удача..mp3"; sourceTree = "<group>"; };
+		12092D3126917BDE00EE5908 /* Мои возможности бесконечны..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мои возможности бесконечны..mp3"; sourceTree = "<group>"; };
+		12092D3226917BDE00EE5908 /* Я впускаю в свою жизнь прекрасные отношения..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я впускаю в свою жизнь прекрасные отношения..mp3"; sourceTree = "<group>"; };
+		12092D3326917BDE00EE5908 /* Для меня радость и удовольствие прожить еще один прекрасный день..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Для меня радость и удовольствие прожить еще один прекрасный день..mp3"; sourceTree = "<group>"; };
+		12092D3426917BDE00EE5908 /* Я добиваюсь успеха в каждом своём начинании..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я добиваюсь успеха в каждом своём начинании..mp3"; sourceTree = "<group>"; };
+		12092D3526917BDE00EE5908 /* частье - мое неотъемлемое право. Я заслуживаю счастья..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "частье - мое неотъемлемое право. Я заслуживаю счастья..mp3"; sourceTree = "<group>"; };
+		12092D3626917BDE00EE5908 /* Я люблю деньги и отношусь к ним, как к своим друзьям..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я люблю деньги и отношусь к ним, как к своим друзьям..mp3"; sourceTree = "<group>"; };
+		12092D3826917BDE00EE5908 /* I believe I can be all that I want to be..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I believe I can be all that I want to be..mp3"; sourceTree = "<group>"; };
+		12092D3926917BDE00EE5908 /* My possibilities are endless..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My possibilities are endless..mp3"; sourceTree = "<group>"; };
+		12092D3A26917BDE00EE5908 /* I deserve to be healthy and feel good..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I deserve to be healthy and feel good..mp3"; sourceTree = "<group>"; };
+		12092D3B26917BDE00EE5908 /* I am blessed with an incredible family and wonderful friends..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am blessed with an incredible family and wonderful friends..mp3"; sourceTree = "<group>"; };
+		12092D3C26917BDE00EE5908 /* I am full of positive loving energy..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am full of positive loving energy..mp3"; sourceTree = "<group>"; };
+		12092D3D26917BDE00EE5908 /* I constantly attract opportunities that create more money..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I constantly attract opportunities that create more money..mp3"; sourceTree = "<group>"; };
+		12092D3E26917BDE00EE5908 /* I am worthy of my dreams..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am worthy of my dreams..mp3"; sourceTree = "<group>"; };
+		12092D3F26917BDE00EE5908 /* I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3"; sourceTree = "<group>"; };
+		12092D4026917BDE00EE5908 /* Being happy comes easy to me. Happiness is my second nature..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Being happy comes easy to me. Happiness is my second nature..mp3"; sourceTree = "<group>"; };
+		12092D4126917BDE00EE5908 /* I choose to be kind to myself and love myself unconditionally..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I choose to be kind to myself and love myself unconditionally..mp3"; sourceTree = "<group>"; };
+		12092D4226917BDE00EE5908 /* Money and spirituality can co-exist in harmony..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Money and spirituality can co-exist in harmony..mp3"; sourceTree = "<group>"; };
+		12092D4326917BDE00EE5908 /* I honor my body by trusting the signals that it sends me..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I honor my body by trusting the signals that it sends me..mp3"; sourceTree = "<group>"; };
+		12092D4426917BDE00EE5908 /* My actions create constant prosperity..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My actions create constant prosperity..mp3"; sourceTree = "<group>"; };
+		12092D4526917BDE00EE5908 /* I have the freedom & power to create the life I desire..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I have the freedom & power to create the life I desire..mp3"; sourceTree = "<group>"; };
+		12092D4626917BDE00EE5908 /* I give out love and it is returned to me multiplied manyfold..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I give out love and it is returned to me multiplied manyfold..mp3"; sourceTree = "<group>"; };
+		12092D4726917BDE00EE5908 /* I am enough..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am enough..mp3"; sourceTree = "<group>"; };
+		12092D4826917BDE00EE5908 /* I am in a loving and supportive relationship..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am in a loving and supportive relationship..mp3"; sourceTree = "<group>"; };
+		12092D4926917BDE00EE5908 /* I am open and receptive to all the wealth life offers me..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am open and receptive to all the wealth life offers me..mp3"; sourceTree = "<group>"; };
+		12092D4A26917BDE00EE5908 /* I am worthy of making more money..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am worthy of making more money..mp3"; sourceTree = "<group>"; };
+		12092D4B26917BDE00EE5908 /* I am in the process of becoming the best version of myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am in the process of becoming the best version of myself.mp3"; sourceTree = "<group>"; };
+		12092D4C26917BDE00EE5908 /* I am deeply fulfilled by what I do..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am deeply fulfilled by what I do..mp3"; sourceTree = "<group>"; };
+		12092D4D26917BDE00EE5908 /* I manifest perfect health by making smart choices..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I manifest perfect health by making smart choices..mp3"; sourceTree = "<group>"; };
+		12092D4E26917BDE00EE5908 /* I deserve love and I get it in abundance..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I deserve love and I get it in abundance..mp3"; sourceTree = "<group>"; };
+		12092D4F26917BDE00EE5908 /* Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3"; sourceTree = "<group>"; };
+		12092D5026917BDE00EE5908 /* Good things are happening..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Good things are happening..mp3"; sourceTree = "<group>"; };
+		12092D5126917BDE00EE5908 /* I am full of energy and vitality and my mind is calm and peaceful..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am full of energy and vitality and my mind is calm and peaceful..mp3"; sourceTree = "<group>"; };
+		12092D5226917BDE00EE5908 /* I am loved, loving and lovable..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am loved, loving and lovable..mp3"; sourceTree = "<group>"; };
+		12092D5326917BDE00EE5908 /* Every day I am getting healthier and stronger..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Every day I am getting healthier and stronger..mp3"; sourceTree = "<group>"; };
+		12092D5426917BDE00EE5908 /* I welcome love and romance into my life..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I welcome love and romance into my life..mp3"; sourceTree = "<group>"; };
+		12092D5526917BDE00EE5908 /* I forgive myself and set myself free..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I forgive myself and set myself free..mp3"; sourceTree = "<group>"; };
+		12092D5626917BDE00EE5908 /* Money comes to me easily and effortlessly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Money comes to me easily and effortlessly.mp3"; sourceTree = "<group>"; };
+		12092D9626917BF900EE5908 /* I am worthy of the career success I desire..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am worthy of the career success I desire..mp3"; sourceTree = "<group>"; };
+		12092D9726917BF900EE5908 /* My dream job is on its way to me right now..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My dream job is on its way to me right now..mp3"; sourceTree = "<group>"; };
+		12092D9826917BF900EE5908 /* I am confident and calm in interviews..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am confident and calm in interviews..mp3"; sourceTree = "<group>"; };
+		12092D9926917BF900EE5908 /* It’s my time and I’m ready for the next step in my career..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "It’s my time and I’m ready for the next step in my career..mp3"; sourceTree = "<group>"; };
+		12092D9A26917BF900EE5908 /* I am creating my career success..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am creating my career success..mp3"; sourceTree = "<group>"; };
+		12092D9C26917BF900EE5908 /* I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3"; sourceTree = "<group>"; };
+		12092D9D26917BF900EE5908 /* The resources I need are becoming available to help me achieve my goals..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The resources I need are becoming available to help me achieve my goals..mp3"; sourceTree = "<group>"; };
+		12092D9E26917BF900EE5908 /* I am willing to devote time and energy toward my goals. They are a priority in my life..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am willing to devote time and energy toward my goals. They are a priority in my life..mp3"; sourceTree = "<group>"; };
+		12092D9F26917BF900EE5908 /* The path toward my goal is clear..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The path toward my goal is clear..mp3"; sourceTree = "<group>"; };
+		12092DA026917BF900EE5908 /* I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3"; sourceTree = "<group>"; };
+		12092DA226917BF900EE5908 /* I eat a variety of foods for my health, wellness and enjoyment..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I eat a variety of foods for my health, wellness and enjoyment..mp3"; sourceTree = "<group>"; };
+		12092DA326917BF900EE5908 /* My body deserves love and respect..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My body deserves love and respect..mp3"; sourceTree = "<group>"; };
+		12092DA426917BF900EE5908 /* I am perfect, whole, and complete just the way I am..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am perfect, whole, and complete just the way I am..mp3"; sourceTree = "<group>"; };
+		12092DA526917BF900EE5908 /* I love my body and I love myself..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I love my body and I love myself..mp3"; sourceTree = "<group>"; };
+		12092DA626917BF900EE5908 /* I take care of my body and my body takes care of me..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I take care of my body and my body takes care of me..mp3"; sourceTree = "<group>"; };
+		12092DA826917BF900EE5908 /* I create wonderful business opportunities..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I create wonderful business opportunities..mp3"; sourceTree = "<group>"; };
+		12092DA926917BF900EE5908 /* My business allows me to have a life I love..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My business allows me to have a life I love..mp3"; sourceTree = "<group>"; };
+		12092DAA26917BF900EE5908 /* My business is a huge success..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My business is a huge success..mp3"; sourceTree = "<group>"; };
+		12092DAB26917BF900EE5908 /* I am passionate about my business and that shows in everything I do..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I am passionate about my business and that shows in everything I do..mp3"; sourceTree = "<group>"; };
+		12092DAC26917BF900EE5908 /* My business dreams are constantly manifesting..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My business dreams are constantly manifesting..mp3"; sourceTree = "<group>"; };
+		12092DAD26917BF900EE5908 /* I’m energized in my business..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I’m energized in my business..mp3"; sourceTree = "<group>"; };
+		12092DB026917BF900EE5908 /* Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3"; sourceTree = "<group>"; };
+		12092DB126917BF900EE5908 /* Я люблю каждую частичку своего тела..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я люблю каждую частичку своего тела..mp3"; sourceTree = "<group>"; };
+		12092DB226917BF900EE5908 /* Я люблю свое тело..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я люблю свое тело..mp3"; sourceTree = "<group>"; };
+		12092DB326917BF900EE5908 /* Мое тело заслуживает любви и уважения..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мое тело заслуживает любви и уважения..mp3"; sourceTree = "<group>"; };
+		12092DB426917BF900EE5908 /* У меня прекрасная фигура и здоровое тело.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "У меня прекрасная фигура и здоровое тело.mp3"; sourceTree = "<group>"; };
+		12092DB626917BF900EE5908 /* Я могу добиться любой цели!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я могу добиться любой цели!.mp3"; sourceTree = "<group>"; };
+		12092DB726917BF900EE5908 /* Я сразу приступаю к решению важнейших задач!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я сразу приступаю к решению важнейших задач!.mp3"; sourceTree = "<group>"; };
+		12092DB826917BF900EE5908 /* Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3"; sourceTree = "<group>"; };
+		12092DB926917BF900EE5908 /* Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3"; sourceTree = "<group>"; };
+		12092DBA26917BF900EE5908 /* Я немедленно берусь за дело и довожу его до конца!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я немедленно берусь за дело и довожу его до конца!.mp3"; sourceTree = "<group>"; };
+		12092DBC26917BF900EE5908 /* Мой бизнес растет именно так, как я хочу..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мой бизнес растет именно так, как я хочу..mp3"; sourceTree = "<group>"; };
+		12092DBD26917BF900EE5908 /* Мой бизнес делает меня и других людей счастливыми..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мой бизнес делает меня и других людей счастливыми..mp3"; sourceTree = "<group>"; };
+		12092DBE26917BF900EE5908 /* У меня большой бизнес, который растет с каждым днем..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "У меня большой бизнес, который растет с каждым днем..mp3"; sourceTree = "<group>"; };
+		12092DBF26917BF900EE5908 /* Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3"; sourceTree = "<group>"; };
+		12092DC026917BF900EE5908 /* Я имею процветающий бизнес..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я имею процветающий бизнес..mp3"; sourceTree = "<group>"; };
+		12092DC126917BF900EE5908 /* Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3"; sourceTree = "<group>"; };
+		12092DC326917BF900EE5908 /* Я достигаю успеха в карьере..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я достигаю успеха в карьере..mp3"; sourceTree = "<group>"; };
+		12092DC426917BF900EE5908 /* Я чувствую себя комфортно и спокойно на собеседованиях..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я чувствую себя комфортно и спокойно на собеседованиях..mp3"; sourceTree = "<group>"; };
+		12092DC526917BF900EE5908 /* Я иду навстречу к работе моей мечты..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я иду навстречу к работе моей мечты..mp3"; sourceTree = "<group>"; };
+		12092DC626917BF900EE5908 /* Моя работа приносит удовлетворение и радость самореализации..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Моя работа приносит удовлетворение и радость самореализации..mp3"; sourceTree = "<group>"; };
+		12092DC726917BF900EE5908 /* Я осознаю что пришло время для следующей ступени в моей карьере..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Я осознаю что пришло время для следующей ступени в моей карьере..mp3"; sourceTree = "<group>"; };
+		12092DF3269192FC00EE5908 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		123DEC2D265D5C5600B1B6CB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		126F92DD264E207000183FE6 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		126F92E1264E3EB800183FE6 /* gong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gong.wav; sourceTree = "<group>"; };
+		126F92EB265169E100183FE6 /* ClassicSparkTrajectoryFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactoryProtocol.swift; sourceTree = "<group>"; };
+		126F92EC265169E100183FE6 /* ClassicFireworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkController.swift; sourceTree = "<group>"; };
+		126F92ED265169E100183FE6 /* ClassicSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		126F92EE265169E100183FE6 /* ClassicFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkAnimator.swift; sourceTree = "<group>"; };
+		126F92EF265169E100183FE6 /* ClassicFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFirework.swift; sourceTree = "<group>"; };
+		126F92F1265169E100183FE6 /* FountainFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFirework.swift; sourceTree = "<group>"; };
+		126F92F2265169E100183FE6 /* FountainFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFireworkAnimator.swift; sourceTree = "<group>"; };
+		126F92F3265169E100183FE6 /* FountainFireworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFireworkController.swift; sourceTree = "<group>"; };
+		126F92F4265169E100183FE6 /* FountainSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		126F92F6265169E100183FE6 /* ImageSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkViewFactory.swift; sourceTree = "<group>"; };
+		126F92F7265169E100183FE6 /* CircleColorSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkViewFactory.swift; sourceTree = "<group>"; };
+		126F92F8265169E100183FE6 /* CircleColorSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkView.swift; sourceTree = "<group>"; };
+		126F92F9265169E100183FE6 /* ImageSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkView.swift; sourceTree = "<group>"; };
+		126F92FB265169E100183FE6 /* SparkTrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectory.swift; sourceTree = "<group>"; };
+		126F92FC265169E100183FE6 /* SparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		126F92FD265169E100183FE6 /* FireworkSparkScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSparkScheduler.swift; sourceTree = "<group>"; };
+		126F92FE265169E100183FE6 /* Firework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		126F92FF265169E100183FE6 /* SparkViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewAnimator.swift; sourceTree = "<group>"; };
+		126F9300265169E100183FE6 /* SparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		126F9301265169E100183FE6 /* SparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewFactory.swift; sourceTree = "<group>"; };
+		126F9302265169E100183FE6 /* FireworkSpark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
+		126F9304265169E100183FE6 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		126F931C2652238400183FE6 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
+		126F9320265243B500183FE6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		126F93232652841600183FE6 /* NewNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationViewController.swift; sourceTree = "<group>"; };
+		126F93262654319500183FE6 /* AffirmNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmNotification.swift; sourceTree = "<group>"; };
+		126F932926550ECB00183FE6 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
 		12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCategories.swift; sourceTree = "<group>"; };
 		12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
 		12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAffirmationViewController.swift; sourceTree = "<group>"; };
@@ -60,12 +375,9 @@
 		12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsList.swift; sourceTree = "<group>"; };
 		12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategory.swift; sourceTree = "<group>"; };
 		12B8A48126342FA20007EEA5 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
+		12CF14D72662145E00E24E39 /* AffirmationCatViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationCatViewCell.swift; sourceTree = "<group>"; };
 		12E44522264A3DB900850A70 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
 		12E44525264A3F3E00850A70 /* PlayListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewCell.swift; sourceTree = "<group>"; };
-		12E44529264A625300850A70 /* I am worthy of making more money..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am worthy of making more money..m4a"; sourceTree = "<group>"; };
-		12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Money comes to me easily and effortlessly.m4a"; sourceTree = "<group>"; };
-		12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am open and receptive to all the wealth life offers me..m4a"; sourceTree = "<group>"; };
-		12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I constantly attract opportunities that create more money..m4a"; sourceTree = "<group>"; };
 		12E44532264A68DE00850A70 /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
 		12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageSelectionViewController.swift; sourceTree = "<group>"; };
 		12E44539264B98E600850A70 /* ListImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageViewCell.swift; sourceTree = "<group>"; };
@@ -76,12 +388,41 @@
 		12E4454E264C578B00850A70 /* LandscapeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeManager.swift; sourceTree = "<group>"; };
 		12E44552264C582200850A70 /* ConciergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciergeViewController.swift; sourceTree = "<group>"; };
 		12E44556264C586B00850A70 /* Storyboard+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
+		12EF8F4A265A124C00FDC2E5 /* AffirmWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AffirmWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EF8F4B265A124C00FDC2E5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		12EF8F4D265A124C00FDC2E5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		12EF8F50265A124C00FDC2E5 /* AffirmWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmWidget.swift; sourceTree = "<group>"; };
+		12EF8F52265A124C00FDC2E5 /* AffirmWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AffirmWidget.intentdefinition; sourceTree = "<group>"; };
+		12EF8F53265A124E00FDC2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12EF8F55265A124E00FDC2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EF8F61265A18B000FDC2E5 /* AffirmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmProvider.swift; sourceTree = "<group>"; };
+		12EF8F66265A230200FDC2E5 /* WidgetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetContent.swift; sourceTree = "<group>"; };
+		12EF8F6B265A238D00FDC2E5 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		12EF8F7D265A2F2B00FDC2E5 /* FileManager+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Ext.swift"; sourceTree = "<group>"; };
+		12EF8F82265AAD3A00FDC2E5 /* Affirmatio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Affirmatio.entitlements; sourceTree = "<group>"; };
+		12EF8F85265AAD6A00FDC2E5 /* AffirmWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AffirmWidgetExtension.entitlements; sourceTree = "<group>"; };
+		12EF8F88265BAA0600FDC2E5 /* DefaultWidgetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWidgetContent.swift; sourceTree = "<group>"; };
+		12EF8F8D265BB13D00FDC2E5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		12EF8F95265C8D0400FDC2E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		12F6B4B7266651A200374F89 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		12F6B4BB2666531000374F89 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12F6B4FA2668A94500374F89 /* SubscriptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscriptionView.xib; sourceTree = "<group>"; };
+		12F6B4FC2668AA9D00374F89 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		12F6B4FE2672798700374F89 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		12F6B50026752D5600374F89 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		12F6B50326772C6400374F89 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		12F6B506267787DF00374F89 /* Affirmatio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Affirmatio-Bridging-Header.h"; sourceTree = "<group>"; };
+		12F6B5092677B9AA00374F89 /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs7_union_accessors.c; sourceTree = "<group>"; };
+		12F6B50A2677B9AB00374F89 /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7_union_accessors.h; sourceTree = "<group>"; };
+		12F6B50C2677B9C000374F89 /* ReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptValidator.swift; sourceTree = "<group>"; };
 		12FCB37026463C87005D49F6 /* AffirmViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmViewCell.swift; sourceTree = "<group>"; };
 		12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsListViewController.swift; sourceTree = "<group>"; };
 		12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsCategoriesViewController.swift; sourceTree = "<group>"; };
-		14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.release.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.release.xcconfig"; sourceTree = "<group>"; };
-		DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.debug.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.debug.xcconfig"; sourceTree = "<group>"; };
-		F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E15224CFA163A978929B75A /* Pods-Affirmatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Affirmatio/Pods-Affirmatio.debug.xcconfig"; sourceTree = "<group>"; };
+		770CA68ADE2BE74B7922C060 /* Pods_Affirmatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4C883E0C443CACED6AC69F /* Pods-Affirmatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.debug.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.debug.xcconfig"; sourceTree = "<group>"; };
+		DD325A15F5200C34F1B3F821 /* Pods-Affirmatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Affirmatio/Pods-Affirmatio.release.xcconfig"; sourceTree = "<group>"; };
+		FD424F7C2651644A635438E2 /* Pods-Affirmatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmatio.release.xcconfig"; path = "Target Support Files/Pods-Affirmatio/Pods-Affirmatio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,17 +430,610 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B46A68C996F5CED4D00597 /* Pods_Affirmatio.framework in Frameworks */,
+				123DEC2E265D5C5600B1B6CB /* StoreKit.framework in Frameworks */,
+				AA2D94196E731AC43548FB4C /* Pods_Affirmatio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EF8F47265A124C00FDC2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EF8F4E265A124C00FDC2E5 /* SwiftUI.framework in Frameworks */,
+				12EF8F4C265A124C00FDC2E5 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12092D1826917BDE00EE5908 /* Affirmare_rus_affirms_c */ = {
+			isa = PBXGroup;
+			children = (
+				12092D1926917BDE00EE5908 /* Я нахожу нужного мне человека. Между нами любовь и страсть..mp3 */,
+				12092D1A26917BDE00EE5908 /* Я верю в себя. Моя вера с каждым днём укрепляется..mp3 */,
+				12092D1B26917BDE00EE5908 /* Я открываю свое сердце для любви..mp3 */,
+				12092D1C26917BDE00EE5908 /* У меня отличное здоровье..mp3 */,
+				12092D1D26917BDE00EE5908 /* Счастье - моя вторая натура..mp3 */,
+				12092D1E26917BDE00EE5908 /* Я ощущаю уверенность и безопасность, обладая деньгами..mp3 */,
+				12092D1F26917BDE00EE5908 /* Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3 */,
+				12092D2026917BDE00EE5908 /* Я излучаю любовь. И она возвращается ко мне..mp3 */,
+				12092D2126917BDE00EE5908 /* Я богатый человек..mp3 */,
+				12092D2226917BDE00EE5908 /* Я в гармонии с собой и со всеми окружающими меня людьми..mp3 */,
+				12092D2326917BDE00EE5908 /* В моей жизни происходят хорошие вещи..mp3 */,
+				12092D2426917BDE00EE5908 /* Я всегда получаю то, что хочу..mp3 */,
+				12092D2526917BDE00EE5908 /* Сегодня лучший день в моей жизни..mp3 */,
+				12092D2626917BDE00EE5908 /* Я принимаю и отдаю любовь легко и без усилий..mp3 */,
+				12092D2726917BDE00EE5908 /* Я магнит, притягивающий любовь в свою жизнь..mp3 */,
+				12092D2826917BDE00EE5908 /* Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3 */,
+				12092D2926917BDE00EE5908 /* Моя жизнь – это праздник..mp3 */,
+				12092D2A26917BDE00EE5908 /* С каждым днем я становлюсь сильнее и здоровее..mp3 */,
+				12092D2B26917BDE00EE5908 /* Деньги текут ко мне большим и стремительным потоком..mp3 */,
+				12092D2C26917BDE00EE5908 /* Все что я делаю приближает меня к моим целям.mp3 */,
+				12092D2D26917BDE00EE5908 /* Я открываюсь потоку изобилия..mp3 */,
+				12092D2E26917BDE00EE5908 /* Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3 */,
+				12092D2F26917BDE00EE5908 /* Я позволяю себе любить. Это безопасно..mp3 */,
+				12092D3026917BDE00EE5908 /* Мне всегда сопутствует удача..mp3 */,
+				12092D3126917BDE00EE5908 /* Мои возможности бесконечны..mp3 */,
+				12092D3226917BDE00EE5908 /* Я впускаю в свою жизнь прекрасные отношения..mp3 */,
+				12092D3326917BDE00EE5908 /* Для меня радость и удовольствие прожить еще один прекрасный день..mp3 */,
+				12092D3426917BDE00EE5908 /* Я добиваюсь успеха в каждом своём начинании..mp3 */,
+				12092D3526917BDE00EE5908 /* частье - мое неотъемлемое право. Я заслуживаю счастья..mp3 */,
+				12092D3626917BDE00EE5908 /* Я люблю деньги и отношусь к ним, как к своим друзьям..mp3 */,
+			);
+			path = Affirmare_rus_affirms_c;
+			sourceTree = "<group>";
+		};
+		12092D3726917BDE00EE5908 /* Affirmare_eng_affirms_c */ = {
+			isa = PBXGroup;
+			children = (
+				12092D3826917BDE00EE5908 /* I believe I can be all that I want to be..mp3 */,
+				12092D3926917BDE00EE5908 /* My possibilities are endless..mp3 */,
+				12092D3A26917BDE00EE5908 /* I deserve to be healthy and feel good..mp3 */,
+				12092D3B26917BDE00EE5908 /* I am blessed with an incredible family and wonderful friends..mp3 */,
+				12092D3C26917BDE00EE5908 /* I am full of positive loving energy..mp3 */,
+				12092D3D26917BDE00EE5908 /* I constantly attract opportunities that create more money..mp3 */,
+				12092D3E26917BDE00EE5908 /* I am worthy of my dreams..mp3 */,
+				12092D3F26917BDE00EE5908 /* I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3 */,
+				12092D4026917BDE00EE5908 /* Being happy comes easy to me. Happiness is my second nature..mp3 */,
+				12092D4126917BDE00EE5908 /* I choose to be kind to myself and love myself unconditionally..mp3 */,
+				12092D4226917BDE00EE5908 /* Money and spirituality can co-exist in harmony..mp3 */,
+				12092D4326917BDE00EE5908 /* I honor my body by trusting the signals that it sends me..mp3 */,
+				12092D4426917BDE00EE5908 /* My actions create constant prosperity..mp3 */,
+				12092D4526917BDE00EE5908 /* I have the freedom & power to create the life I desire..mp3 */,
+				12092D4626917BDE00EE5908 /* I give out love and it is returned to me multiplied manyfold..mp3 */,
+				12092D4726917BDE00EE5908 /* I am enough..mp3 */,
+				12092D4826917BDE00EE5908 /* I am in a loving and supportive relationship..mp3 */,
+				12092D4926917BDE00EE5908 /* I am open and receptive to all the wealth life offers me..mp3 */,
+				12092D4A26917BDE00EE5908 /* I am worthy of making more money..mp3 */,
+				12092D4B26917BDE00EE5908 /* I am in the process of becoming the best version of myself.mp3 */,
+				12092D4C26917BDE00EE5908 /* I am deeply fulfilled by what I do..mp3 */,
+				12092D4D26917BDE00EE5908 /* I manifest perfect health by making smart choices..mp3 */,
+				12092D4E26917BDE00EE5908 /* I deserve love and I get it in abundance..mp3 */,
+				12092D4F26917BDE00EE5908 /* Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3 */,
+				12092D5026917BDE00EE5908 /* Good things are happening..mp3 */,
+				12092D5126917BDE00EE5908 /* I am full of energy and vitality and my mind is calm and peaceful..mp3 */,
+				12092D5226917BDE00EE5908 /* I am loved, loving and lovable..mp3 */,
+				12092D5326917BDE00EE5908 /* Every day I am getting healthier and stronger..mp3 */,
+				12092D5426917BDE00EE5908 /* I welcome love and romance into my life..mp3 */,
+				12092D5526917BDE00EE5908 /* I forgive myself and set myself free..mp3 */,
+				12092D5626917BDE00EE5908 /* Money comes to me easily and effortlessly.mp3 */,
+			);
+			path = Affirmare_eng_affirms_c;
+			sourceTree = "<group>";
+		};
+		12092D9426917BF900EE5908 /* premium_affirms_eng */ = {
+			isa = PBXGroup;
+			children = (
+				12092D9526917BF900EE5908 /* career */,
+				12092D9B26917BF900EE5908 /* achieving goals */,
+				12092DA126917BF900EE5908 /* body */,
+				12092DA726917BF900EE5908 /* bisuness */,
+			);
+			path = premium_affirms_eng;
+			sourceTree = "<group>";
+		};
+		12092D9526917BF900EE5908 /* career */ = {
+			isa = PBXGroup;
+			children = (
+				12092D9626917BF900EE5908 /* I am worthy of the career success I desire..mp3 */,
+				12092D9726917BF900EE5908 /* My dream job is on its way to me right now..mp3 */,
+				12092D9826917BF900EE5908 /* I am confident and calm in interviews..mp3 */,
+				12092D9926917BF900EE5908 /* It’s my time and I’m ready for the next step in my career..mp3 */,
+				12092D9A26917BF900EE5908 /* I am creating my career success..mp3 */,
+			);
+			path = career;
+			sourceTree = "<group>";
+		};
+		12092D9B26917BF900EE5908 /* achieving goals */ = {
+			isa = PBXGroup;
+			children = (
+				12092D9C26917BF900EE5908 /* I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3 */,
+				12092D9D26917BF900EE5908 /* The resources I need are becoming available to help me achieve my goals..mp3 */,
+				12092D9E26917BF900EE5908 /* I am willing to devote time and energy toward my goals. They are a priority in my life..mp3 */,
+				12092D9F26917BF900EE5908 /* The path toward my goal is clear..mp3 */,
+				12092DA026917BF900EE5908 /* I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3 */,
+			);
+			path = "achieving goals";
+			sourceTree = "<group>";
+		};
+		12092DA126917BF900EE5908 /* body */ = {
+			isa = PBXGroup;
+			children = (
+				12092DA226917BF900EE5908 /* I eat a variety of foods for my health, wellness and enjoyment..mp3 */,
+				12092DA326917BF900EE5908 /* My body deserves love and respect..mp3 */,
+				12092DA426917BF900EE5908 /* I am perfect, whole, and complete just the way I am..mp3 */,
+				12092DA526917BF900EE5908 /* I love my body and I love myself..mp3 */,
+				12092DA626917BF900EE5908 /* I take care of my body and my body takes care of me..mp3 */,
+			);
+			path = body;
+			sourceTree = "<group>";
+		};
+		12092DA726917BF900EE5908 /* bisuness */ = {
+			isa = PBXGroup;
+			children = (
+				12092DA826917BF900EE5908 /* I create wonderful business opportunities..mp3 */,
+				12092DA926917BF900EE5908 /* My business allows me to have a life I love..mp3 */,
+				12092DAA26917BF900EE5908 /* My business is a huge success..mp3 */,
+				12092DAB26917BF900EE5908 /* I am passionate about my business and that shows in everything I do..mp3 */,
+				12092DAC26917BF900EE5908 /* My business dreams are constantly manifesting..mp3 */,
+				12092DAD26917BF900EE5908 /* I’m energized in my business..mp3 */,
+			);
+			path = bisuness;
+			sourceTree = "<group>";
+		};
+		12092DAE26917BF900EE5908 /* premium_affirms_rus */ = {
+			isa = PBXGroup;
+			children = (
+				12092DAF26917BF900EE5908 /* Тело */,
+				12092DB526917BF900EE5908 /* Достижение целей */,
+				12092DBB26917BF900EE5908 /* Бизнес */,
+				12092DC226917BF900EE5908 /* Карьера */,
+			);
+			path = premium_affirms_rus;
+			sourceTree = "<group>";
+		};
+		12092DAF26917BF900EE5908 /* Тело */ = {
+			isa = PBXGroup;
+			children = (
+				12092DB026917BF900EE5908 /* Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3 */,
+				12092DB126917BF900EE5908 /* Я люблю каждую частичку своего тела..mp3 */,
+				12092DB226917BF900EE5908 /* Я люблю свое тело..mp3 */,
+				12092DB326917BF900EE5908 /* Мое тело заслуживает любви и уважения..mp3 */,
+				12092DB426917BF900EE5908 /* У меня прекрасная фигура и здоровое тело.mp3 */,
+			);
+			path = "Тело";
+			sourceTree = "<group>";
+		};
+		12092DB526917BF900EE5908 /* Достижение целей */ = {
+			isa = PBXGroup;
+			children = (
+				12092DB626917BF900EE5908 /* Я могу добиться любой цели!.mp3 */,
+				12092DB726917BF900EE5908 /* Я сразу приступаю к решению важнейших задач!.mp3 */,
+				12092DB826917BF900EE5908 /* Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3 */,
+				12092DB926917BF900EE5908 /* Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3 */,
+				12092DBA26917BF900EE5908 /* Я немедленно берусь за дело и довожу его до конца!.mp3 */,
+			);
+			path = "Достижение целей";
+			sourceTree = "<group>";
+		};
+		12092DBB26917BF900EE5908 /* Бизнес */ = {
+			isa = PBXGroup;
+			children = (
+				12092DBC26917BF900EE5908 /* Мой бизнес растет именно так, как я хочу..mp3 */,
+				12092DBD26917BF900EE5908 /* Мой бизнес делает меня и других людей счастливыми..mp3 */,
+				12092DBE26917BF900EE5908 /* У меня большой бизнес, который растет с каждым днем..mp3 */,
+				12092DBF26917BF900EE5908 /* Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3 */,
+				12092DC026917BF900EE5908 /* Я имею процветающий бизнес..mp3 */,
+				12092DC126917BF900EE5908 /* Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3 */,
+			);
+			path = "Бизнес";
+			sourceTree = "<group>";
+		};
+		12092DC226917BF900EE5908 /* Карьера */ = {
+			isa = PBXGroup;
+			children = (
+				12092DC326917BF900EE5908 /* Я достигаю успеха в карьере..mp3 */,
+				12092DC426917BF900EE5908 /* Я чувствую себя комфортно и спокойно на собеседованиях..mp3 */,
+				12092DC526917BF900EE5908 /* Я иду навстречу к работе моей мечты..mp3 */,
+				12092DC626917BF900EE5908 /* Моя работа приносит удовлетворение и радость самореализации..mp3 */,
+				12092DC726917BF900EE5908 /* Я осознаю что пришло время для следующей ступени в моей карьере..mp3 */,
+			);
+			path = "Карьера";
+			sourceTree = "<group>";
+		};
+		123E211E268880BE0081D7FA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				12E44528264A623F00850A70 /* Sounds */,
+				12EF8F82265AAD3A00FDC2E5 /* Affirmatio.entitlements */,
+				12B8A4572631848C0007EEA5 /* Assets.xcassets */,
+				12B8A45C2631848C0007EEA5 /* Info.plist */,
+				126F931C2652238400183FE6 /* Affirmations.swift */,
+				12F6B50326772C6400374F89 /* AppleIncRootCertificate.cer */,
+				12F6B4BC2666531000374F89 /* Localizable.strings */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		123E211F268880D00081D7FA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				123E2120268880E10081D7FA /* Model */,
+				123E2121268880FB0081D7FA /* View */,
+				123E2122268881020081D7FA /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		123E2120268880E10081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E2121268880FB0081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A4542631848A0007EEA5 /* Main.storyboard */,
+				12B8A4592631848C0007EEA5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E2122268881020081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A44E2631848A0007EEA5 /* AppDelegate.swift */,
+				12B8A4502631848A0007EEA5 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E2123268889000081D7FA /* Lists collection */ = {
+			isa = PBXGroup;
+			children = (
+				123E2126268889280081D7FA /* Model */,
+				123E2125268889240081D7FA /* View */,
+				123E2124268889180081D7FA /* Controller */,
+			);
+			path = "Lists collection";
+			sourceTree = "<group>";
+		};
+		123E2124268889180081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E2125268889240081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E2126268889280081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E21272688897D0081D7FA /* New List */ = {
+			isa = PBXGroup;
+			children = (
+				123E212A268889940081D7FA /* Model */,
+				123E2129268889900081D7FA /* View */,
+				123E2128268889850081D7FA /* Controller */,
+			);
+			path = "New List";
+			sourceTree = "<group>";
+		};
+		123E2128268889850081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */,
+				12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E2129268889900081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12E44539264B98E600850A70 /* ListImageViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E212A268889940081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E212B2688DAA90081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12E44541264C532900850A70 /* MainPageViewController.swift */,
+				12E44544264C534700850A70 /* FirstStepViewController.swift */,
+				12E44547264C535D00850A70 /* SecondStepViewController.swift */,
+				12E4454A264C536A00850A70 /* ThirdStepViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E212D2688DAC30081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12F6B4FA2668A94500374F89 /* SubscriptionView.xib */,
+				12F6B4FC2668AA9D00374F89 /* SubscriptionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E212E2688DAC90081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E212F2688DB160081D7FA /* Categories table */ = {
+			isa = PBXGroup;
+			children = (
+				123E21322688DB2F0081D7FA /* Model */,
+				123E21312688DB2A0081D7FA /* View */,
+				123E21302688DB250081D7FA /* Controller */,
+			);
+			path = "Categories table";
+			sourceTree = "<group>";
+		};
+		123E21302688DB250081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E21312688DB2A0081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */,
+				12CF14D72662145E00E24E39 /* AffirmationCatViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E21322688DB2F0081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */,
+				12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E21332688DBFB0081D7FA /* List details */ = {
+			isa = PBXGroup;
+			children = (
+				123E21362688DC110081D7FA /* Model */,
+				123E21352688DC0D0081D7FA /* View */,
+				123E21342688DC070081D7FA /* Controller */,
+			);
+			path = "List details";
+			sourceTree = "<group>";
+		};
+		123E21342688DC070081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */,
+				12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E21352688DC0D0081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12FCB37026463C87005D49F6 /* AffirmViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E21362688DC110081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B8A48126342FA20007EEA5 /* Affirmation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E21372688DCCF0081D7FA /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				123E213A2688DCE40081D7FA /* Model */,
+				123E21392688DCDE0081D7FA /* View */,
+				123E21382688DCD80081D7FA /* Controller */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		123E21382688DCD80081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				126F9320265243B500183FE6 /* NotificationsViewController.swift */,
+				126F93232652841600183FE6 /* NewNotificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E21392688DCDE0081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				126F932926550ECB00183FE6 /* NotificationViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E213A2688DCE40081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				126F93262654319500183FE6 /* AffirmNotification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E213B2688DD7E0081D7FA /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				123E213E2688DD930081D7FA /* Model */,
+				123E213D2688DD8F0081D7FA /* View */,
+				123E213C2688DD870081D7FA /* Controller */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		123E213C2688DD870081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12E44522264A3DB900850A70 /* PlayListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E213D2688DD8F0081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12E44525264A3F3E00850A70 /* PlayListViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E213E2688DD930081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		123E213F2688DDB40081D7FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				123E21422688DDC40081D7FA /* Model */,
+				123E21412688DDC00081D7FA /* View */,
+				123E21402688DDBA0081D7FA /* Controller */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		123E21402688DDBA0081D7FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12EF8F95265C8D0400FDC2E5 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		123E21412688DDC00081D7FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		123E21422688DDC40081D7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		126F92E9265169E100183FE6 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				126F92EA265169E100183FE6 /* Classic Firework */,
+				126F92F0265169E100183FE6 /* Fountain Firework */,
+				126F92F5265169E100183FE6 /* Spark Views */,
+				126F92FA265169E100183FE6 /* Model */,
+				126F9303265169E100183FE6 /* System Extensions */,
+			);
+			name = Fireworks;
+			path = "../../../../../../Downloads/fireworks-master/fireworks/Fireworks";
+			sourceTree = "<group>";
+		};
+		126F92EA265169E100183FE6 /* Classic Firework */ = {
+			isa = PBXGroup;
+			children = (
+				126F92EB265169E100183FE6 /* ClassicSparkTrajectoryFactoryProtocol.swift */,
+				126F92EC265169E100183FE6 /* ClassicFireworkController.swift */,
+				126F92ED265169E100183FE6 /* ClassicSparkTrajectoryFactory.swift */,
+				126F92EE265169E100183FE6 /* ClassicFireworkAnimator.swift */,
+				126F92EF265169E100183FE6 /* ClassicFirework.swift */,
+			);
+			path = "Classic Firework";
+			sourceTree = "<group>";
+		};
+		126F92F0265169E100183FE6 /* Fountain Firework */ = {
+			isa = PBXGroup;
+			children = (
+				126F92F1265169E100183FE6 /* FountainFirework.swift */,
+				126F92F2265169E100183FE6 /* FountainFireworkAnimator.swift */,
+				126F92F3265169E100183FE6 /* FountainFireworkController.swift */,
+				126F92F4265169E100183FE6 /* FountainSparkTrajectoryFactory.swift */,
+			);
+			path = "Fountain Firework";
+			sourceTree = "<group>";
+		};
+		126F92F5265169E100183FE6 /* Spark Views */ = {
+			isa = PBXGroup;
+			children = (
+				126F92F6265169E100183FE6 /* ImageSparkViewFactory.swift */,
+				126F92F7265169E100183FE6 /* CircleColorSparkViewFactory.swift */,
+				126F92F8265169E100183FE6 /* CircleColorSparkView.swift */,
+				126F92F9265169E100183FE6 /* ImageSparkView.swift */,
+			);
+			path = "Spark Views";
+			sourceTree = "<group>";
+		};
+		126F92FA265169E100183FE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				126F92FB265169E100183FE6 /* SparkTrajectory.swift */,
+				126F92FC265169E100183FE6 /* SparkTrajectoryFactory.swift */,
+				126F92FD265169E100183FE6 /* FireworkSparkScheduler.swift */,
+				126F92FE265169E100183FE6 /* Firework.swift */,
+				126F92FF265169E100183FE6 /* SparkViewAnimator.swift */,
+				126F9300265169E100183FE6 /* SparkView.swift */,
+				126F9301265169E100183FE6 /* SparkViewFactory.swift */,
+				126F9302265169E100183FE6 /* FireworkSpark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		126F9303265169E100183FE6 /* System Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				126F9304265169E100183FE6 /* CGPoint+Extensions.swift */,
+			);
+			path = "System Extensions";
+			sourceTree = "<group>";
+		};
 		12B8A4422631848A0007EEA5 = {
 			isa = PBXGroup;
 			children = (
+				12EF8F85265AAD6A00FDC2E5 /* AffirmWidgetExtension.entitlements */,
 				12B8A44D2631848A0007EEA5 /* Affirmatio */,
+				12B8A47726342F040007EEA5 /* Trash */,
+				12EF8F4F265A124C00FDC2E5 /* AffirmWidget */,
 				12B8A44C2631848A0007EEA5 /* Products */,
 				4AA9AA2DEBADE0B9F59403E8 /* Pods */,
 				256E966E558AAD2C9C328916 /* Frameworks */,
@@ -110,6 +1044,7 @@
 			isa = PBXGroup;
 			children = (
 				12B8A44B2631848A0007EEA5 /* Affirmatio.app */,
+				12EF8F4A265A124C00FDC2E5 /* AffirmWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,67 +1053,37 @@
 			isa = PBXGroup;
 			children = (
 				12E4454D264C577700850A70 /* Helpers */,
-				12E44528264A623F00850A70 /* Sounds */,
-				12B8A44E2631848A0007EEA5 /* AppDelegate.swift */,
-				12B8A4502631848A0007EEA5 /* SceneDelegate.swift */,
-				12B8A47726342F040007EEA5 /* View */,
-				12B8A47926342F2D0007EEA5 /* Controller */,
-				12B8A4572631848C0007EEA5 /* Assets.xcassets */,
-				12B8A4592631848C0007EEA5 /* LaunchScreen.storyboard */,
-				12B8A45C2631848C0007EEA5 /* Info.plist */,
-				12B8A484263551C80007EEA5 /* Model */,
-				12A304A6263E5DF5004489C2 /* ExpandableCategories.swift */,
+				123E211F268880D00081D7FA /* Application */,
+				123E2123268889000081D7FA /* Lists collection */,
+				123E21272688897D0081D7FA /* New List */,
+				123E21332688DBFB0081D7FA /* List details */,
+				123E213B2688DD7E0081D7FA /* Playlist */,
+				123E212F2688DB160081D7FA /* Categories table */,
+				123E213F2688DDB40081D7FA /* Settings */,
+				123E21372688DCCF0081D7FA /* Notifications */,
+				12E4453D264C518B00850A70 /* Onboarding */,
+				123E211E268880BE0081D7FA /* Supporting files */,
 			);
 			path = Affirmatio;
 			sourceTree = "<group>";
 		};
-		12B8A47726342F040007EEA5 /* View */ = {
+		12B8A47726342F040007EEA5 /* Trash */ = {
 			isa = PBXGroup;
 			children = (
-				12E4453D264C518B00850A70 /* Onboarding */,
-				12B8A4542631848A0007EEA5 /* Main.storyboard */,
-				12A304A9263E82B9004489C2 /* CategoryHeaderView.swift */,
-				12FCB37026463C87005D49F6 /* AffirmViewCell.swift */,
-				12E44525264A3F3E00850A70 /* PlayListViewCell.swift */,
-				12B8A466263268B50007EEA5 /* AffirmationsPLCell.swift */,
-				12E44539264B98E600850A70 /* ListImageViewCell.swift */,
 				12E44552264C582200850A70 /* ConciergeViewController.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		12B8A47926342F2D0007EEA5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				12B8A46926340AF90007EEA5 /* CreatePlaylistViewController.swift */,
-				12B8A463263185840007EEA5 /* AffirmationsPLCollectionVC.swift */,
-				12A304AC2640FBC1004489C2 /* NewAffirmationViewController.swift */,
-				12FCB37326466A16005D49F6 /* AffirmationsListViewController.swift */,
-				12FCB37726468926005D49F6 /* AffirmationsCategoriesViewController.swift */,
-				12E44522264A3DB900850A70 /* PlayListViewController.swift */,
-				12E44536264B96F600850A70 /* ListImageSelectionViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		12B8A484263551C80007EEA5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				12B8A47B26342F8A0007EEA5 /* AffirmationsList.swift */,
-				12B8A47E26342F9A0007EEA5 /* AffirmationsCategory.swift */,
-				12B8A48126342FA20007EEA5 /* Affirmation.swift */,
-			);
-			path = Model;
+			path = Trash;
 			sourceTree = "<group>";
 		};
 		12E44528264A623F00850A70 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				12E4452B264A625300850A70 /* I am open and receptive to all the wealth life offers me..m4a */,
-				12E44529264A625300850A70 /* I am worthy of making more money..m4a */,
+				12092D9426917BF900EE5908 /* premium_affirms_eng */,
+				12092DAE26917BF900EE5908 /* premium_affirms_rus */,
+				12092D3726917BDE00EE5908 /* Affirmare_eng_affirms_c */,
+				12092D1826917BDE00EE5908 /* Affirmare_rus_affirms_c */,
 				12E44532264A68DE00850A70 /* meditation.mp3 */,
-				12E4452C264A625300850A70 /* I constantly attract opportunities that create more money..m4a */,
-				12E4452A264A625300850A70 /* Money comes to me easily and effortlessly.m4a */,
+				126F92E1264E3EB800183FE6 /* gong.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -186,10 +1091,9 @@
 		12E4453D264C518B00850A70 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				12E44541264C532900850A70 /* MainPageViewController.swift */,
-				12E44544264C534700850A70 /* FirstStepViewController.swift */,
-				12E44547264C535D00850A70 /* SecondStepViewController.swift */,
-				12E4454A264C536A00850A70 /* ThirdStepViewController.swift */,
+				123E212E2688DAC90081D7FA /* Model */,
+				123E212D2688DAC30081D7FA /* View */,
+				123E212B2688DAA90081D7FA /* Controller */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -197,8 +1101,14 @@
 		12E4454D264C577700850A70 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				12F6B50226772C3500374F89 /* Validation */,
+				126F92E9265169E100183FE6 /* Fireworks */,
 				12E44555264C585200850A70 /* Extensions */,
 				12E4454E264C578B00850A70 /* LandscapeManager.swift */,
+				126F92DD264E207000183FE6 /* GradientBackground.swift */,
+				12F6B4FE2672798700374F89 /* IAPManager.swift */,
+				12EF8F8D265BB13D00FDC2E5 /* DataManager.swift */,
+				12F6B50026752D5600374F89 /* IAPProduct.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -207,14 +1117,44 @@
 			isa = PBXGroup;
 			children = (
 				12E44556264C586B00850A70 /* Storyboard+Ext.swift */,
+				12EF8F7D265A2F2B00FDC2E5 /* FileManager+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12EF8F4F265A124C00FDC2E5 /* AffirmWidget */ = {
+			isa = PBXGroup;
+			children = (
+				12EF8F50265A124C00FDC2E5 /* AffirmWidget.swift */,
+				12EF8F52265A124C00FDC2E5 /* AffirmWidget.intentdefinition */,
+				12EF8F53265A124E00FDC2E5 /* Assets.xcassets */,
+				12EF8F55265A124E00FDC2E5 /* Info.plist */,
+				12EF8F61265A18B000FDC2E5 /* AffirmProvider.swift */,
+				12EF8F66265A230200FDC2E5 /* WidgetContent.swift */,
+				12EF8F6B265A238D00FDC2E5 /* EntryView.swift */,
+				12EF8F88265BAA0600FDC2E5 /* DefaultWidgetContent.swift */,
+			);
+			path = AffirmWidget;
+			sourceTree = "<group>";
+		};
+		12F6B50226772C3500374F89 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				12F6B506267787DF00374F89 /* Affirmatio-Bridging-Header.h */,
+				12F6B5092677B9AA00374F89 /* pkcs7_union_accessors.c */,
+				12F6B50A2677B9AB00374F89 /* pkcs7_union_accessors.h */,
+				12F6B50C2677B9C000374F89 /* ReceiptValidator.swift */,
+			);
+			path = Validation;
 			sourceTree = "<group>";
 		};
 		256E966E558AAD2C9C328916 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F71BC0EC9F79C4E61E47677D /* Pods_Affirmatio.framework */,
+				123DEC2D265D5C5600B1B6CB /* StoreKit.framework */,
+				12EF8F4B265A124C00FDC2E5 /* WidgetKit.framework */,
+				12EF8F4D265A124C00FDC2E5 /* SwiftUI.framework */,
+				770CA68ADE2BE74B7922C060 /* Pods_Affirmatio.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,8 +1162,10 @@
 		4AA9AA2DEBADE0B9F59403E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */,
-				14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */,
+				BC4C883E0C443CACED6AC69F /* Pods-Affirmatio.debug.xcconfig */,
+				FD424F7C2651644A635438E2 /* Pods-Affirmatio.release.xcconfig */,
+				6E15224CFA163A978929B75A /* Pods-Affirmatio.debug.xcconfig */,
+				DD325A15F5200C34F1B3F821 /* Pods-Affirmatio.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -235,20 +1177,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12B8A45F2631848C0007EEA5 /* Build configuration list for PBXNativeTarget "Affirmatio" */;
 			buildPhases = (
-				BAED28BCC3F9313C5724F53C /* [CP] Check Pods Manifest.lock */,
+				CA2C37BEA2BCA13472E3A2FD /* [CP] Check Pods Manifest.lock */,
 				12B8A4472631848A0007EEA5 /* Sources */,
 				12B8A4482631848A0007EEA5 /* Frameworks */,
 				12B8A4492631848A0007EEA5 /* Resources */,
-				4A6DC54A532E497A5199D415 /* [CP] Embed Pods Frameworks */,
+				12EF8F5B265A124E00FDC2E5 /* Embed App Extensions */,
+				5DC40BF313BEA17F1649D91B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				12EF8F59265A124E00FDC2E5 /* PBXTargetDependency */,
 			);
 			name = Affirmatio;
 			productName = Affirmatio;
 			productReference = 12B8A44B2631848A0007EEA5 /* Affirmatio.app */;
 			productType = "com.apple.product-type.application";
+		};
+		12EF8F49265A124C00FDC2E5 /* AffirmWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EF8F5E265A124E00FDC2E5 /* Build configuration list for PBXNativeTarget "AffirmWidgetExtension" */;
+			buildPhases = (
+				12EF8F46265A124C00FDC2E5 /* Sources */,
+				12EF8F47265A124C00FDC2E5 /* Frameworks */,
+				12EF8F48265A124C00FDC2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffirmWidgetExtension;
+			productName = AffirmWidgetExtension;
+			productReference = 12EF8F4A265A124C00FDC2E5 /* AffirmWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -261,6 +1222,10 @@
 				TargetAttributes = {
 					12B8A44A2631848A0007EEA5 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
+					};
+					12EF8F49265A124C00FDC2E5 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -271,6 +1236,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 12B8A4422631848A0007EEA5;
 			productRefGroup = 12B8A44C2631848A0007EEA5 /* Products */;
@@ -278,6 +1244,7 @@
 			projectRoot = "";
 			targets = (
 				12B8A44A2631848A0007EEA5 /* Affirmatio */,
+				12EF8F49265A124C00FDC2E5 /* AffirmWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -287,21 +1254,132 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12092D6826917BDF00EE5908 /* С каждым днем я становлюсь сильнее и здоровее..mp3 in Resources */,
+				12092D8D26917BDF00EE5908 /* Good things are happening..mp3 in Resources */,
+				12092D7D26917BDF00EE5908 /* Being happy comes easy to me. Happiness is my second nature..mp3 in Resources */,
+				12092DF026917BF900EE5908 /* Моя работа приносит удовлетворение и радость самореализации..mp3 in Resources */,
+				12092D9026917BDF00EE5908 /* Every day I am getting healthier and stronger..mp3 in Resources */,
+				12092DEA26917BF900EE5908 /* Моя работа производит на людей позитивное впечатление, люди доверяют мне и моему бизнесу!.mp3 in Resources */,
+				12092DE226917BF900EE5908 /* Я могу добиться любой цели!.mp3 in Resources */,
+				12092DCC26917BF900EE5908 /* I am creating my career success..mp3 in Resources */,
+				12092DD326917BF900EE5908 /* My body deserves love and respect..mp3 in Resources */,
+				12092D7626917BDF00EE5908 /* My possibilities are endless..mp3 in Resources */,
+				12092DCD26917BF900EE5908 /* I am willing to step outside of my comfort zone to accomplish the goals I set for myself..mp3 in Resources */,
+				12092D6F26917BDF00EE5908 /* Мои возможности бесконечны..mp3 in Resources */,
+				12092D5726917BDF00EE5908 /* Я нахожу нужного мне человека. Между нами любовь и страсть..mp3 in Resources */,
+				12092DEC26917BF900EE5908 /* Мой бизнес позволяет мне иметь жизнь которую я люблю..mp3 in Resources */,
+				12092D5926917BDF00EE5908 /* Я открываю свое сердце для любви..mp3 in Resources */,
+				12092DD626917BF900EE5908 /* I take care of my body and my body takes care of me..mp3 in Resources */,
+				12092DCF26917BF900EE5908 /* I am willing to devote time and energy toward my goals. They are a priority in my life..mp3 in Resources */,
+				12092D5826917BDF00EE5908 /* Я верю в себя. Моя вера с каждым днём укрепляется..mp3 in Resources */,
+				12092DD526917BF900EE5908 /* I love my body and I love myself..mp3 in Resources */,
+				12092D7126917BDF00EE5908 /* Для меня радость и удовольствие прожить еще один прекрасный день..mp3 in Resources */,
+				12092DDB26917BF900EE5908 /* My business dreams are constantly manifesting..mp3 in Resources */,
+				12092D6926917BDF00EE5908 /* Деньги текут ко мне большим и стремительным потоком..mp3 in Resources */,
+				12092DE626917BF900EE5908 /* Я немедленно берусь за дело и довожу его до конца!.mp3 in Resources */,
+				12092D7026917BDF00EE5908 /* Я впускаю в свою жизнь прекрасные отношения..mp3 in Resources */,
+				12092DD726917BF900EE5908 /* I create wonderful business opportunities..mp3 in Resources */,
+				12092DE026917BF900EE5908 /* Мое тело заслуживает любви и уважения..mp3 in Resources */,
+				12092D8926917BDF00EE5908 /* I am deeply fulfilled by what I do..mp3 in Resources */,
+				12092D6226917BDF00EE5908 /* Я всегда получаю то, что хочу..mp3 in Resources */,
+				12092D8626917BDF00EE5908 /* I am open and receptive to all the wealth life offers me..mp3 in Resources */,
+				12092D9226917BDF00EE5908 /* I forgive myself and set myself free..mp3 in Resources */,
+				12092D8326917BDF00EE5908 /* I give out love and it is returned to me multiplied manyfold..mp3 in Resources */,
+				12092DD126917BF900EE5908 /* I only focus on the next step to take and trust that I am being lead toward the best and highest fulfillment of my goals..mp3 in Resources */,
+				12092D7226917BDF00EE5908 /* Я добиваюсь успеха в каждом своём начинании..mp3 in Resources */,
+				12092D7726917BDF00EE5908 /* I deserve to be healthy and feel good..mp3 in Resources */,
+				12092D8B26917BDF00EE5908 /* I deserve love and I get it in abundance..mp3 in Resources */,
 				12B8A45B2631848C0007EEA5 /* LaunchScreen.storyboard in Resources */,
+				12092DDE26917BF900EE5908 /* Я люблю каждую частичку своего тела..mp3 in Resources */,
+				12092D7B26917BDF00EE5908 /* I am worthy of my dreams..mp3 in Resources */,
+				12092DCB26917BF900EE5908 /* It’s my time and I’m ready for the next step in my career..mp3 in Resources */,
+				12092D7926917BDF00EE5908 /* I am full of positive loving energy..mp3 in Resources */,
+				12092D5D26917BDF00EE5908 /* Я полон энергии и жизненных сил, а мой ум спокоен и умиротворен..mp3 in Resources */,
+				12092D8F26917BDF00EE5908 /* I am loved, loving and lovable..mp3 in Resources */,
+				12F6B50426772C7400374F89 /* AppleIncRootCertificate.cer in Resources */,
+				12092DD026917BF900EE5908 /* The path toward my goal is clear..mp3 in Resources */,
+				12092DED26917BF900EE5908 /* Я достигаю успеха в карьере..mp3 in Resources */,
+				12092D5C26917BDF00EE5908 /* Я ощущаю уверенность и безопасность, обладая деньгами..mp3 in Resources */,
+				12092DDA26917BF900EE5908 /* I am passionate about my business and that shows in everything I do..mp3 in Resources */,
+				12092D6726917BDF00EE5908 /* Моя жизнь – это праздник..mp3 in Resources */,
+				12092D6526917BDF00EE5908 /* Я магнит, притягивающий любовь в свою жизнь..mp3 in Resources */,
+				12092D8026917BDF00EE5908 /* I honor my body by trusting the signals that it sends me..mp3 in Resources */,
+				12092D6E26917BDF00EE5908 /* Мне всегда сопутствует удача..mp3 in Resources */,
+				12092DC926917BF900EE5908 /* My dream job is on its way to me right now..mp3 in Resources */,
+				12092DE926917BF900EE5908 /* У меня большой бизнес, который растет с каждым днем..mp3 in Resources */,
+				12092DE426917BF900EE5908 /* Я выхожу из зоны комфорта для того чтобы добиться поставленных целей..mp3 in Resources */,
+				12092D9126917BDF00EE5908 /* I welcome love and romance into my life..mp3 in Resources */,
+				12092DE526917BF900EE5908 /* Закончив важное дело, я чувствую гордость, собственную силу и уверенность в себе!.mp3 in Resources */,
 				12B8A4582631848C0007EEA5 /* Assets.xcassets in Resources */,
+				12092D7E26917BDF00EE5908 /* I choose to be kind to myself and love myself unconditionally..mp3 in Resources */,
+				12092DE726917BF900EE5908 /* Мой бизнес растет именно так, как я хочу..mp3 in Resources */,
+				12092D5E26917BDF00EE5908 /* Я излучаю любовь. И она возвращается ко мне..mp3 in Resources */,
+				12092DD826917BF900EE5908 /* My business allows me to have a life I love..mp3 in Resources */,
+				12092D9326917BDF00EE5908 /* Money comes to me easily and effortlessly.mp3 in Resources */,
+				12092DDF26917BF900EE5908 /* Я люблю свое тело..mp3 in Resources */,
+				12092DEE26917BF900EE5908 /* Я чувствую себя комфортно и спокойно на собеседованиях..mp3 in Resources */,
+				12092D8C26917BDF00EE5908 /* Happiness is my birthright. I choose to be happy and I deserve to be happy..mp3 in Resources */,
+				12092D8A26917BDF00EE5908 /* I manifest perfect health by making smart choices..mp3 in Resources */,
+				12092DD426917BF900EE5908 /* I am perfect, whole, and complete just the way I am..mp3 in Resources */,
+				12092DEF26917BF900EE5908 /* Я иду навстречу к работе моей мечты..mp3 in Resources */,
+				12092DD226917BF900EE5908 /* I eat a variety of foods for my health, wellness and enjoyment..mp3 in Resources */,
+				12092DE826917BF900EE5908 /* Мой бизнес делает меня и других людей счастливыми..mp3 in Resources */,
+				12092D8126917BDF00EE5908 /* My actions create constant prosperity..mp3 in Resources */,
+				12092D7A26917BDF00EE5908 /* I constantly attract opportunities that create more money..mp3 in Resources */,
+				12092D6326917BDF00EE5908 /* Сегодня лучший день в моей жизни..mp3 in Resources */,
+				12092D6426917BDF00EE5908 /* Я принимаю и отдаю любовь легко и без усилий..mp3 in Resources */,
+				12092D8426917BDF00EE5908 /* I am enough..mp3 in Resources */,
+				12092D6A26917BDF00EE5908 /* Все что я делаю приближает меня к моим целям.mp3 in Resources */,
+				12092D7C26917BDF00EE5908 /* I am grateful to be alive. It is my joy and pleasure to live another wonderful day..mp3 in Resources */,
+				12092DD926917BF900EE5908 /* My business is a huge success..mp3 in Resources */,
+				12092DCA26917BF900EE5908 /* I am confident and calm in interviews..mp3 in Resources */,
+				12092DF126917BF900EE5908 /* Я осознаю что пришло время для следующей ступени в моей карьере..mp3 in Resources */,
+				12092D5B26917BDF00EE5908 /* Счастье - моя вторая натура..mp3 in Resources */,
+				12092DDD26917BF900EE5908 /* Я счастлива иметь именно такое тело, какое у меня есть. Оно прекрасно! .mp3 in Resources */,
+				12092D7526917BDF00EE5908 /* I believe I can be all that I want to be..mp3 in Resources */,
+				12092D7F26917BDF00EE5908 /* Money and spirituality can co-exist in harmony..mp3 in Resources */,
 				12E44533264A68DE00850A70 /* meditation.mp3 in Resources */,
-				12E4452D264A625300850A70 /* I am worthy of making more money..m4a in Resources */,
-				12E44530264A625400850A70 /* I constantly attract opportunities that create more money..m4a in Resources */,
-				12E4452E264A625400850A70 /* Money comes to me easily and effortlessly.m4a in Resources */,
+				12092D5F26917BDF00EE5908 /* Я богатый человек..mp3 in Resources */,
+				12092D8226917BDF00EE5908 /* I have the freedom & power to create the life I desire..mp3 in Resources */,
+				12092D7426917BDF00EE5908 /* Я люблю деньги и отношусь к ним, как к своим друзьям..mp3 in Resources */,
+				12092D8726917BDF00EE5908 /* I am worthy of making more money..mp3 in Resources */,
+				12092DE126917BF900EE5908 /* У меня прекрасная фигура и здоровое тело.mp3 in Resources */,
+				12F6B4BA2666531000374F89 /* Localizable.strings in Resources */,
+				12092DCE26917BF900EE5908 /* The resources I need are becoming available to help me achieve my goals..mp3 in Resources */,
+				12092D7326917BDF00EE5908 /* частье - мое неотъемлемое право. Я заслуживаю счастья..mp3 in Resources */,
+				126F92E2264E3EB800183FE6 /* gong.wav in Resources */,
+				12092D6B26917BDF00EE5908 /* Я открываюсь потоку изобилия..mp3 in Resources */,
+				12092DE326917BF900EE5908 /* Я сразу приступаю к решению важнейших задач!.mp3 in Resources */,
+				12092D8E26917BDF00EE5908 /* I am full of energy and vitality and my mind is calm and peaceful..mp3 in Resources */,
+				12092DDC26917BF900EE5908 /* I’m energized in my business..mp3 in Resources */,
+				12092D6D26917BDF00EE5908 /* Я позволяю себе любить. Это безопасно..mp3 in Resources */,
 				12B8A4562631848A0007EEA5 /* Main.storyboard in Resources */,
-				12E4452F264A625400850A70 /* I am open and receptive to all the wealth life offers me..m4a in Resources */,
+				12092DC826917BF900EE5908 /* I am worthy of the career success I desire..mp3 in Resources */,
+				12F6B4FB2668A94600374F89 /* SubscriptionView.xib in Resources */,
+				12092D7826917BDF00EE5908 /* I am blessed with an incredible family and wonderful friends..mp3 in Resources */,
+				12092D6C26917BDF00EE5908 /* Я готов к богатству, поэтому деньги и изобилие приходят ко мне с легкостью..mp3 in Resources */,
+				12092D6026917BDF00EE5908 /* Я в гармонии с собой и со всеми окружающими меня людьми..mp3 in Resources */,
+				12092D8826917BDF00EE5908 /* I am in the process of becoming the best version of myself.mp3 in Resources */,
+				12092D6126917BDF00EE5908 /* В моей жизни происходят хорошие вещи..mp3 in Resources */,
+				12092D5A26917BDF00EE5908 /* У меня отличное здоровье..mp3 in Resources */,
+				12092DEB26917BF900EE5908 /* Я имею процветающий бизнес..mp3 in Resources */,
+				12092D8526917BDF00EE5908 /* I am in a loving and supportive relationship..mp3 in Resources */,
+				12092D6626917BDF00EE5908 /* Я уважаю свое тело, доверяя сигналам, которые оно мне посылает..mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EF8F48265A124C00FDC2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EF8F54265A124E00FDC2E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4A6DC54A532E497A5199D415 /* [CP] Embed Pods Frameworks */ = {
+		5DC40BF313BEA17F1649D91B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,7 +1396,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Affirmatio/Pods-Affirmatio-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BAED28BCC3F9313C5724F53C /* [CP] Check Pods Manifest.lock */ = {
+		CA2C37BEA2BCA13472E3A2FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,40 +1426,105 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E4453A264B98E600850A70 /* ListImageViewCell.swift in Sources */,
+				12EF8F8E265BB13E00FDC2E5 /* DataManager.swift in Sources */,
+				126F9316265169E100183FE6 /* SparkViewAnimator.swift in Sources */,
 				12B8A467263268B50007EEA5 /* AffirmationsPLCell.swift in Sources */,
 				12A304AA263E82B9004489C2 /* CategoryHeaderView.swift in Sources */,
 				12E4454F264C578C00850A70 /* LandscapeManager.swift in Sources */,
+				12EF8F67265A230200FDC2E5 /* WidgetContent.swift in Sources */,
+				126F9321265243B500183FE6 /* NotificationsViewController.swift in Sources */,
+				126F930C265169E100183FE6 /* FountainFireworkController.swift in Sources */,
 				12B8A46A26340AF90007EEA5 /* CreatePlaylistViewController.swift in Sources */,
+				12EF8F7E265A2F2B00FDC2E5 /* FileManager+Ext.swift in Sources */,
 				12B8A47C26342F8A0007EEA5 /* AffirmationsList.swift in Sources */,
+				12EF8F57265A124E00FDC2E5 /* AffirmWidget.intentdefinition in Sources */,
+				126F93242652841600183FE6 /* NewNotificationViewController.swift in Sources */,
 				12B8A44F2631848A0007EEA5 /* AppDelegate.swift in Sources */,
 				12E44523264A3DB900850A70 /* PlayListViewController.swift in Sources */,
+				12F6B4FD2668AA9D00374F89 /* SubscriptionView.swift in Sources */,
+				126F930E265169E100183FE6 /* ImageSparkViewFactory.swift in Sources */,
 				12E44542264C532900850A70 /* MainPageViewController.swift in Sources */,
 				12E4454B264C536A00850A70 /* ThirdStepViewController.swift in Sources */,
 				12E44548264C535D00850A70 /* SecondStepViewController.swift in Sources */,
 				12FCB37826468926005D49F6 /* AffirmationsCategoriesViewController.swift in Sources */,
+				126F9308265169E100183FE6 /* ClassicFireworkAnimator.swift in Sources */,
+				12F6B50B2677B9AB00374F89 /* pkcs7_union_accessors.c in Sources */,
+				126F9305265169E100183FE6 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
+				126F9317265169E100183FE6 /* SparkView.swift in Sources */,
+				126F9309265169E100183FE6 /* ClassicFirework.swift in Sources */,
 				12B8A464263185840007EEA5 /* AffirmationsPLCollectionVC.swift in Sources */,
 				12B8A4512631848A0007EEA5 /* SceneDelegate.swift in Sources */,
+				12CF14D82662145E00E24E39 /* AffirmationCatViewCell.swift in Sources */,
+				126F931D2652238400183FE6 /* Affirmations.swift in Sources */,
+				12EF8F96265C8D0400FDC2E5 /* SettingsViewController.swift in Sources */,
 				12E44553264C582200850A70 /* ConciergeViewController.swift in Sources */,
+				126F9315265169E100183FE6 /* Firework.swift in Sources */,
+				126F9319265169E100183FE6 /* FireworkSpark.swift in Sources */,
 				12E44557264C586B00850A70 /* Storyboard+Ext.swift in Sources */,
 				12A304A7263E5DF5004489C2 /* ExpandableCategories.swift in Sources */,
+				126F9310265169E100183FE6 /* CircleColorSparkView.swift in Sources */,
 				12E44537264B96F600850A70 /* ListImageSelectionViewController.swift in Sources */,
+				126F9312265169E100183FE6 /* SparkTrajectory.swift in Sources */,
+				126F932A26550ECB00183FE6 /* NotificationViewCell.swift in Sources */,
+				126F930F265169E100183FE6 /* CircleColorSparkViewFactory.swift in Sources */,
+				12EF8F6C265A238D00FDC2E5 /* EntryView.swift in Sources */,
+				126F9314265169E100183FE6 /* FireworkSparkScheduler.swift in Sources */,
+				126F9311265169E100183FE6 /* ImageSparkView.swift in Sources */,
+				126F9318265169E100183FE6 /* SparkViewFactory.swift in Sources */,
+				12F6B4FF2672798800374F89 /* IAPManager.swift in Sources */,
+				126F9313265169E100183FE6 /* SparkTrajectoryFactory.swift in Sources */,
+				126F931A265169E100183FE6 /* CGPoint+Extensions.swift in Sources */,
 				12B8A47F26342F9A0007EEA5 /* AffirmationsCategory.swift in Sources */,
+				126F92DE264E207000183FE6 /* GradientBackground.swift in Sources */,
+				126F9306265169E100183FE6 /* ClassicFireworkController.swift in Sources */,
 				12A304AD2640FBC1004489C2 /* NewAffirmationViewController.swift in Sources */,
+				12EF8F62265A18B000FDC2E5 /* AffirmProvider.swift in Sources */,
+				12EF8F89265BAA0600FDC2E5 /* DefaultWidgetContent.swift in Sources */,
 				12E44545264C534700850A70 /* FirstStepViewController.swift in Sources */,
 				12B8A48226342FA20007EEA5 /* Affirmation.swift in Sources */,
 				12FCB37426466A16005D49F6 /* AffirmationsListViewController.swift in Sources */,
 				12E44526264A3F3E00850A70 /* PlayListViewCell.swift in Sources */,
+				126F930D265169E100183FE6 /* FountainSparkTrajectoryFactory.swift in Sources */,
+				126F930B265169E100183FE6 /* FountainFireworkAnimator.swift in Sources */,
+				126F9307265169E100183FE6 /* ClassicSparkTrajectoryFactory.swift in Sources */,
+				126F930A265169E100183FE6 /* FountainFirework.swift in Sources */,
+				12F6B50126752D5700374F89 /* IAPProduct.swift in Sources */,
 				12FCB37126463C87005D49F6 /* AffirmViewCell.swift in Sources */,
+				12F6B50D2677B9C000374F89 /* ReceiptValidator.swift in Sources */,
+				126F93272654319500183FE6 /* AffirmNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EF8F46265A124C00FDC2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EF8F51265A124C00FDC2E5 /* AffirmWidget.swift in Sources */,
+				12EF8F68265A230200FDC2E5 /* WidgetContent.swift in Sources */,
+				12EF8F56265A124E00FDC2E5 /* AffirmWidget.intentdefinition in Sources */,
+				12EF8F8A265BAA0600FDC2E5 /* DefaultWidgetContent.swift in Sources */,
+				12EF8F7F265A2F2B00FDC2E5 /* FileManager+Ext.swift in Sources */,
+				12EF8F6D265A238D00FDC2E5 /* EntryView.swift in Sources */,
+				12EF8F63265A18B000FDC2E5 /* AffirmProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12EF8F59265A124E00FDC2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EF8F49265A124C00FDC2E5 /* AffirmWidgetExtension */;
+			targetProxy = 12EF8F58265A124E00FDC2E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		12B8A4542631848A0007EEA5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				12B8A4552631848A0007EEA5 /* Base */,
+				12092DF3269192FC00EE5908 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -390,8 +1533,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				12B8A45A2631848C0007EEA5 /* Base */,
+				12F6B4B7266651A200374F89 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12F6B4BC2666531000374F89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F6B4BB2666531000374F89 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +1553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -462,6 +1615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -515,19 +1669,26 @@
 		};
 		12B8A4602631848C0007EEA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD4F8D32A5F94F902428EBB /* Pods-Affirmatio.debug.xcconfig */;
+			baseConfigurationReference = BC4C883E0C443CACED6AC69F /* Pods-Affirmatio.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Affirmatio/Supporting files/Affirmatio.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKZWAX96B6;
-				INFOPLIST_FILE = Affirmatio/Info.plist;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Affirmatio/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apsterio.Affirmatio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Affirmatio/Helpers/Validation/Affirmatio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -535,19 +1696,69 @@
 		};
 		12B8A4612631848C0007EEA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14068727B5BC0E955E2ECA1C /* Pods-Affirmatio.release.xcconfig */;
+			baseConfigurationReference = FD424F7C2651644A635438E2 /* Pods-Affirmatio.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Affirmatio/Supporting files/Affirmatio.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKZWAX96B6;
-				INFOPLIST_FILE = Affirmatio/Info.plist;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Affirmatio/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apsterio.Affirmatio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Affirmatio/Helpers/Validation/Affirmatio-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12EF8F5C265A124E00FDC2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AffirmWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKZWAX96B6;
+				INFOPLIST_FILE = AffirmWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apsterio.Affirmatio.AffirmWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12EF8F5D265A124E00FDC2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AffirmWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKZWAX96B6;
+				INFOPLIST_FILE = AffirmWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apsterio.Affirmatio.AffirmWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -570,6 +1781,15 @@
 			buildConfigurations = (
 				12B8A4602631848C0007EEA5 /* Debug */,
 				12B8A4612631848C0007EEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EF8F5E265A124E00FDC2E5 /* Build configuration list for PBXNativeTarget "AffirmWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EF8F5C265A124E00FDC2E5 /* Debug */,
+				12EF8F5D265A124E00FDC2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
