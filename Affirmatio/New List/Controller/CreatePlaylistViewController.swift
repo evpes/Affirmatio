@@ -28,6 +28,7 @@ class CreatePlaylistViewController: UIViewController {
         super.viewDidLoad()
         textField.delegate = self
         textField.becomeFirstResponder()
+        
         if let list = curList {
             textField.text = list.name
         }

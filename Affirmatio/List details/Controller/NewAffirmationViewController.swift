@@ -15,6 +15,8 @@ class NewAffirmationViewController: UIViewController {
     var categoriesVC: AffirmationsCategoriesViewController?
     //@IBOutlet weak var bgView: UIView!
     var bgView : GradientBackground?
+    @IBOutlet weak var howToButton: UIButton!
+    
     
     let dataManager = DataManager()
     let realm = try! Realm()
@@ -23,7 +25,11 @@ class NewAffirmationViewController: UIViewController {
         super.viewDidLoad()
         textField.delegate = self
         textField.becomeFirstResponder()
-        textField.alpha = 0.8
+        textField.alpha = 0.7
+        
+        howToButton.layer.cornerRadius = 15
+        howToButton.backgroundColor = UIColor.white.withAlphaComponent(0.7)
+        howToButton.titleLabel?.tintColor = .black
     
         bgView = GradientBackground(frame: self.view.bounds)
         self.view.insertSubview(bgView!, at: 0)
@@ -34,6 +40,11 @@ class NewAffirmationViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         bgView?.animateGradient()
     }
+    
+    @IBAction func howToButtonPressed(_ sender: UIButton) {
+        
+    }
+    
     
 
 }

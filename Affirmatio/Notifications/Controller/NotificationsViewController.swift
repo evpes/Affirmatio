@@ -99,8 +99,11 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func loadNotifications() {
+        print("load notifications")
         center.getPendingNotificationRequests(completionHandler: { requests in
+            print("getPendingNotificationRequests")
             DispatchQueue.main.async {
+                print("requests: \(requests)")
                 self.notifications = requests.reduce([]) { (res, req) -> [AffirmNotification] in
                     
                     print("res = \(res)")

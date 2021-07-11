@@ -389,29 +389,95 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New affirmation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEs-tW-LEo">
-                                <rect key="frame" x="146.5" y="25" width="121" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="138" y="25" width="138.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmO-R6-eg4">
+                                <rect key="frame" x="102.5" y="404.5" width="209" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="  How to write affirmations  "/>
+                                <connections>
+                                    <action selector="howToButtonPressed:" destination="Up7-c9-sL4" eventType="touchUpInside" id="Rag-7s-ZbF"/>
+                                    <segue destination="7cW-Lm-aQW" kind="show" id="sR7-Ji-ly3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5LB-yV-T2s"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="z4F-qF-Fu7" firstAttribute="leading" secondItem="5LB-yV-T2s" secondAttribute="leading" constant="10" id="0aF-nT-6ah"/>
+                            <constraint firstItem="FmO-R6-eg4" firstAttribute="centerY" secondItem="mtB-QN-isA" secondAttribute="centerY" id="DRA-rd-Vf3"/>
                             <constraint firstItem="iEs-tW-LEo" firstAttribute="centerX" secondItem="mtB-QN-isA" secondAttribute="centerX" id="Pa3-hc-HdW"/>
                             <constraint firstItem="5LB-yV-T2s" firstAttribute="trailing" secondItem="z4F-qF-Fu7" secondAttribute="trailing" constant="10" id="m1p-Qe-BcT"/>
                             <constraint firstItem="z4F-qF-Fu7" firstAttribute="top" secondItem="iEs-tW-LEo" secondAttribute="bottom" constant="35" id="now-sU-ext"/>
+                            <constraint firstItem="FmO-R6-eg4" firstAttribute="centerX" secondItem="mtB-QN-isA" secondAttribute="centerX" id="pWn-YR-wdU"/>
                             <constraint firstItem="iEs-tW-LEo" firstAttribute="top" secondItem="5LB-yV-T2s" secondAttribute="top" constant="25" id="wjs-ib-fj5"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="howToButton" destination="FmO-R6-eg4" id="74y-gS-ZTs"/>
                         <outlet property="textField" destination="z4F-qF-Fu7" id="drK-vH-n0L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgH-P0-ThE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5116" y="621"/>
+        </scene>
+        <!--How To Write Affirms Controller-->
+        <scene sceneID="dA1-X6-pIO">
+            <objects>
+                <viewController id="7cW-Lm-aQW" customClass="HowToWriteAffirmsController" customModule="Affirmatio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OwN-LI-q2v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIW-PX-kEZ">
+                                <rect key="frame" x="10" y="187.5" width="394" height="467"/>
+                                <mutableString key="text">💪 Begin with the words, “I am.” These are two very powerful words, which I will come to again later.
+
+✍️ Make your affirmations in the present tense.
+
+😊 Be positive, making sure to turn any negatives into a positive statement (ie – I am healthy instead of I don’t want to be unhealthy.).
+
+😉 Make your point succinctly. Use the fewest words possible.
+
+🔭 Be specific if you can.
+
+💆 Try to include an actionable word (words ending in -ing are great).
+
+🏅 Be flowery in your words. Use emotional statements and powerful visuals.
+
+🧘 Your affirmations are for you, not for others. If you find one you love, change it up so that it works for you.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to write affirmations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eol-5e-qUi">
+                                <rect key="frame" x="98" y="25" width="218.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KTv-O1-K8X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WIW-PX-kEZ" firstAttribute="leading" secondItem="KTv-O1-K8X" secondAttribute="leading" constant="10" id="1kG-I5-iFr"/>
+                            <constraint firstItem="Eol-5e-qUi" firstAttribute="centerX" secondItem="OwN-LI-q2v" secondAttribute="centerX" id="3en-lQ-fiJ"/>
+                            <constraint firstItem="WIW-PX-kEZ" firstAttribute="centerY" secondItem="OwN-LI-q2v" secondAttribute="centerY" id="SST-mc-1Wd"/>
+                            <constraint firstItem="Eol-5e-qUi" firstAttribute="top" secondItem="KTv-O1-K8X" secondAttribute="top" constant="25" id="gX1-Sc-X8O"/>
+                            <constraint firstItem="WIW-PX-kEZ" firstAttribute="trailing" secondItem="KTv-O1-K8X" secondAttribute="trailing" constant="-10" id="l8C-KN-ckG"/>
+                            <constraint firstItem="WIW-PX-kEZ" firstAttribute="centerX" secondItem="OwN-LI-q2v" secondAttribute="centerX" id="sbu-SE-Yea"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kgZ-Ie-jPB"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etu-2f-IE5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6089.8550724637689" y="620.75892857142856"/>
         </scene>
         <!--Affirmations List View Controller-->
         <scene sceneID="BoU-Uf-UUN">
@@ -1440,7 +1506,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wrG-Vs-btO"/>
-        <segue reference="pL8-Ix-8NQ"/>
+        <segue reference="YhO-0N-7N5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bell.circle" catalog="system" width="128" height="121"/>

@@ -8,7 +8,7 @@
 import UIKit
 
 class NewNotificationViewController: UIViewController, UNUserNotificationCenterDelegate {
-
+    
     @IBOutlet weak var mon: UIButton!
     @IBOutlet weak var tue: UIButton!
     @IBOutlet weak var wed: UIButton!
@@ -34,7 +34,7 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        print("viewdidload pvc \(previousVC)")
+        checkNotificationsEnabled()
         weekButtons = [mon, tue, wed, thu, fri, sat,sun ]
         allButtons = [mon, tue, wed, thu, fri, sat, sun, selectAllButton, unselectAllButton]
         for button in allButtons {
@@ -103,13 +103,13 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
     
     @IBAction func repeatSwitcher(_ sender: UISwitch) {
         
-            for button in allButtons {
-                if sender.isOn {
-                    button.isEnabled = true
-                } else {
-                    button.isEnabled = false
-                }
+        for button in allButtons {
+            if sender.isOn {
+                button.isEnabled = true
+            } else {
+                button.isEnabled = false
             }
+        }
         
     }
     
@@ -160,9 +160,10 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         print("unselect all")
     }
     
-
+    
     
     @IBAction func addNotificationButtonPressed(_ sender: Any) {
+        print("add notification button pressed")
         if let notif = notificationEdit {
             center.removePendingNotificationRequests(withIdentifiers: notif.identifiers)
         }
@@ -170,16 +171,21 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         let hour = Calendar.current.component(.hour, from: date)
         let minnute = Calendar.current.component(.minute, from: date)
         let id = UUID().uuidString
+        //print(isNotificationsEnabled())
         if repeatSwitcherOutlet.isOn && daysSelected.count > 0 {
             for day in daysSelected {
                 let notDate = createDate(weekDay: day, hour: hour, minute: minnute)
+                //if isNotificationsEnabled() {
                 scheduleNotification(at: notDate, body: "Please return to affirmatio", titles: "Affirmatio", repeatWeekDays: true, id: id)
                 print("button many notifications")
+                //}
             }
         } else {
             let notDate = createDate(hour: hour, minute: minnute)
+            //if isNotificationsEnabled() {
             scheduleNotification(at: notDate, body: "Please return to affirmatio, single not", titles: "Affirmatio", repeatWeekDays: false, id: id)
             print("button ine notification")
+            //}
         }
         if let vc = previousVC {
             //print("previousVC \(previousVC)")
@@ -196,7 +202,7 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         
         var components = DateComponents()
         if weekDay > 0 {
-        components.weekday = weekDay
+            components.weekday = weekDay
         }
         components.hour = hour
         components.minute = minute
@@ -208,23 +214,36 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         return calendar.date(from: components)!
     }
     
+    func checkNotificationsEnabled() {
+        center.getNotificationSettings { (settings) in
+            if settings.authorizationStatus != .authorized {
+                // Notifications not allowed
+                DispatchQueue.main.async {
+                    self.displayAlert()
+                    self.dismiss(animated: true, completion: nil)
+                }
+            }
+    }
+    }
+    
     func scheduleNotification(at date: Date, body: String, titles:String, repeatWeekDays: Bool, id: String) {
-
+        
+        
         var triggerWeekly = Calendar.current.dateComponents([.weekday,.hour,.minute], from: date)
         if !repeatWeekDays {
             triggerWeekly = Calendar.current.dateComponents([.hour,.minute], from: date)
         }
-
+        
         let trigger = UNCalendarNotificationTrigger(dateMatching: triggerWeekly, repeats: repeatWeekDays)
-
+        
         let content = UNMutableNotificationContent()
         content.title = titles
         content.body = body
         content.sound = UNNotificationSound.default
         content.categoryIdentifier = id
-
+        
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-
+        
         UNUserNotificationCenter.current().delegate = self
         //UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
         UNUserNotificationCenter.current().add(request) {(error) in
@@ -236,15 +255,31 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         }
     }
     
+    //MARK:- alert functions
+    
+    func displayAlert() {
+        let alert = UIAlertController(title: NSLocalizedString("Notifications disabled", comment: ""), message: NSLocalizedString("To turn on notifications, you need enable notifications in Settings -> Affirmare -> Notifications", comment: ""), preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default , handler: nil))
+        alert.addAction(UIAlertAction(title: NSLocalizedString("Open Settings", comment: ""), style: .cancel, handler: { (action) in
+            print("Open Settings")
+            if let bundleIdentifier = Bundle.main.bundleIdentifier, let appSettings = URL(string: UIApplication.openSettingsURLString + bundleIdentifier) {
+                if UIApplication.shared.canOpenURL(appSettings) {
+                    UIApplication.shared.open(appSettings)
+                }
+            }
+        }))
+        UIApplication.shared.windows.last?.rootViewController?.present(alert, animated: true)
+    }
+    
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
