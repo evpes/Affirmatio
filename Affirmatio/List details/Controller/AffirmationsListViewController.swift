@@ -47,8 +47,8 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
             playAffirmationsButton.tintColor = .systemGreen
         }
     }
-
-     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
         if let list = affirmsList {
@@ -59,12 +59,12 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
         return 1
     }
     
-     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90
     }
-
     
-     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath) as! AffirmViewCell
         
         if let list = affirmsList {
@@ -72,51 +72,73 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
                 cell.affirmLabel?.text = NSLocalizedString(" + add affirmations", comment: "")
                 cell.affirmLabel?.textColor = .gray
             } else {
-            cell.affirmLabel?.text = list.affirmations[indexPath.row].affitmText
+                cell.affirmLabel?.text = list.affirmations[indexPath.row].affitmText
                 cell.affirmLabel?.textColor = .white
             }
         } else {
             cell.affirmLabel?.text = NSLocalizedString(" + add affirmations", comment: "") 
             cell.affirmLabel?.textColor = .gray
         }
-
+        
         return cell
     }
     
     // Override to support editing the table view.
-     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    //     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    //
+    //        if editingStyle == .delete {
+    //            // Delete the row from the data source
+    //            dataManager.deleteAffirm(at: indexPath, from: affirmsList)
+    //            //deleteAffirm(path: indexPath)
+    //            tableView.deleteRows(at: [indexPath], with: .fade)
+    //        }
+    //
+    //    }
+    //
+    //    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+    //
+    //        if let list = affirmsList {
+    //        if list.affirmations.count == indexPath.row {
+    //            return UITableViewCell.EditingStyle.none
+    //        } else {
+    //            return UITableViewCell.EditingStyle.delete
+    //        }
+    //        }
+    //        return UITableViewCell.EditingStyle.none
+    //    }
+    
+    @available(iOS 11.0, *)
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            dataManager.deleteAffirm(at: indexPath, from: affirmsList)
-            //deleteAffirm(path: indexPath)
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        }
-
+        let action =  UIContextualAction(style: .destructive, title: "", handler: { (action,view,completionHandler ) in
+            if let list = self.affirmsList {
+                if list.affirmations.count == indexPath.row {
+                    return
+                } else {
+                    self.dataManager.deleteAffirm(at: indexPath, from: self.affirmsList)
+                    tableView.deleteRows(at: [indexPath], with: .fade)
+                }
+            }
+            completionHandler(true)
+        })
+        action.image = UIImage(systemName: "trash.circle")
+        action.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
+        let configuration = UISwipeActionsConfiguration(actions: [action])
+        
+        return configuration
     }
     
-    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
-        
-        if let list = affirmsList {
-        if list.affirmations.count == indexPath.row {
-            return UITableViewCell.EditingStyle.none
-        } else {
-            return UITableViewCell.EditingStyle.delete
-        }
-        }
-        return UITableViewCell.EditingStyle.none
-    }
     
-     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         if indexPath.row == affirmsList?.affirmations.count {
             performSegue(withIdentifier: "fromListToCategories", sender: self)
         }
     }
-
+    
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "playList" {
@@ -137,7 +159,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
     
     // MARK: - Data manipilation methods
     
-
+    
     
     @IBAction func playList(_ sender: Any) {
         guard let list = affirmsList else {
@@ -155,7 +177,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
         
     }
     
-
+    
 }
 
 

@@ -19,6 +19,7 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
     var currentList: AffirmationsList?
     var listName: String?
     var expandArray : [Bool] = []
+    var editAffirmIndex : IndexPath?
     
     let notificationCenter = NotificationCenter.default
     let realm = try! Realm()
@@ -236,6 +237,41 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
         footer.backgroundColor = .clear
         return footer
     }
+    
+    @available(iOS 11.0, *)
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        if let category = self.categories?[indexPath.section] {
+            if indexPath.row == category.affirmations.count {
+                return UISwipeActionsConfiguration()
+            } else {
+                let delete =  UIContextualAction(style: .destructive, title: "", handler: { (action,view,completionHandler ) in
+                    if let category = self.categories?[indexPath.section] {
+                        self.dataManager.deleteAffirm(at: indexPath.row, from: category)
+                        tableView.deleteRows(at: [indexPath], with: .fade)                        
+                    }
+                    
+                    completionHandler(true)
+                })
+                delete.image = UIImage(systemName: "trash.circle")
+                delete.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
+                
+                let edit = UIContextualAction(style: .normal, title: "") { acton, view, completionHandler in
+                    if let category = self.categories?[indexPath.section] {
+                        self.editAffirmIndex = indexPath
+                        self.performSegue(withIdentifier: "goToNewAffirm2", sender: self)
+                    }
+                }
+                
+                edit.image = UIImage(systemName: "pencil.circle")
+                edit.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
+                let configuration = UISwipeActionsConfiguration(actions: [delete, edit])
+                
+                return configuration
+            }
+        }
+        return UISwipeActionsConfiguration()
+    }
 
     
     @objc func handleExpandClose(button: UIButton) {
@@ -321,16 +357,23 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //      Get the new view controller using segue.destination.
         //      Pass the selected object to the new view controller.
+        print("prepare1")
+        if segue.identifier == "goToNewAffirm2" {
+            let vc = segue.destination as! NewAffirmationViewController
         if let indexPath = tableView.indexPathsForSelectedRows {
-            if segue.identifier == "goToNewAffirm2" {
-                let vc = segue.destination as! NewAffirmationViewController
                 vc.category = categories?[indexPath[0].section]
                 vc.categoriesVC = self
-            }
-            
+        }
+        if let editIndexPath = editAffirmIndex {
+                print("prepare3")
+                vc.category = categories?[editIndexPath.section]
+                vc.categoriesVC = self
+                print("editAffirmIndex = \(editAffirmIndex)")
+            vc.editAffirmIndex = editIndexPath
+            editAffirmIndex = nil
         }
     }
 
 }
-
+}
 

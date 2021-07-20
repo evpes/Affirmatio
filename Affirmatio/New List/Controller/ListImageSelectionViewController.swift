@@ -24,7 +24,7 @@ class ListImageSelectionViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         // Do any additional setup after loading the view.
-        for i in 1...31 {
+        for i in 1...62 {
             images.append("list_image\(i)")
         }
         print("images.count = \(images.count)")

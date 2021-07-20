@@ -291,13 +291,13 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
                 return UIContextMenuConfiguration(identifier: nil, previewProvider: nil) { suggestedActions in
                     
                     // Create an action for sharing
-                    let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash")) { action in
+                    let delete = UIAction(title: NSLocalizedString("Delete", comment: ""), image: UIImage(systemName: "trash")) { action in
                         print("deleting")
                         self.dataManager.deleteList(list: list[indexPath.row])
                         self.collectionView.reloadData()
                     }
                     
-                    let edit = UIAction(title: "Edit", image: UIImage(systemName: "pencil")) { (action) in
+                    let edit = UIAction(title: NSLocalizedString("Edit", comment: ""), image: UIImage(systemName: "pencil")) { (action) in
                         print("edit")
                         self.editList = true
                         self.editIndexPath = indexPath

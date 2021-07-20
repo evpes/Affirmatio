@@ -72,7 +72,7 @@ public class DataManager {
         
     }
     
-    //delete affirmation from CategoriesVC
+    //delete affirmation from CategoriesVC from List
     func deleteAffirm(_ affirm: Affirmation, from currentList: AffirmationsList?) {
         var idx = 0
         for (n, a) in currentList!.affirmations.enumerated() {
@@ -85,7 +85,18 @@ public class DataManager {
                 currentList?.affirmations.remove(at: idx)
             }
         } catch {
-            print("Error while delete affirm from list")
+            print("Error while delete affirm from list: \(error)")
+        }
+    }
+    
+    //delete affirmation from CategoriesVC from Category
+    func deleteAffirm(at affirmIndex: Int, from category: AffirmationsCategory) {
+        do {
+            try realm.write {
+                category.affirmations.remove(at: affirmIndex)
+            }
+        } catch {
+            print("Error while delete affirm from category: \(error)")
         }
     }
     

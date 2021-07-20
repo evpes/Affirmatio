@@ -29,11 +29,11 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
         bgView = GradientBackground(frame: self.view.bounds)
         self.view.insertSubview(bgView!, at: 0)
         
-        print("notifications \(notifications)")
+        //print("notifications \(notifications)")
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        print("notifications \(notifications)")
+        //print("notifications \(notifications)")
         tableView.reloadData()
         bgView?.animateGradient()
     }
@@ -55,7 +55,7 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
        if editingStyle == .delete {
            // Delete the row from the data source
-           print("delete")
+           //print("delete")
            deleteNotification(path: indexPath)
            tableView.deleteRows(at: [indexPath], with: .fade)
        } else if editingStyle == .insert {
@@ -99,14 +99,13 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func loadNotifications() {
-        print("load notifications")
+        //print("load notifications")
         center.getPendingNotificationRequests(completionHandler: { requests in
-            print("getPendingNotificationRequests")
+            //print("getPendingNotificationRequests")
             DispatchQueue.main.async {
-                print("requests: \(requests)")
+                //print("requests: \(requests)")
                 self.notifications = requests.reduce([]) { (res, req) -> [AffirmNotification] in
-                    
-                    print("res = \(res)")
+                    //print("res = \(res)")
                     var result = res
                     let trigger = req.trigger as! UNCalendarNotificationTrigger
                     if res.count == 0 {
@@ -116,7 +115,7 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
                             if req.content.categoryIdentifier == r.groupId {
                                 result[n].identifiers.append(req.identifier)
                                 result[n].weekDays.append(trigger.dateComponents.weekday ?? 0)
-                                print("middle result \(result))")
+                                //print("middle result \(result))")
                                 print(req.identifier)
                                 return result
                             }
@@ -125,7 +124,7 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
                     print(req.identifier)
                     let newNotification = AffirmNotification(hour: trigger.dateComponents.hour!, minute: trigger.dateComponents.minute!, weekDays: [trigger.dateComponents.weekday ?? 0], groupId: req.content.categoryIdentifier, identifiers: [req.identifier])
                     result.append(newNotification)
-                    print("last result \(result)")
+                    //print("last result \(result)")
                     return result
                 }
                 self.tableView.reloadData()
@@ -134,20 +133,17 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func deleteNotification(path: IndexPath) {
-        
         let identifiers = notifications[path.row].identifiers
         center.removePendingNotificationRequests(withIdentifiers: identifiers)
         notifications.remove(at: path.row)
-        
-        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "newNotofocation", sender: self)
+        performSegue(withIdentifier: "newNotification", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "newNotofocation" {
+        if segue.identifier == "newNotification" {
             let vc = segue.destination as! NewNotificationViewController
             vc.previousVC = self
             if let indexPath = tableView.indexPathForSelectedRow {
@@ -155,14 +151,6 @@ class NotificationsViewController: UIViewController, UITableViewDataSource, UITa
             }
         }
     }
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+
     
 }

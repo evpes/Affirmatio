@@ -90,8 +90,8 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
                 }
             }
             //addNotificationButton.titleLabel?.text = "Done"
-            addNotificationButton.setTitle("Done", for: .normal)// = "Done"
-            titleLabel.text = "Edit notification"
+            addNotificationButton.setTitle(NSLocalizedString("Done", comment: ""), for: .normal)// = "Done"
+            titleLabel.text = NSLocalizedString("Edit notification", comment: "")
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "HH:mm"
             let date = dateFormatter.date(from: "\(notif.hour):\(notif.minute)")
@@ -122,12 +122,12 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
             daysSelected.remove(at: index!)
             sender.backgroundColor = UIColor.white.withAlphaComponent(0.2)
             sender.titleLabel?.tintColor = .black
-            print("unselected")
+            //print("unselected")
         } else {
             daysSelected.append(sender.tag)
             sender.backgroundColor = UIColor.black.withAlphaComponent(0.7)
             sender.titleLabel?.tintColor = .white
-            print("selected")
+            //print("selected")
         }
         print(daysSelected)
         //check array
@@ -145,7 +145,7 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
             }
             
         }
-        print("select all")
+        //print("select all")
     }
     
     
@@ -157,7 +157,7 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
                 button.titleLabel?.tintColor = .black
             }
         }
-        print("unselect all")
+        //print("unselect all")
     }
     
     
@@ -176,14 +176,14 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
             for day in daysSelected {
                 let notDate = createDate(weekDay: day, hour: hour, minute: minnute)
                 //if isNotificationsEnabled() {
-                scheduleNotification(at: notDate, body: "Please return to affirmatio", titles: "Affirmatio", repeatWeekDays: true, id: id)
+                scheduleNotification(at: notDate, body: "Please return to affirmatio", titles: "Affirmare", repeatWeekDays: true, id: id)
                 print("button many notifications")
                 //}
             }
         } else {
             let notDate = createDate(hour: hour, minute: minnute)
             //if isNotificationsEnabled() {
-            scheduleNotification(at: notDate, body: "Please return to affirmatio, single not", titles: "Affirmatio", repeatWeekDays: false, id: id)
+            scheduleNotification(at: notDate, body: "Please return to affirmatio, single not", titles: "Affirmare", repeatWeekDays: false, id: id)
             print("button ine notification")
             //}
         }

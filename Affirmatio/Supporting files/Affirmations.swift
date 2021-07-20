@@ -102,5 +102,17 @@ public struct Affirmations {
             ]
         ]
     
+    public static let notificationAffirmations = [
+        
+        NSLocalizedString("Be positive, stay happy, don't let the negativity or drama of the world get you down...SMILE!", comment: ""),
+        NSLocalizedString("May the dreams of your past be the reality of your future.", comment: ""),
+        NSLocalizedString("Be happy today. Achieve something today. Don't regret today. Make today a day to look back and smile.", comment: ""),
+        NSLocalizedString("Encourage yourself, believe in yourself, and love yourself. Never doubt who you are.", comment: ""),
+        NSLocalizedString("Positive thinking will let you do everything better than negative thinking will.", comment: ""),
+        NSLocalizedString("One person can change the world. It happened, is happening and will happen in the future.", comment: ""),
+        NSLocalizedString("Everything that you need to become successful is inside you.", comment: ""),
+        NSLocalizedString("LIFE is Amazing, enjoy every moment of it!", comment: "")
+                                                                                 
+    ]
     
 }

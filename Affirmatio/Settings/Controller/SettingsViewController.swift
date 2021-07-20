@@ -11,12 +11,12 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var pauseDurationSlider: UISlider!
     @IBOutlet weak var volumeMusicSlider: UISlider!
-    let dataManager = DataManager()
-    var bgView: GradientBackground?
     @IBOutlet weak var okButtonOutlet: UIButton!
     @IBOutlet weak var pauseLabel: UILabel!
     @IBOutlet weak var volumeLabel: UILabel!
     
+    let dataManager = DataManager()
+    var bgView: GradientBackground?
     
     let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Settings.plist")
     var settings : [String : Float] = [:]
@@ -69,15 +69,5 @@ class SettingsViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

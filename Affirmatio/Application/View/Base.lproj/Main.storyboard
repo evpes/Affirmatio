@@ -435,7 +435,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIW-PX-kEZ">
                                 <rect key="frame" x="10" y="187.5" width="394" height="467"/>
-                                <mutableString key="text">💪 Begin with the words, “I am.” These are two very powerful words, which I will come to again later.
+                                <string key="text">💪 Begin with the words, “I am.” These are two very powerful words, which I will come to again later.
 
 ✍️ Make your affirmations in the present tense.
 
@@ -449,7 +449,7 @@
 
 🏅 Be flowery in your words. Use emotional statements and powerful visuals.
 
-🧘 Your affirmations are for you, not for others. If you find one you love, change it up so that it works for you.</mutableString>
+🧘 Your affirmations are for you, not for others. If you find one you love, change it up so that it works for you.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -795,7 +795,7 @@
                                 </state>
                                 <connections>
                                     <action selector="addNotificationButton:" destination="ahO-VL-tVX" eventType="touchUpInside" id="02M-hc-gDm"/>
-                                    <segue destination="fde-w7-PAk" kind="presentation" identifier="newNotofocation" id="Dg3-P0-fmo"/>
+                                    <segue destination="fde-w7-PAk" kind="presentation" identifier="newNotification" id="Dg3-P0-fmo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1042,7 +1042,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gxf-JS-amb">
                                                         <rect key="frame" x="0.0" y="0.0" width="404" height="212"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pause duration between play next affirmation" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWJ-C4-k0A">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pause between affirmations (affirmation play mode)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWJ-C4-k0A">
                                                                 <rect key="frame" x="0.0" y="0.0" width="131.5" height="212"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -1069,7 +1069,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bT5-H9-rl4">
                                                         <rect key="frame" x="0.0" y="112" width="404" height="212"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume background music in play affirms" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT9-1e-XXM">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BGM volume (affirmation play mode)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT9-1e-XXM">
                                                                 <rect key="frame" x="0.0" y="0.0" width="131.5" height="212"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -1370,8 +1370,8 @@
                                                     <action selector="closeButtonPressed:" destination="l0b-rf-6Ib" eventType="touchUpInside" id="efZ-Mo-0Lk"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade to Affirmare Premium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DC-fz-Hc0">
-                                                <rect key="frame" x="78" y="121.5" width="258" height="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade to Affirmare Premium" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DC-fz-Hc0">
+                                                <rect key="frame" x="40" y="121.5" width="334" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1391,6 +1391,8 @@
                                             <constraint firstItem="8vY-l2-QJq" firstAttribute="leading" secondItem="QVw-jz-ueG" secondAttribute="leading" constant="15" id="Az7-E8-oaA"/>
                                             <constraint firstItem="8vY-l2-QJq" firstAttribute="top" secondItem="QVw-jz-ueG" secondAttribute="top" constant="15" id="CNv-im-9OA"/>
                                             <constraint firstItem="Ofb-5v-Y9Z" firstAttribute="top" secondItem="QVw-jz-ueG" secondAttribute="top" constant="15" id="Dg3-Vn-dmK"/>
+                                            <constraint firstItem="1DC-fz-Hc0" firstAttribute="leading" secondItem="QVw-jz-ueG" secondAttribute="leading" constant="40" id="GJ6-o3-EHH"/>
+                                            <constraint firstAttribute="trailing" secondItem="1DC-fz-Hc0" secondAttribute="trailing" constant="40" id="QaR-0c-hUN"/>
                                             <constraint firstItem="1DC-fz-Hc0" firstAttribute="centerX" secondItem="QVw-jz-ueG" secondAttribute="centerX" id="RU5-dL-2IU"/>
                                             <constraint firstAttribute="trailing" secondItem="Ofb-5v-Y9Z" secondAttribute="trailing" constant="15" id="opc-1Q-Lae"/>
                                             <constraint firstItem="Ofb-5v-Y9Z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8vY-l2-QJq" secondAttribute="trailing" constant="8" symbolic="YES" id="q5B-UC-d3a"/>

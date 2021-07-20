@@ -87,7 +87,12 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
             if indexPath.row == affirms.count  {
                 print("indexPath for last row \(indexPath)")
                 cell.affirmLabel.textAlignment = .center
-                cell.affirmLabel.text = ["Good job!", "You rock!", "You rule!", "Well done! "][Int.random(in: 0...3)]
+                cell.affirmLabel.text = [
+                    NSLocalizedString("Good job!", comment: ""),
+                    NSLocalizedString("You rock!", comment: ""),
+                    NSLocalizedString("You rule!", comment: ""),
+                    NSLocalizedString("Well done!", comment: "")
+                ][Int.random(in: 0...3)]
                 cell.affirmImageView.image = UIImage(named: "award\(finishImageNum)")
                 //cell.affirmView.backgroundColor = UIColor.white.withAlphaComponent(0.5)
             } else {
