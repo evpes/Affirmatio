@@ -35,13 +35,10 @@ class NewAffirmationViewController: UIViewController {
         bgView = GradientBackground(frame: self.view.bounds)
         self.view.insertSubview(bgView!, at: 0)
         
-        print("index = \(editAffirmIndex)")
+        //print("index = \(editAffirmIndex)")
         if let index = editAffirmIndex {
-            guard let curCategory = category else {
-                print("Category does not send")
-                return
-            }
-            print("affirmText = \(category?.affirmations[index.row].affitmText)")
+            
+            //print("affirmText = \(category?.affirmations[index.row].affitmText)")
             textField.text = category?.affirmations[index.row].affitmText
         }
         

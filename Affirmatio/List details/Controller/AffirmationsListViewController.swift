@@ -23,6 +23,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppStoreReviewManager.requestReviewIfAppropriate()
         bgView = GradientBackground(frame: self.view.bounds)
         self.tableView.backgroundView = bgView
         notificationCenter.addObserver(self, selector: #selector(checkPremium), name: NSNotification.Name(IAPProduct.premiumSubscription.rawValue), object: nil)

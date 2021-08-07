@@ -31,9 +31,6 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
     var editList: Bool?
     var editIndexPath: IndexPath?
     
-    //let iapHelper = IAPHelper(productIds: Set(["com.apsterio.Affirmatio.premium","com.apsterio.Affirmatio.premium6m","com.apsterio.Affirmatio.premium12m"]))
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,16 +38,7 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
 
 
         notificationCenter.addObserver(self, selector: #selector(setPremium), name: NSNotification.Name(IAPProduct.premiumSubscription.rawValue), object: nil)
-//        print("get user defaults \(UserDefaults.standard.bool(forKey: IAPProduct.premiumSubscription.rawValue))" )
-//        print("exp date = \(UserDefaults.standard.string(forKey: "expDate"))")
-//        print("null value from UD \(UserDefaults.standard.object(forKey: "kek"))")
-//        print("null value from UD bool \(UserDefaults.standard.bool(forKey: "kek12"))")
-        //UserDefaults.standard.set(purchase.subscriptionExpirationDate, forKey: "expDate")
-        ///
-//        iapHelper.requestProducts { bol, res in
-//            print(res)
-//        }
-        ///temp
+
         
         if LandscapeManager.shared.isFirstLaunch {
             performSegue(withIdentifier: "toOnboarding", sender: nil)
@@ -67,29 +55,25 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
                     dataManager.addAffirmation(affirmationTxt: af, to: cat)
                 }
             }
+            
+            let premiumCategories = realm.objects(AffirmationsCategory.self).filter("premium = 1")
+            
+                for c in Affirmations.premiumCategories {
+                    let newCategory = AffirmationsCategory()
+                    newCategory.name = c
+                    newCategory.premium = 1
+                    dataManager.saveCategories(category: newCategory)
+                }
+                for (n,cat) in premiumCategories.enumerated() {
+                    for af in Affirmations.premiumAffimationsText[n] {
+                        dataManager.addAffirmation(affirmationTxt: af, to: cat)
+                    }
+                }
+            
             LandscapeManager.shared.isFirstLaunch = true
         }
         
-        //var widgetContents : [WidgetContent] = []
-        
         affirmLists = dataManager.loadAffirmLists()
-//        print("affirmLists: \(affirmLists)")
-        //print(Realm.Configuration.defaultConfiguration.fileURL)
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Register cell classes
-        //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        
-        // Do any additional setup after loading the view.
-        
-//        let firstRun = UserDefaults.standard.bool(forKey: "firstRun") as Bool
-//        if !firstRun {
-//
-//
-//            UserDefaults.standard.set(true, forKey: "firstRun")
-//        }
 
     }
     
@@ -203,6 +187,7 @@ class AffirmationsPLCollectionVC: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "affirmPLCell", for: indexPath) as! AffirmationsPLCell
         if let lists = affirmLists {
             if indexPath.row == lists.count {
+                print("indexPath.row == lists.count")
                 cell.affirmPLLabel.text = NSLocalizedString("+ add new list", comment: "") 
                 cell.affirmPLLabel.alpha = 0.3
                 cell.alpha = 0.5

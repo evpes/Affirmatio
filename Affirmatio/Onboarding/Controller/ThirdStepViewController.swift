@@ -35,6 +35,7 @@ class ThirdStepViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad")
         notificationCenter.addObserver(self, selector: #selector(setSubscriptionInfo), name: NSNotification.Name(IAPManager.productNotificationID), object: nil)
         notificationCenter.addObserver(self, selector: #selector(setPremium), name: NSNotification.Name(IAPProduct.premiumSubscription.rawValue), object: nil)
         
@@ -55,20 +56,20 @@ class ThirdStepViewController: UIViewController {
             view.layer.cornerRadius = 15
             switch n {
             case 0:
-                view.period.text = "1 year"
+                view.period.text = NSLocalizedString("1 year", comment: "")
                 view.price.text = "8.49$"
-                view.trial.text = "7 days free"
+                view.trial.text = NSLocalizedString("7 days free", comment: "")
                 view.button.addTarget(self, action: #selector(selectSubscriptionPeriod), for: .touchUpInside)
                 view.button.tag = n
             case 1:
-                view.period.text = "6 months"
+                view.period.text = NSLocalizedString("6 months", comment: "")
                 view.price.text = "5.49$"
-                view.trial.text = "3 days free"
+                view.trial.text = NSLocalizedString("3 days free", comment: "")
                 view.button.addTarget(self, action: #selector(selectSubscriptionPeriod), for: .touchUpInside)
                 view.button.tag = n
             case 2:
-                view.period.text = "1 month"
-                view.price.text = "0.98$"
+                view.period.text = NSLocalizedString("1 month", comment: "")
+                view.price.text = "0.99$"
                 view.trial.text = ""
                 view.button.addTarget(self, action: #selector(selectSubscriptionPeriod), for: .touchUpInside)
                 view.button.tag = n
@@ -81,6 +82,7 @@ class ThirdStepViewController: UIViewController {
             Subscription12M.trial.textColor = .white
             Subscription12M.period.textColor = .white
             
+            print("iapManager.products \(iapManager.products)")
             if iapManager.products.count > 0 {
                 setSubscriptionInfo()
             }
@@ -105,14 +107,17 @@ class ThirdStepViewController: UIViewController {
                 print("setup subscription for \(p)")
                 switch p.productIdentifier {
                 case "com.apsterio.Affirmatio.premium":
+                    print("price = \(p.localizedPrice) period = \(p.localizedTitle) trial = \(p.localizedDescription)")
                     self.Subscription1M.price.text = p.localizedPrice
                     self.Subscription1M.period.text = p.localizedTitle
                     self.Subscription1M.trial.text = p.localizedDescription
                 case "com.apsterio.Affirmatio.premium12m":
+                    print("price = \(p.localizedPrice) period = \(p.localizedTitle) trial = \(p.localizedDescription)")
                     self.Subscription12M.price.text = p.localizedPrice
                     self.Subscription12M.period.text = p.localizedTitle
                     self.Subscription12M.trial.text = p.localizedDescription
                 case "com.apsterio.Affirmatio.premium6m":
+                    print("price = \(p.localizedPrice) period = \(p.localizedTitle) trial = \(p.localizedDescription)")
                     self.Subscription6M.price.text = p.localizedPrice
                     self.Subscription6M.period.text = p.localizedTitle
                     self.Subscription6M.trial.text = p.localizedDescription
@@ -125,20 +130,20 @@ class ThirdStepViewController: UIViewController {
     
     @objc private func setPremium() {
         print("set premium in third view controller")
-        let premiumCategories = realm.objects(AffirmationsCategory.self).filter("premium = 1")
-        if premiumCategories.count == 0 {
-            for c in Affirmations.premiumCategories {
-                let newCategory = AffirmationsCategory()
-                newCategory.name = c
-                newCategory.premium = 1
-                dataManager.saveCategories(category: newCategory)
-            }
-            for (n,cat) in premiumCategories.enumerated() {
-                for af in Affirmations.premiumAffimationsText[n] {
-                    dataManager.addAffirmation(affirmationTxt: af, to: cat)
-                }
-            }
-        }
+//        let premiumCategories = realm.objects(AffirmationsCategory.self).filter("premium = 1")
+//        if premiumCategories.count == 0 {
+//            for c in Affirmations.premiumCategories {
+//                let newCategory = AffirmationsCategory()
+//                newCategory.name = c
+//                newCategory.premium = 1
+//                dataManager.saveCategories(category: newCategory)
+//            }
+//            for (n,cat) in premiumCategories.enumerated() {
+//                for af in Affirmations.premiumAffimationsText[n] {
+//                    dataManager.addAffirmation(affirmationTxt: af, to: cat)
+//                }
+//            }
+//        }
         self.dismiss(animated: true, completion: nil)
         //addPremiumContent()
     }
@@ -214,6 +219,20 @@ class ThirdStepViewController: UIViewController {
         //        }
         
     }
+    
+    @IBAction func termsButton(_ sender: Any) {
+        if let url = URL(string: "https://evpes.github.io/cv/terms_affirmare.html") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func privacyButton(_ sender: Any) {
+        if let url = URL(string: "https://evpes.github.io/cv/privacy_Affirmare.html") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    
     
 //    func addPremiumContent() {
 //        let premiumCategories = realm.objects(AffirmationsCategory.self).filter("premium = 1")

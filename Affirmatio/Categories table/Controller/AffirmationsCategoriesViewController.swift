@@ -257,7 +257,7 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
                 delete.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
                 
                 let edit = UIContextualAction(style: .normal, title: "") { acton, view, completionHandler in
-                    if let category = self.categories?[indexPath.section] {
+                    if let _ = self.categories?[indexPath.section] {
                         self.editAffirmIndex = indexPath
                         self.performSegue(withIdentifier: "goToNewAffirm2", sender: self)
                     }
@@ -368,7 +368,7 @@ class AffirmationsCategoriesViewController: UIViewController, UITableViewDataSou
                 print("prepare3")
                 vc.category = categories?[editIndexPath.section]
                 vc.categoriesVC = self
-                print("editAffirmIndex = \(editAffirmIndex)")
+                //print("editAffirmIndex = \(editAffirmIndex)")
             vc.editAffirmIndex = editIndexPath
             editAffirmIndex = nil
         }

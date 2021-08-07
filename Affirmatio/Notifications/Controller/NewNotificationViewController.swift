@@ -34,7 +34,7 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        checkNotificationsEnabled()
+        
         weekButtons = [mon, tue, wed, thu, fri, sat,sun ]
         allButtons = [mon, tue, wed, thu, fri, sat, sun, selectAllButton, unselectAllButton]
         for button in allButtons {
@@ -60,21 +60,29 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         addNotificationButton.titleLabel?.tintColor = .black
         addNotificationButton.backgroundColor = UIColor.white.withAlphaComponent(0.2)
         
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
-            if success {
-                print("All set!")
-            } else if let error = error {
-                print(error.localizedDescription)
+        
+            UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
+                if success {
+                    print("All set!")
+                } else if let error = error {
+                    print(error.localizedDescription)
+                }
             }
-        }
+        
+        
         if let _ = notificationEdit {
             setEditView()
         }
         // Do any additional setup after loading the view.
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         bgView?.animateGradient()
+        
+        //self.checkNotificationsEnabled()
+        
+        
     }
     
     func setEditView() {
@@ -163,6 +171,8 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
     
     
     @IBAction func addNotificationButtonPressed(_ sender: Any) {
+        
+        let notificationAffirmsCount = Affirmations.notificationAffirmations.count
         print("add notification button pressed")
         if let notif = notificationEdit {
             center.removePendingNotificationRequests(withIdentifiers: notif.identifiers)
@@ -176,25 +186,18 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
             for day in daysSelected {
                 let notDate = createDate(weekDay: day, hour: hour, minute: minnute)
                 //if isNotificationsEnabled() {
-                scheduleNotification(at: notDate, body: "Please return to affirmatio", titles: "Affirmare", repeatWeekDays: true, id: id)
+                scheduleNotification(at: notDate, body: Affirmations.notificationAffirmations[Int.random(in: 0...notificationAffirmsCount-1)], titles: "Affirmare", repeatWeekDays: true, id: id)
                 print("button many notifications")
                 //}
             }
         } else {
             let notDate = createDate(hour: hour, minute: minnute)
             //if isNotificationsEnabled() {
-            scheduleNotification(at: notDate, body: "Please return to affirmatio, single not", titles: "Affirmare", repeatWeekDays: false, id: id)
+            scheduleNotification(at: notDate, body: Affirmations.notificationAffirmations[Int.random(in: 0...notificationAffirmsCount-1)], titles: "Affirmare", repeatWeekDays: false, id: id)
             print("button ine notification")
             //}
         }
-        if let vc = previousVC {
-            //print("previousVC \(previousVC)")
-            
-            vc.loadNotifications()
-            self.dismiss(animated: true, completion: nil)
-            
-            
-        }
+        
         
     }
     
@@ -214,6 +217,17 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
         return calendar.date(from: components)!
     }
     
+    func isNotificationsEnabled(completion:@escaping (Bool)->() ) {
+        center.getNotificationSettings() { (settings) in
+            switch settings.authorizationStatus {
+            case .authorized:
+                completion(true)
+            default:
+                completion(false)
+            }
+        }
+    }
+    
     func checkNotificationsEnabled() {
         center.getNotificationSettings { (settings) in
             if settings.authorizationStatus != .authorized {
@@ -223,36 +237,76 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
                     self.dismiss(animated: true, completion: nil)
                 }
             }
-    }
+            
+        }
     }
     
     func scheduleNotification(at date: Date, body: String, titles:String, repeatWeekDays: Bool, id: String) {
         
-        
-        var triggerWeekly = Calendar.current.dateComponents([.weekday,.hour,.minute], from: date)
-        if !repeatWeekDays {
-            triggerWeekly = Calendar.current.dateComponents([.hour,.minute], from: date)
-        }
-        
-        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerWeekly, repeats: repeatWeekDays)
-        
-        let content = UNMutableNotificationContent()
-        content.title = titles
-        content.body = body
-        content.sound = UNNotificationSound.default
-        content.categoryIdentifier = id
-        
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-        
-        UNUserNotificationCenter.current().delegate = self
-        //UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
-        UNUserNotificationCenter.current().add(request) {(error) in
-            print("notification added")
-            print(trigger)
-            if let error = error {
-                print("Uh oh! We had an error: \(error)")
+        isNotificationsEnabled { enabled in
+            if enabled {
+                var triggerWeekly = Calendar.current.dateComponents([.weekday,.hour,.minute], from: date)
+                if !repeatWeekDays {
+                    triggerWeekly = Calendar.current.dateComponents([.hour,.minute], from: date)
+                }
+                
+                let trigger = UNCalendarNotificationTrigger(dateMatching: triggerWeekly, repeats: repeatWeekDays)
+                
+                let content = UNMutableNotificationContent()
+                content.title = titles
+                content.body = body
+                content.sound = UNNotificationSound.default
+                content.categoryIdentifier = id
+                
+                let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+                
+                UNUserNotificationCenter.current().delegate = self
+                
+                UNUserNotificationCenter.current().add(request) {(error) in
+                    print("notification added")
+                    print(trigger)
+                    if let error = error {
+                        print("Uh oh! We had an error: \(error)")
+                    }
+                }
+                if let vc = self.previousVC {
+                                       
+                    vc.loadNotifications()
+                    DispatchQueue.main.async {
+                    self.dismiss(animated: true, completion: nil)
+                    }
+                }
+            } else {
+                DispatchQueue.main.async {
+                    self.displayAlert()
+                    self.dismiss(animated: true, completion: nil)
+                }
             }
         }
+//        var triggerWeekly = Calendar.current.dateComponents([.weekday,.hour,.minute], from: date)
+//        if !repeatWeekDays {
+//            triggerWeekly = Calendar.current.dateComponents([.hour,.minute], from: date)
+//        }
+//
+//        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerWeekly, repeats: repeatWeekDays)
+//
+//        let content = UNMutableNotificationContent()
+//        content.title = titles
+//        content.body = body
+//        content.sound = UNNotificationSound.default
+//        content.categoryIdentifier = id
+//
+//        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+//
+//        UNUserNotificationCenter.current().delegate = self
+//        //UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+//        UNUserNotificationCenter.current().add(request) {(error) in
+//            print("notification added")
+//            print(trigger)
+//            if let error = error {
+//                print("Uh oh! We had an error: \(error)")
+//            }
+//        }
     }
     
     //MARK:- alert functions
