@@ -35,12 +35,13 @@ public class DataManager {
         
     }
     
-    func addAffirmation(affirmationTxt: String,to category: AffirmationsCategory) {
+    func addAffirmation(affirmationTxt: String,to category: AffirmationsCategory, withSound: String = "") {
         do {
             try self.realm.write {
                 let newAffirm = Affirmation()
                 newAffirm.affitmText = affirmationTxt
                 newAffirm.categoryName = category.name
+                newAffirm.soundPath = withSound
                 category.affirmations.append(newAffirm)
             }
         } catch {
@@ -101,11 +102,12 @@ public class DataManager {
     }
     
     //add new affirm to category from CategoriesVC
-    func addAffirm(to category: AffirmationsCategory, with text: String) {
+    func addAffirm(to category: AffirmationsCategory, with text: String, withSound: String = "") {
         do {
             try realm.write {
                 let newAffirm = Affirmation()
                 newAffirm.affitmText = text
+                newAffirm.soundPath = withSound
                 category.affirmations.append(newAffirm)
             }
         } catch {
@@ -172,7 +174,7 @@ public class DataManager {
                 print("Error decoding data to settings dict: \(error)")
             }
         } else {
-            result = ["pause" : 10, "volume" : 0.5]
+            result = ["pause" : 15, "volume" : 0.25, "voiceGender" : 1, "userGender" : 1]
         }
         return result
     }
@@ -185,6 +187,28 @@ public class DataManager {
         } catch {
             print("Error encoding settings dict:\(error)")
         }
+    }
+    
+    func rewriteSettings() {
+        //0 - male, 1 - female
+        let settings = ["pause" : 15, "volume" : 0.25, "voiceGender" : 1, "userGender" : 1]
+        let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Settings.plist")
+        let encoder = PropertyListEncoder()
+        do {
+            let data = try encoder.encode(settings)
+            try data.write(to: path!)
+        } catch {
+            print("Error encoding settings dict:\(error)")
+        }
+    }
+    
+    func checkSettingsUpToDate() {
+        let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Settings.plist")
+        let currentSettings = loadSettings(from: path)
+        if !currentSettings.keys.contains("userGender") {
+            rewriteSettings()
+        }
+        
     }
     
 }

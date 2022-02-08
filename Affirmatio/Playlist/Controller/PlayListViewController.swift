@@ -22,7 +22,7 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
     var settings : [String : Float] = [:]
     let dataManager = DataManager()
     
-    var affrirmations: List<Affirmation>?
+    var affirmations: List<Affirmation>?
     
     var finishImageNum = Int.random(in: 1...6)
     var timers: [Timer] = []
@@ -50,7 +50,7 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
         bgMusicPlayer.volume = 0
         bgMusicPlayer.play()
         bgMusicPlayer.setVolume(settings["volume"]!, fadeDuration: 6)
-        let ti = Float(affrirmations?.count ?? 1) * settings["pause"]! - settings["pause"]!
+        let ti = Float(affirmations?.count ?? 1) * settings["pause"]! - settings["pause"]!
         Timer.scheduledTimer(withTimeInterval: Double(ti), repeats: false) { (timer) in
             self.bgMusicPlayer.setVolume(0.1, fadeDuration: 9)
         }
@@ -69,9 +69,9 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
         
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let affirm = affrirmations {
+        if let affirm = affirmations {
             if affirm.count > 0 {
-                print("numbersOfRos: \(affirm.count + 1)")
+                print("numbersOfRows: \(affirm.count + 1)")
                 return affirm.count + 1
             } else {
                 return 0
@@ -82,8 +82,12 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "playListCell") as! PlayListViewCell
-        if let affirms = affrirmations {
+        if let affirms = affirmations {
             cell.affirmLabel.font = UIFont(name: "Helvetica Neue", size: 35)
+            cell.affirmLabel.layer.shadowOffset = CGSize(width: 2, height: 3)
+            cell.affirmLabel.layer.shadowOpacity = 0.75
+            cell.affirmLabel.layer.shadowRadius = 3
+            cell.affirmLabel.textAlignment = .center
             if indexPath.row == affirms.count  {
                 print("indexPath for last row \(indexPath)")
                 cell.affirmLabel.textAlignment = .center
@@ -98,7 +102,7 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
             } else {
                 
                 cell.affirmLabel.text = affirms[indexPath.row].affitmText                
-                cell.affirmImageView.image = UIImage(named: "nature\(Int.random(in: 1...14))")//"\(affirms[indexPath.row].categoryName)\(Int.random(in: 1...20))")
+                cell.affirmImageView.image = UIImage(named: "nature\(Int.random(in: 1...55))")//"\(affirms[indexPath.row].categoryName)\(Int.random(in: 1...20))")
                 
             }
             
@@ -148,7 +152,9 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func playAffirms() {
-        if let affirms = affrirmations {
+        let voiceGender = settings["voiceGender"] ?? 1
+        let voice = voiceGender == 1 ? "f" : "m"
+        if let affirms = affirmations {
             
             for n in 0...affirms.count {
                 let indexPath = IndexPath(row: n, section: 0)
@@ -157,7 +163,7 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
                     let timer = Timer.scheduledTimer(withTimeInterval: Double(n) * Double(settings["pause"]!), repeats: false) { [self] (timer) in
                         DispatchQueue.main.async {
                             print("sound \(n) interval \(Double(n) * Double(settings["pause"]!))")
-                            self.playSound(key: affirms[n].affitmText, format: "mp3")
+                            self.playSound(key: "\(affirms[n].affitmText)+\(voice)", format: "mp3")
                             self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
                         }
                     }
@@ -199,6 +205,7 @@ class PlayListViewController: UIViewController, UITableViewDataSource, UITableVi
     func playSound(key: String, format: String = "m4a") {
         let urlOp = Bundle.main.url(forResource: key, withExtension: format)
         if let url = urlOp {
+            print(url)
             affirmsPlayer = try! AVAudioPlayer(contentsOf: url)
             affirmsPlayer.play()
         }

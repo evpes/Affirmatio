@@ -12,12 +12,33 @@ class MainPageViewController: UIPageViewController {
     
     // MARK: - UI Elements
     private var viewControllerList: [UIViewController] = {
+        var controllers: [UIViewController] = []
         let storyboard = UIStoryboard.main //UIStoryboard.onboarding
         let firstVC = storyboard.instantiateViewController(withIdentifier: "FirstStepVC")
-        let secondVC = storyboard.instantiateViewController(withIdentifier: "SecondStepVC")
-        let thirdVC = storyboard.instantiateViewController(withIdentifier: "ThirdStepVC")
         firstVC.isModalInPresentation = true
-        return [firstVC, secondVC, thirdVC]
+        controllers.append(firstVC)
+        
+        //check localization
+        let locale = NSLocale.current.languageCode ?? ""
+        if locale == "ru" {
+            let genderVC = storyboard.instantiateViewController(withIdentifier: "GenderVC")
+            controllers.append(genderVC)
+        } else {
+            //set default settings
+            let dataManager = DataManager()
+            dataManager.rewriteSettings()
+        }
+                
+        let secondVC = storyboard.instantiateViewController(withIdentifier: "SecondStepVC")
+        controllers.append(secondVC)
+        
+        let mainSubscriptionVC = storyboard.instantiateViewController(withIdentifier: "MainSubscriptionVC")
+        controllers.append(mainSubscriptionVC)
+        
+        let thirdVC = storyboard.instantiateViewController(withIdentifier: "ThirdStepVC")
+        controllers.append(thirdVC)
+        
+        return controllers
     }()
     
     // MARK: - Properties

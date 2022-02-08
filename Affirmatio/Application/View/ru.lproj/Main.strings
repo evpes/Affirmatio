@@ -1,16 +1,12 @@
 
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "0bu-vq-ek9"; */
-"0bu-vq-ek9.text" = "Label";
-
 /* Class = "UILabel"; text = "Upgrade to Affirmare Premium"; ObjectID = "1DC-fz-Hc0"; */
-"1DC-fz-Hc0.text" = "Раскрой весь потенциал с Affirmare Premium";
+"1DC-fz-Hc0.text" = "Раскройте весь потенциал с Affirmare Premium";
 
-/* Class = "UILabel"; text = "🔊 play audio affirmations on the go or before bed  ✅ create your own affirmations  🔐 unlock all affirmations and categories"; ObjectID = "3NW-BV-Kuy"; */
-"3NW-BV-Kuy.text" = "🔊 слушай аудио аффирмации на ходу или перед сном  ✅ создавай свои собственные аффирмации  🔐 разблокируй все аффирмации и категории";
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "2Ta-j5-liM"; */
+"2Ta-j5-liM.normalTitle" = "Сохранить";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "4Pb-YU-tob"; */
-"4Pb-YU-tob.text" = "Label";
+/* Class = "UILabel"; text = "Full access to audio affirmations"; ObjectID = "43v-0x-42b"; */
+"43v-0x-42b.text" = "Полный доступ к аудио аффирмациям";
 
 /* Class = "UIButton"; normalTitle = "Thu"; ObjectID = "5iB-A9-xwP"; */
 "5iB-A9-xwP.normalTitle" = "Чт";
@@ -18,50 +14,98 @@
 /* Class = "UINavigationItem"; title = "Affirmare"; ObjectID = "81u-m7-XSB"; */
 "81u-m7-XSB.title" = "Affirmare";
 
+/* Class = "UILabel"; text = "boost your self-esteem "; ObjectID = "85A-2J-RW0"; */
+"85A-2J-RW0.text" = "прокачайте свою самооценку ";
+
+/* Class = "UIButton"; normalTitle = "Terms"; ObjectID = "8gH-D2-RTP"; */
+"8gH-D2-RTP.normalTitle" = "Правила пользования";
+
 /* Class = "UIButton"; normalTitle = "restore"; ObjectID = "8vY-l2-QJq"; */
-"8vY-l2-QJq.normalTitle" = "Восстановить покупки";
+"8vY-l2-QJq.normalTitle" = "восстановить покупки";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "Bo6-X1-QGO"; */
+"Bo6-X1-QGO.normalTitle" = "Женский";
 
 /* Class = "UILabel"; text = "20:10"; ObjectID = "C9F-Tl-BAO"; */
 "C9F-Tl-BAO.text" = "20:10";
 
+/* Class = "UILabel"; text = "Practice with audio affirmations"; ObjectID = "CFb-g6-uY6"; */
+"CFb-g6-uY6.text" = "Практиковать аудио аффирмации";
+
+/* Class = "UILabel"; text = "Pause between affirmations"; ObjectID = "CRV-ia-2wg"; */
+"CRV-ia-2wg.text" = "Пауза между аффирмациями";
+
 /* Class = "UIButton"; normalTitle = "Sat"; ObjectID = "Dsd-i3-KeK"; */
 "Dsd-i3-KeK.normalTitle" = "Сб";
+
+/* Class = "UILabel"; text = "Сhoose the voice that will read the affirmations"; ObjectID = "E69-OL-4N0"; */
+"E69-OL-4N0.text" = "Выберите голос который будет произносить аффирмации";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "EiX-dR-pSE"; */
 "EiX-dR-pSE.text" = "Label";
 
 /* Class = "UILabel"; text = "How to write affirmations"; ObjectID = "Eol-5e-qUi"; */
-"Eol-5e-qUi.text" = "Как писать аффирмации";
+"Eol-5e-qUi.text" = "Как правильно писать аффирмации";
 
-/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "FhE-LF-ME6"; */
-"FhE-LF-ME6.normalTitle" = "OK";
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "FZq-tt-z6Y"; */
+"FZq-tt-z6Y.normalTitle" = "Далее";
 
 /* Class = "UIButton"; normalTitle = "  How to write affirmations  "; ObjectID = "FmO-R6-eg4"; */
 "FmO-R6-eg4.normalTitle" = "  Как писать аффирмации  ";
 
+/* Class = "UILabel"; text = "encourage positive changes in your life "; ObjectID = "GY3-4b-wXc"; */
+"GY3-4b-wXc.text" = "внесите позитивные изменения в свою жизнь ";
+
+/* Class = "UILabel"; text = "First 7 days are free, then 50$/ year. \nCancel anytime."; ObjectID = "H2W-ei-1JY"; */
+"H2W-ei-1JY.text" = "Первые 7 дней бесплатно, далее 10$/ в год. \nОтмена в любое время.";
+
+/* Class = "UILabel"; text = "Create your own affirmation"; ObjectID = "IOS-UU-gkA"; */
+"IOS-UU-gkA.text" = "Создавайте свои аффирмации";
+
 /* Class = "UILabel"; text = "Mon Sun Wed Thu Sat Fri Sun"; ObjectID = "Il5-ek-AfD"; */
 "Il5-ek-AfD.text" = "Пн Вс Ср Чт Сб Пт Вс";
+
+/* Class = "UILabel"; text = "Set the volume of the background music that will sound during practice with affirmations"; ObjectID = "JHG-su-P32"; */
+"JHG-su-P32.text" = "Установить громкость фоновой музыки которая звучит во время практики с аффирмациями";
+
+/* Class = "UILabel"; text = "How to use positive affirmations"; ObjectID = "KPN-NW-9NI"; */
+"KPN-NW-9NI.text" = "Как использовать позитивные аффирмации";
+
+/* Class = "UILabel"; text = "Full access to audio affirmations"; ObjectID = "KRp-6H-1C1"; */
+"KRp-6H-1C1.text" = "Полный доступ к аудио аффирмациям";
 
 /* Class = "UIButton"; normalTitle = "Fri"; ObjectID = "LGd-GE-z6e"; */
 "LGd-GE-z6e.normalTitle" = "Пт";
 
-/* Class = "UILabel"; text = "BGM volume (affirmation play mode)"; ObjectID = "LT9-1e-XXM"; */
-"LT9-1e-XXM.text" = "Громкость фоновой музки";
+/* Class = "UILabel"; text = "Background music volume"; ObjectID = "Lrm-Pp-m9I"; */
+"Lrm-Pp-m9I.text" = "Громкость фоновой музыки";
 
 /* Class = "UILabel"; text = "Here you can"; ObjectID = "MwC-MJ-DKY"; */
-"MwC-MJ-DKY.text" = "Здесь вы можете:";
+"MwC-MJ-DKY.text" = "Здесь вы можете";
 
-/* Class = "UILabel"; text = "Pause between affirmations (affirmation play mode)"; ObjectID = "PWJ-C4-k0A"; */
-"PWJ-C4-k0A.text" = "Пауза между аффирмациями";
+/* Class = "UIButton"; normalTitle = "Try free & Subscibe"; ObjectID = "O0x-ah-ym5"; */
+"O0x-ah-ym5.normalTitle" = "Попробовать бесплатно";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "PEA-LC-U46"; */
+"PEA-LC-U46.normalTitle" = "Женский";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Q4W-bq-mf2"; */
 "Q4W-bq-mf2.text" = "Label";
 
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "RRI-7j-o0S"; */
+"RRI-7j-o0S.normalTitle" = "Мужской";
+
 /* Class = "UILabel"; text = "Buddha"; ObjectID = "Rfi-Wk-gGZ"; */
 "Rfi-Wk-gGZ.text" = "Будда";
 
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "S6W-MG-z2O"; */
+"S6W-MG-z2O.normalTitle" = "Сохранить";
+
 /* Class = "UILabel"; text = "New notification"; ObjectID = "Sj0-GM-t5t"; */
 "Sj0-GM-t5t.text" = "Новое напоминание";
+
+/* Class = "UILabel"; text = "Set the number of seconds to pause between affirmations, this is the time you need to repeat the affirmation out loud"; ObjectID = "Skj-9t-Szm"; */
+"Skj-9t-Szm.text" = "Установите количество секунд для паузы между аффирмациями, это время которое тебе необходимо для повторения аффирмаций.";
 
 /* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Thp-Xq-pSf"; */
 "Thp-Xq-pSf.normalTitle" = "Далее";
@@ -69,11 +113,14 @@
 /* Class = "UITextField"; placeholder = "List name"; ObjectID = "UCw-Ri-ck7"; */
 "UCw-Ri-ck7.placeholder" = "Наименование списка";
 
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "Vv0-NU-ebL"; */
+"Vv0-NU-ebL.normalTitle" = "Мужской";
+
 /* Class = "UILabel"; text = "💪 Begin with the words, “I am.” These are two very powerful words, which I will come to again later.\n\n✍️ Make your affirmations in the present tense.\n\n😊 Be positive, making sure to turn any negatives into a positive statement (ie – I am healthy instead of I don’t want to be unhealthy.).\n\n😉 Make your point succinctly. Use the fewest words possible.\n\n🔭 Be specific if you can.\n\n💆 Try to include an actionable word (words ending in -ing are great).\n\n🏅 Be flowery in your words. Use emotional statements and powerful visuals.\n\n🧘 Your affirmations are for you, not for others. If you find one you love, change it up so that it works for you."; ObjectID = "WIW-PX-kEZ"; */
-"WIW-PX-kEZ.text" = "💪 Пропускай через себя утверждение, чтобы поверить в него по-настоящему.\n\n✍️ Пишите предложения только в настоящем времени.\n\n😊 Подкрепляй свои утверждения только позитивными эмоциями.\n\n😉 Предложения должны быть максимально простыми, конкретными и короткими («я достигаю успеха в карьере» лучше «я стану директором по маркетингу»).\n\n🔭 Составляй аффирмации без частицы «не» («я не забываю выполнять срочные дела» лучше «я всегда выполняю важные дела»).\n\n💆 Аффирмации нужно произносить от первого лица.\n\n🏅 Аффирмации необходимо повторять каждый день.\n\n🧘 Аффирмации должны касаться только тебя и положения твоих дел.";
+"WIW-PX-kEZ.text" = "💪 Пропускайте через себя утверждение, чтобы поверить в него по-настоящему.\n\n✍️ Пишите предложения только в настоящем времени.\n\n😊 Подкрепляйте свои утверждения только позитивными эмоциями.\n\n😉 Предложения должны быть максимально простыми, конкретными и короткими («я достигаю успеха в карьере» лучше «я стану директором по маркетингу»).\n\n🔭 Составляйте аффирмации без частицы «не» («я не забываю выполнять срочные дела» лучше «я всегда выполняю важные дела»).\n\n💆 Аффирмации нужно произносить от первого лица.\n\n🏅 Аффирмации необходимо повторять каждый день.\n\n🧘 Аффирмации должны касаться только тебя и положения твоих дел.";
 
 /* Class = "UILabel"; text = "List image"; ObjectID = "WVC-Ey-K1M"; */
-"WVC-Ey-K1M.text" = "Изображение";
+"WVC-Ey-K1M.text" = "Изображение списка";
 
 /* Class = "UIButton"; normalTitle = "OK"; ObjectID = "WYr-gQ-NaP"; */
 "WYr-gQ-NaP.normalTitle" = "OK";
@@ -82,43 +129,91 @@
 "WkA-XE-HuO.normalTitle" = "Далее";
 
 /* Class = "UILabel"; text = "Repeat"; ObjectID = "XBC-W5-yea"; */
-"XBC-W5-yea.text" = "Повторить";
+"XBC-W5-yea.text" = "Повторять";
 
 /* Class = "UIButton"; normalTitle = "Sun"; ObjectID = "XYf-DR-zrq"; */
 "XYf-DR-zrq.normalTitle" = "Вс";
 
-/* Class = "UILabel"; text = "📄 Create your own lists of affirmations  ✏️ Add notifications  🌅 Customize lists  ⭐️ And premium functionality ➡️"; ObjectID = "Xek-yg-ms5"; */
-"Xek-yg-ms5.text" = "📄 Создавать свои списки аффирмаций  ✏️ Создавать напоминания  🌅 Персонализировать списки  ⭐️ Использовать преимущества премиум функциональности ➡️";
-
 /* Class = "UILabel"; text = "Name"; ObjectID = "XyO-ta-UKY"; */
 "XyO-ta-UKY.text" = "Наименование";
 
-/* Class = "UILabel"; text = "😊encourage positive changes in your life  🏃motivate yourself  👍boost your self-esteem "; ObjectID = "Z7w-Xb-uGr"; */
-"Z7w-Xb-uGr.text" = "😊внеси позитивные изменения в свою жизнь  🏃мотивируй себя  👍прокачай  самооценку ";
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Ypa-fr-fAE"; */
+"Ypa-fr-fAE.normalTitle" = "Сохранить";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "ZEW-6O-DCK"; */
+"ZEW-6O-DCK.normalTitle" = "Политика приватности";
 
 /* Class = "UILabel"; text = "Notifications"; ObjectID = "ZhG-fF-8Y2"; */
 "ZhG-fF-8Y2.text" = "Напоминания";
 
+/* Class = "UILabel"; text = "motivate yourself "; ObjectID = "bTX-Pa-K9B"; */
+"bTX-Pa-K9B.text" = "мотивируйте себя ";
+
+/* Class = "UITextView"; text = "Affirmation text"; ObjectID = "bZG-KA-4lb"; */
+"bZG-KA-4lb.text" = "Текст аффирмации";
+
+/* Class = "UIButton"; normalTitle = "restore"; ObjectID = "dQd-N5-h07"; */
+"dQd-N5-h07.normalTitle" = "восстановить покупки";
+
+/* Class = "UILabel"; text = "100+ affirmations"; ObjectID = "dqN-Xz-TDn"; */
+"dqN-Xz-TDn.text" = "Более 150 аффирмаций";
+
+/* Class = "UILabel"; text = "Please select your gender"; ObjectID = "dui-xJ-x9T"; */
+"dui-xJ-x9T.text" = "Укажите ваш пол";
+
 /* Class = "UILabel"; text = "You become what you believe."; ObjectID = "eta-WV-Sen"; */
 "eta-WV-Sen.text" = "Вы становитесь тем, о чем думаете";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "gcw-FW-Toz"; */
-"gcw-FW-Toz.text" = "Label";
+/* Class = "UILabel"; text = "Add notifications "; ObjectID = "h9i-xh-qMp"; */
+"h9i-xh-qMp.text" = "Добавлять напоминания ";
+
+/* Class = "UILabel"; text = "Affirmations voice"; ObjectID = "hAf-Me-Fk2"; */
+"hAf-Me-Fk2.text" = "Голос для аффирмаций";
+
+/* Class = "UIButton"; normalTitle = "All plans"; ObjectID = "hc8-WD-3H1"; */
+"hc8-WD-3H1.normalTitle" = "Все подписки";
+
+/* Class = "UILabel"; text = "100+ affirmations"; ObjectID = "hom-6h-vMp"; */
+"hom-6h-vMp.text" = "Более 150 аффирмаций";
+
+/* Class = "UILabel"; text = "Create your own lists of affirmations "; ObjectID = "hs5-JH-2zy"; */
+"hs5-JH-2zy.text" = "Создавать свои списки аффирмаций ";
 
 /* Class = "UILabel"; text = "New affirmation"; ObjectID = "iEs-tW-LEo"; */
 "iEs-tW-LEo.text" = "Новая аффирмация";
 
+/* Class = "UILabel"; text = "Customize lists "; ObjectID = "iJd-06-FOd"; */
+"iJd-06-FOd.text" = "Персонализировать списки ";
+
 /* Class = "UIButton"; normalTitle = "Wed"; ObjectID = "jiN-IF-bAs"; */
 "jiN-IF-bAs.normalTitle" = "Ср";
+
+/* Class = "UILabel"; text = "Unlock all affirmation's categories"; ObjectID = "kV1-kM-KIM"; */
+"kV1-kM-KIM.text" = "Разблокируйте все категории аффирмаций";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "mam-ub-H1X"; */
 "mam-ub-H1X.text" = "Label";
 
+/* Class = "UILabel"; text = "10 seconds"; ObjectID = "nXD-pW-xfm"; */
+"nXD-pW-xfm.text" = "10 секунд";
+
 /* Class = "UIButton"; normalTitle = "Unselect all"; ObjectID = "pj9-Ap-6OE"; */
 "pj9-Ap-6OE.normalTitle" = "Снять выбор";
 
+/* Class = "UILabel"; text = "Unlock all affirmation's categories"; ObjectID = "rLY-6T-8fN"; */
+"rLY-6T-8fN.text" = "Разблокируйте все категории аффирмаций";
+
+/* Class = "UILabel"; text = "Create your own affirmations"; ObjectID = "sHq-ua-0em"; */
+"sHq-ua-0em.text" = "Создавайте персональные аффирмации";
+
+/* Class = "UILabel"; text = "Try Affirmare Premium for Free"; ObjectID = "tcg-7Y-YXD"; */
+"tcg-7Y-YXD.text" = "Попробуйте Affirmare Premium бесплатно";
+
 /* Class = "UIButton"; normalTitle = "Add notification"; ObjectID = "tpz-9c-tyI"; */
 "tpz-9c-tyI.normalTitle" = "Добавить напоминание";
+
+/* Class = "UILabel"; text = "50%"; ObjectID = "ugv-BW-ijk"; */
+"ugv-BW-ijk.text" = "50%";
 
 /* Class = "UILabel"; text = "Welcome to Affirmare"; ObjectID = "wku-95-5EK"; */
 "wku-95-5EK.text" = "Добро пожаловать в Affirmare";
@@ -129,33 +224,20 @@
 /* Class = "UIButton"; selectedTitle = "Mon"; ObjectID = "wlQ-lc-ZZ6"; */
 "wlQ-lc-ZZ6.selectedTitle" = "Пн";
 
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "xkm-Ta-nTi"; */
+"xkm-Ta-nTi.normalTitle" = "Политика приватности";
+
+/* Class = "UILabel"; text = "⏱ Start with 3 to 5 minutes at least twice a day.Upon waking up and getting into bed, for example. Or when you're putting on your makeup or shaving so that you can look at yourself in the mirror as you repeat the positive statement. Using an existing habit or action as a cue makes it much easier to form the new habit.\n 👌 Repeat each affirmation about 10 times. Listen to yourself saying it, believe it to be true. “Breathe\" into the affirmation while you are saying it. You want to move from the concept of the affirmation to a real, positive embodiment of the quality you seek.\n 🤝 Ask a trusted loved one or a coach to help. Listening to someone else repeat your affirmations may help reinforce your belief in them.\n 🪢 Combine it with other positive thinking and goal-setting techniques. For instance, affirmations work particularly well alongside visualization, helping you give additional life and vividness to what you’re saying.\n 🧘‍♂️ Be patient. It may take some time before you notice any changes, so stick with your practice!"; ObjectID = "xsJ-ba-sba"; */
+"xsJ-ba-sba.text" = "⏱ Начинайте практиковать аффирмации с 3-5 минут, хотя бы два раза в день. Например, после пробуждения и отхода ко сну. Или когда вы наносите макияж или бреетесь, посмотрите на себя в зеркало повторяя положительные аффирмации. Использование существующей привычки или действия значительно облегчает формирование новой привычки..\n 👌 Повторяйте каждую аффирмацию 5-10 раз. Поверьте в то что вы говорите. Вы хотите перейти от концепции аффирмации к реальному, позитивному воплощению качества, которое вы ищете..\n 🤝 Попросите близкого человека, которому вы доверяете, помочь вам. Слушая, как кто-то другой повторяет ваши утверждения в вашем отношении, вы можете укрепить свою веру в них..\n 🪢 Сочетайте аффирмации с другими методами позитивного мышления и постановки целей. Например, аффирмации особенно хорошо работают вместе с визуализацией, помогая вам придать дополнительную жизнь и яркость тому, что вы говорите..\n 🧘‍♂️ Будьте терпеливы. Может пройти некоторое время, прежде чем вы заметите какие-либо изменения, так что продолжайте практиковать аффирмации!";
+
 /* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "yOv-WD-Jk0"; */
 "yOv-WD-Jk0.normalTitle" = "Редактировать";
 
-/* Class = "UITextField"; placeholder = "Affirmation text"; ObjectID = "z4F-qF-Fu7"; */
-"z4F-qF-Fu7.placeholder" = "Текст аффирмации";
+/* Class = "UIButton"; normalTitle = "Terms"; ObjectID = "yYa-sv-T0P"; */
+"yYa-sv-T0P.normalTitle" = "Правила пользования";
 
 /* Class = "UIButton"; normalTitle = "Tue"; ObjectID = "zMF-Ma-WmM"; */
-"zMF-Ma-WmM.normalTitle" = "Вт";
-
-/* Class = "UILabel"; text = "Settings"; ObjectID = "zaZ-dA-qkg"; */
-"zaZ-dA-qkg.text" = "Настройки";
+"zMF-Ma-WmM.normalTitle" = "Чт";
 
 /* Class = "UIButton"; normalTitle = "Select all"; ObjectID = "zmr-Po-VNE"; */
 "zmr-Po-VNE.normalTitle" = "Выбрать все";
-
-/* Class = "UILabel"; text = "How to write affirmations"; ObjectID = "Eol-5e-qUi"; */
-"Eol-5e-qUi.text" = "Как писать аффирмации";
-
-
-/* Class = "UIButton"; normalTitle = "  How to write affirmations  "; ObjectID = "FmO-R6-eg4"; */
-"FmO-R6-eg4.normalTitle" = "  Как писать аффирмации  ";
-
-
-/* Class = "UIButton"; normalTitle = " Contact the developer "; ObjectID = "Nsx-Rm-cVH"; */
-"Nsx-Rm-cVH.normalTitle" = " Связаться с разработчиком ";
-
-/* Class = "UIButton"; normalTitle = " Rate in appstore "; ObjectID = "nOC-w1-Gxs"; */
-"nOC-w1-Gxs.normalTitle" = " Оценить в Appstore ";
-
-

@@ -50,6 +50,8 @@ class NewNotificationViewController: UIViewController, UNUserNotificationCenterD
                 button.titleLabel?.tintColor = .white
             }
             
+            datePicker.setValue(UIColor.white, forKeyPath: "textColor")
+            
             bgView = GradientBackground(frame: self.view.bounds)
             self.view.insertSubview(bgView!, at: 0)
             

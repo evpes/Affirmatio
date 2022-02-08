@@ -121,15 +121,25 @@ extension CreatePlaylistViewController: UITextFieldDelegate {
                 updateList()
                 self.dismiss(animated: true) {
                     if let vc = self.lastVC {
-                        vc.editIndexPath = nil
+                        vc.selectedIndexPath = nil
                         vc.editList = nil
-                        vc.collectionView.reloadData()
+                        
+                        vc.loadData()
+                        vc.reloadPersonalLists()
+                        vc.reloadData()
                     }
                 }
             } else {
             createList(name: textField.text!)
                 if let vc = self.lastVC {                    
-                    vc.collectionView.reloadData()
+                    //vc.collectionView.reloadData()
+                    vc.loadData()
+                    print("data loaded")
+                    vc.reloadPersonalLists()
+                    print("sections and items loaded")
+                    vc.reloadData()
+                    print("data reloaded")
+                    
                 }
             performSegue(withIdentifier: "goToAffirmCategories2", sender: self)
             }

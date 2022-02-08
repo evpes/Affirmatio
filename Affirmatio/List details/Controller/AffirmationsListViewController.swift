@@ -144,7 +144,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "playList" {
             let vc = segue.destination as! PlayListViewController
-            vc.affrirmations = affirmsList?.affirmations
+            vc.affirmations = affirmsList?.affirmations
         }
         
         if segue.identifier == "fromListToCategories" {
@@ -163,9 +163,7 @@ class AffirmationsListViewController: UIViewController, UITableViewDelegate, UIT
     
     
     @IBAction func playList(_ sender: Any) {
-        guard let list = affirmsList else {
-            return
-        }
+        guard let list = affirmsList else { return }
         
         if !iapManager.subscriptionIsActive() {
             performSegue(withIdentifier: "fromListToSubscriptions", sender: self)

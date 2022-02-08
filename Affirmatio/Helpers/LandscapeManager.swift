@@ -18,4 +18,13 @@ class LandscapeManager {
             UserDefaults.standard.setValue(newValue, forKey: #function)
         }
     }
+    
+    var isFirstLaunchUpdate: Bool {
+        get {
+            !UserDefaults.standard.bool(forKey: #function)
+        }
+        set {
+            UserDefaults.standard.setValue(newValue, forKey: #function)
+        }
+    }
 }

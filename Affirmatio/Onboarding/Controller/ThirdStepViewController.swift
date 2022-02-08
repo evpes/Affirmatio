@@ -13,7 +13,7 @@ class ThirdStepViewController: UIViewController {
     
     @IBOutlet weak var buttonOutlet: UIButton!
     var bgView: GradientBackground?
-    @IBOutlet weak var tileView: UIView!
+  //  @IBOutlet weak var tileView: UIView!
     
     @IBOutlet weak var Subscription12M: SubscriptionView!
     @IBOutlet weak var Subscription6M: SubscriptionView!
@@ -44,10 +44,10 @@ class ThirdStepViewController: UIViewController {
         subscriprionViews = [Subscription12M,Subscription6M,Subscription1M]
         
         buttonOutlet.layer.cornerRadius = 15
-        buttonOutlet.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+        //buttonOutlet.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         
-        tileView.backgroundColor = UIColor.white.withAlphaComponent(0.2)
-        tileView.layer.cornerRadius = 15
+//        tileView.backgroundColor = UIColor.white.withAlphaComponent(0.2)
+//        tileView.layer.cornerRadius = 15
         
         //Subscription1M.price.text = "price"
         
@@ -144,8 +144,18 @@ class ThirdStepViewController: UIViewController {
 //                }
 //            }
 //        }
-        self.dismiss(animated: true, completion: nil)
+        //self.dismiss(animated: true, completion: nil) --old
         //addPremiumContent()
+        
+        //new
+        if let _ = parent as? MainPageViewController {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let mainNavigationController = storyboard.instantiateViewController(withIdentifier: "MainNavigationController")
+            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootController(mainNavigationController)
+            //pageController.dismiss(animated: true, completion: nil)
+        } else {
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -158,8 +168,18 @@ class ThirdStepViewController: UIViewController {
     }
     
     @IBAction func closeButtonPressed(_ sender: Any) {
-        if let pageController = parent as? MainPageViewController {
-            pageController.dismiss(animated: true, completion: nil)
+//old
+        //        if let pageController = parent as? MainPageViewController {
+//            pageController.dismiss(animated: true, completion: nil)
+//        } else {
+//            self.dismiss(animated: true, completion: nil)
+//        }
+        //new
+        if let _ = parent as? MainPageViewController {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let mainNavigationController = storyboard.instantiateViewController(withIdentifier: "MainNavigationController")
+            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootController(mainNavigationController)
+            //pageController.dismiss(animated: true, completion: nil)
         } else {
             self.dismiss(animated: true, completion: nil)
         }

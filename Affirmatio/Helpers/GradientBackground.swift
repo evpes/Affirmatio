@@ -22,14 +22,25 @@ class GradientBackground: UIView {
 //    let gradientTwo = UIColor(red: 104/255, green: 122/255, blue: 254/255, alpha: 1).cgColor
 //    let gradientThree = UIColor(red: 150/255, green: 78/255, blue: 254/255, alpha: 1).cgColor
     //purple-blue
-    let gradientOne = UIColor(red: 255/255, green: 152/255, blue: 182/255, alpha: 1).cgColor
-    let gradientTwo = UIColor(red: 160/255, green: 180/255, blue: 220/255, alpha: 1).cgColor
-    let gradientThree = UIColor(red: 60/255, green: 190/255, blue: 250/255, alpha: 1).cgColor
+//    let gradientOne = UIColor(red: 255/255, green: 152/255, blue: 182/255, alpha: 1).cgColor
+//    let gradientTwo = UIColor(red: 160/255, green: 180/255, blue: 220/255, alpha: 1).cgColor
+//    let gradientThree = UIColor(red: 60/255, green: 190/255, blue: 250/255, alpha: 1).cgColor
+    //dark purple
+    //20 25 190
+//    let gradientZero = UIColor(red: 20/255, green: 125/255, blue: 190/255, alpha: 1).cgColor
+//    let gradientOne = UIColor(red: 41/255, green: 21/255, blue: 142/255, alpha: 1).cgColor
+//    let gradientTwo = UIColor(red: 106/255, green: 14/255, blue: 200/255, alpha: 1).cgColor
+//    let gradientThree = UIColor(red: 119/255, green: 23/255, blue: 189/255, alpha: 1).cgColor
+        
+        let gradientOne = UIColor(red: 20/255, green: 125/255, blue: 190/255, alpha: 1).cgColor
+        let gradientTwo = UIColor(red: 41/255, green: 21/255, blue: 142/255, alpha: 1).cgColor
+        let gradientThree = UIColor(red: 139/255, green: 29/255, blue: 183/255, alpha: 1).cgColor
     
     override init(frame: CGRect ) {
+        
         gradientSet.append([gradientOne, gradientTwo])
         gradientSet.append([gradientTwo, gradientThree])
-        gradientSet.append([gradientThree, gradientOne])        
+        gradientSet.append([gradientThree, gradientOne])
         
         gradient.colors = gradientSet[currentGradient]
         gradient.startPoint = CGPoint(x:0, y:0)
@@ -55,7 +66,7 @@ class GradientBackground: UIView {
         }
         
 
-        gradientChangeAnimation.duration = 5.0
+        gradientChangeAnimation.duration = 8.0
         gradientChangeAnimation.toValue = gradientSet[currentGradient]
         gradientChangeAnimation.fillMode = CAMediaTimingFillMode.forwards
         gradientChangeAnimation.isRemovedOnCompletion = false

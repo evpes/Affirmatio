@@ -15,14 +15,4 @@ class ListImageViewCell: UICollectionViewCell {
         print("prepareForReuse frame: \(listImageView.frame)")
     }
     
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        listImageView.frame = contentView.frame
-//        print(frame)
-//    }
-//    
-//    required init?(coder: NSCoder) {
-//        super.init(coder: coder)
-//        print("err")
-//    }
 }

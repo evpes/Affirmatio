@@ -15,7 +15,7 @@ class SecondStepViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonOutlet.layer.cornerRadius = 15
-        buttonOutlet.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+        //buttonOutlet.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         // Do any additional setup after loading the view.
         bgView = GradientBackground(frame: self.view.bounds)
         self.view.insertSubview(bgView!, at: 0)
